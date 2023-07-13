@@ -1,0 +1,110 @@
+{
+    "physics":
+        {
+            "speed_of_light": 3e8,
+            "vacuum_permittivity": 8.85e-12,
+            "wavelength": 0.75,
+            "wave_incidence":
+                {
+                    "linear_wave": 0,
+                    "plane_wave": 1
+                },
+            "wave_type": 0,
+            "no_of_receivers": 64,
+            "no_of_transmitters": 16,
+            "noise_level": 0.00,
+            "min_permittivity": 1.001,
+            "max_permittivity": 1.5,
+            "receiver_radius": 3,
+            "transmitter_radius": 3,
+            "permittivity_coefficient": 10
+        },
+    "images":
+        {
+            "max_diameter": 1,
+            "no_of_pixels": 64,
+            "min_radius": 0.15,
+            "max_radius": 0.4,
+            "min_side": 0.15,
+            "max_side": 0.4
+        },
+        "CS_optimizer":
+        {
+            "init": "random",
+            "verbose": false,
+            "alpha": 0.1,
+            "main_loop":
+                {
+                    "alpha": 0.1,
+                    "max_iter": 20,
+                    "threshold": 1e-6
+                },
+            "sparse_solver":
+                {
+                    "lambda": 0.05,
+                    "max_iter": 2000,
+                    "threshold": 1e-6
+                }
+        },
+        "TV_optimizer":
+        {
+            "init": "initial_guess",
+            "alpha": 0.1,
+            "max_iter": 2,
+            "threshold": 1e-6,
+            "mu": 2.0,
+            "lambda": 0.1,
+            "niter_out": 20,
+            "niter_in": 10,
+            "tol": 1e-4,
+            "tau": 1.0,
+            "show": true,
+            "iter_lim": 5,
+            "damp": 1e-4
+        },
+    "unet":
+        {
+            "in_channels": 1,
+            "out_channels": 1,
+            "scale": 1,
+            "weight_scale_init_method": "gaussian",
+            "batch_normalization": true,
+            "kernel_size": 3,
+            "stride": 1,
+            "batch_on": true,
+            "relu_on": true,
+            "reg_num": 3,
+            "val_proportion": 0.15,
+            "test_proportion": 0.15,
+            "num_epochs": 50,
+            "batch_size": 1,
+            "mnist_batch_size": 50,
+            "num_workers": 4,
+            "accumulation_steps": 5,
+            "learning_rate": 1e-2,
+            "weight_decay": 1e-8,
+            "momentum": 0.9,
+            "manual_seed": 253,
+            "validation_proportion": 0.2
+        },
+    "dict_learn":
+        {
+            "n_components": 4096,
+            "alpha": 0.01,
+            "max_iter": 25,
+            "tol": 1e-3,
+            "fit_algorithm": "lars",
+            "transform_algorithm": "lasso_lars",
+            "transform_alpha": 0.01,
+            "verbose": true,
+            "num_epochs": 50,
+            "random_state": 42,
+            "transform_max_iter": 25,
+            "batch_size": 8192,
+            "mini_batch_size": 3,
+            "shuffle": true,
+            "validation_proportion": 0.5,
+            "manual_seed": 253
+        }
+
+}
