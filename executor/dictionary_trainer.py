@@ -83,9 +83,9 @@ class Dictionary_Trainer:
             random_state=self.params["random_state"],
             verbose=self.params["verbose"])
 
-        filename_dict = os.path.join(ROOT_PATH + "/dictionary/trained_dict_epoch_1")
-        aux = FileManager.load(filename_dict)
-        dict_learner.set_params(dict_init=aux.components_)
+        #filename_dict = os.path.join(ROOT_PATH + "/dictionary/trained_dict_epoch_1")
+        #aux = FileManager.load(filename_dict)
+        #dict_learner.set_params(dict_init=aux.components_)
 
         for epoch in range(init_epoch + 1, self.params["num_epochs"] + 1):
             training_loss = 0.0
@@ -102,7 +102,7 @@ class Dictionary_Trainer:
                     pbar.update()
                     pbar.set_postfix(**{'squared error (batch)': sq_error})
 
-                    filename_dict = os.path.join(ROOT_PATH + "/dictionary/trained_dict_epoch_" + str(epoch))
+                    filename_dict = os.path.join(ROOT_PATH + "/dictionary/trained_dict_epoch_" + str(epoch) + ".pkl")
                     FileManager.save(dict_learner, filename_dict)
 
             training_loss = training_loss / len(self.train_loader.dataset)
