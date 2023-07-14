@@ -92,6 +92,7 @@ class Dictionary_Trainer:
             with tqdm(total=len(self.train_loader), desc=f'Epoch {epoch}/{self.params["num_epochs"]}',
                       unit='img') as pbar:
                 for ix, rel_perm_minus_one in enumerate(self.train_loader):
+                    start_batch_time = datetime.now()
                     X = rel_perm_minus_one.reshape((rel_perm_minus_one.shape[0], -1)).numpy()
                     code = dict_learner.fit_transform(X)
                     sq_error = np.mean(np.sum((X - code @ dict_learner.components_) ** 2, axis=1) / np.sum(X ** 2, axis=1))  # np.linalg.norm(X - Xap, 'fro')
@@ -104,6 +105,10 @@ class Dictionary_Trainer:
 
                     filename_dict = os.path.join(ROOT_PATH + "/dictionary/trained_dict_epoch_" + str(epoch) + ".pkl")
                     FileManager.save(dict_learner, filename_dict)
+
+                    time_elapsed += (datetime.now() - start_batch_time)
+                    print("Batch elapsed time=" + str(time_elapsed) + "s")
+
 
             training_loss = training_loss / len(self.train_loader.dataset)
             training_errors[epoch] = training_loss
