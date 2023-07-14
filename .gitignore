@@ -1,5 +1,4 @@
 *.pyc
-*.log
 *.png
 *.pkl
 .DS_Store
