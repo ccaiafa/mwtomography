@@ -1,0 +1,831 @@
+2023-06-14 15:13:24,563 - root - INFO - Starting image generator
+2023-06-14 15:13:24,564 - root - INFO - 500000 images with random number of circles (between 1 and 3) will be generated
+2023-06-14 15:13:24,564 - root - INFO - Generating image no. 1/500000
+2023-06-14 15:13:24,566 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:24,577 - root - INFO - Generating image no. 2/500000
+2023-06-14 15:13:24,578 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:24,599 - root - INFO - Generating image no. 3/500000
+2023-06-14 15:13:24,599 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:24,634 - root - INFO - Generating image no. 4/500000
+2023-06-14 15:13:24,634 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:24,643 - root - INFO - Generating image no. 5/500000
+2023-06-14 15:13:24,643 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:24,649 - root - INFO - Generating image no. 6/500000
+2023-06-14 15:13:24,649 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:24,662 - root - INFO - Generating image no. 7/500000
+2023-06-14 15:13:24,662 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:24,664 - root - INFO - Generating image no. 8/500000
+2023-06-14 15:13:24,664 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:24,666 - root - INFO - Generating image no. 9/500000
+2023-06-14 15:13:24,666 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:24,691 - root - INFO - Generating image no. 10/500000
+2023-06-14 15:13:24,692 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:24,696 - root - INFO - Generating image no. 11/500000
+2023-06-14 15:13:24,696 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:24,726 - root - INFO - Generating image no. 12/500000
+2023-06-14 15:13:24,726 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:24,744 - root - INFO - Generating image no. 13/500000
+2023-06-14 15:13:24,744 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:24,764 - root - INFO - Generating image no. 14/500000
+2023-06-14 15:13:24,765 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:24,836 - root - INFO - Generating image no. 15/500000
+2023-06-14 15:13:24,837 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:24,858 - root - INFO - Generating image no. 16/500000
+2023-06-14 15:13:24,858 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:24,898 - root - INFO - Generating image no. 17/500000
+2023-06-14 15:13:24,899 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:24,920 - root - INFO - Generating image no. 18/500000
+2023-06-14 15:13:24,920 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:24,974 - root - INFO - Generating image no. 19/500000
+2023-06-14 15:13:24,975 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:24,988 - root - INFO - Generating image no. 20/500000
+2023-06-14 15:13:24,988 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:24,996 - root - INFO - Generating image no. 21/500000
+2023-06-14 15:13:24,996 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:25,009 - root - INFO - Generating image no. 22/500000
+2023-06-14 15:13:25,009 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:25,013 - root - INFO - Generating image no. 23/500000
+2023-06-14 15:13:25,013 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:25,019 - root - INFO - Generating image no. 24/500000
+2023-06-14 15:13:25,020 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:25,054 - root - INFO - Generating image no. 25/500000
+2023-06-14 15:13:25,054 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:25,062 - root - INFO - Generating image no. 26/500000
+2023-06-14 15:13:25,062 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:25,106 - root - INFO - Generating image no. 27/500000
+2023-06-14 15:13:25,106 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:25,111 - root - INFO - Generating image no. 28/500000
+2023-06-14 15:13:25,111 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:25,158 - root - INFO - Generating image no. 29/500000
+2023-06-14 15:13:25,159 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:25,199 - root - INFO - Generating image no. 30/500000
+2023-06-14 15:13:25,200 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:25,202 - root - INFO - Generating image no. 31/500000
+2023-06-14 15:13:25,202 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:25,214 - root - INFO - Generating image no. 32/500000
+2023-06-14 15:13:25,215 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:25,223 - root - INFO - Generating image no. 33/500000
+2023-06-14 15:13:25,223 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:25,257 - root - INFO - Generating image no. 34/500000
+2023-06-14 15:13:25,258 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:25,268 - root - INFO - Generating image no. 35/500000
+2023-06-14 15:13:25,268 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:25,297 - root - INFO - Generating image no. 36/500000
+2023-06-14 15:13:25,297 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:25,302 - root - INFO - Generating image no. 37/500000
+2023-06-14 15:13:25,303 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:25,316 - root - INFO - Generating image no. 38/500000
+2023-06-14 15:13:25,317 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:25,320 - root - INFO - Generating image no. 39/500000
+2023-06-14 15:13:25,320 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:25,333 - root - INFO - Generating image no. 40/500000
+2023-06-14 15:13:25,333 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:25,343 - root - INFO - Generating image no. 41/500000
+2023-06-14 15:13:25,344 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:25,346 - root - INFO - Generating image no. 42/500000
+2023-06-14 15:13:25,346 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:25,495 - root - INFO - Generating image no. 43/500000
+2023-06-14 15:13:25,496 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:25,513 - root - INFO - Generating image no. 44/500000
+2023-06-14 15:13:25,514 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:25,517 - root - INFO - Generating image no. 45/500000
+2023-06-14 15:13:25,517 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:25,527 - root - INFO - Generating image no. 46/500000
+2023-06-14 15:13:25,527 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:25,537 - root - INFO - Generating image no. 47/500000
+2023-06-14 15:13:25,537 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:25,546 - root - INFO - Generating image no. 48/500000
+2023-06-14 15:13:25,546 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:25,562 - root - INFO - Generating image no. 49/500000
+2023-06-14 15:13:25,563 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:25,589 - root - INFO - Generating image no. 50/500000
+2023-06-14 15:13:25,590 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:25,597 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/image_50.png
+2023-06-14 15:13:26,203 - root - INFO - Generating image no. 51/500000
+2023-06-14 15:13:26,204 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:26,232 - root - INFO - Generating image no. 52/500000
+2023-06-14 15:13:26,233 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:26,255 - root - INFO - Generating image no. 53/500000
+2023-06-14 15:13:26,255 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:26,274 - root - INFO - Generating image no. 54/500000
+2023-06-14 15:13:26,274 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:26,305 - root - INFO - Generating image no. 55/500000
+2023-06-14 15:13:26,306 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:26,307 - root - INFO - Generating image no. 56/500000
+2023-06-14 15:13:26,308 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:26,313 - root - INFO - Generating image no. 57/500000
+2023-06-14 15:13:26,313 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:26,320 - root - INFO - Generating image no. 58/500000
+2023-06-14 15:13:26,321 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:26,328 - root - INFO - Generating image no. 59/500000
+2023-06-14 15:13:26,328 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:26,338 - root - INFO - Generating image no. 60/500000
+2023-06-14 15:13:26,338 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:26,345 - root - INFO - Generating image no. 61/500000
+2023-06-14 15:13:26,345 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:26,352 - root - INFO - Generating image no. 62/500000
+2023-06-14 15:13:26,353 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:26,382 - root - INFO - Generating image no. 63/500000
+2023-06-14 15:13:26,383 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:26,385 - root - INFO - Generating image no. 64/500000
+2023-06-14 15:13:26,385 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:26,400 - root - INFO - Generating image no. 65/500000
+2023-06-14 15:13:26,400 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:26,425 - root - INFO - Generating image no. 66/500000
+2023-06-14 15:13:26,425 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:26,459 - root - INFO - Generating image no. 67/500000
+2023-06-14 15:13:26,459 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:26,596 - root - INFO - Generating image no. 68/500000
+2023-06-14 15:13:26,596 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:26,624 - root - INFO - Generating image no. 69/500000
+2023-06-14 15:13:26,624 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:26,696 - root - INFO - Generating image no. 70/500000
+2023-06-14 15:13:26,696 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:26,720 - root - INFO - Generating image no. 71/500000
+2023-06-14 15:13:26,721 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:26,737 - root - INFO - Generating image no. 72/500000
+2023-06-14 15:13:26,737 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:26,762 - root - INFO - Generating image no. 73/500000
+2023-06-14 15:13:26,763 - root - INFO - The image will have 4 circles
+2023-06-14 15:13:26,813 - root - INFO - Generating image no. 74/500000
+2023-06-14 15:13:26,813 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:26,828 - root - INFO - Generating image no. 75/500000
+2023-06-14 15:13:26,828 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:26,864 - root - INFO - Generating image no. 76/500000
+2023-06-14 15:13:26,865 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:26,896 - root - INFO - Generating image no. 77/500000
+2023-06-14 15:13:26,897 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:26,908 - root - INFO - Generating image no. 78/500000
+2023-06-14 15:13:26,908 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:26,940 - root - INFO - Generating image no. 79/500000
+2023-06-14 15:13:26,941 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:26,971 - root - INFO - Generating image no. 80/500000
+2023-06-14 15:13:26,972 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:26,990 - root - INFO - Generating image no. 81/500000
+2023-06-14 15:13:26,991 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:27,004 - root - INFO - Generating image no. 82/500000
+2023-06-14 15:13:27,005 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:27,015 - root - INFO - Generating image no. 83/500000
+2023-06-14 15:13:27,016 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:27,020 - root - INFO - Generating image no. 84/500000
+2023-06-14 15:13:27,020 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:27,030 - root - INFO - Generating image no. 85/500000
+2023-06-14 15:13:27,030 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:27,038 - root - INFO - Generating image no. 86/500000
+2023-06-14 15:13:27,038 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:27,045 - root - INFO - Generating image no. 87/500000
+2023-06-14 15:13:27,046 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:27,078 - root - INFO - Generating image no. 88/500000
+2023-06-14 15:13:27,078 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:27,080 - root - INFO - Generating image no. 89/500000
+2023-06-14 15:13:27,080 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:27,104 - root - INFO - Generating image no. 90/500000
+2023-06-14 15:13:27,104 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:27,106 - root - INFO - Generating image no. 91/500000
+2023-06-14 15:13:27,107 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:27,120 - root - INFO - Generating image no. 92/500000
+2023-06-14 15:13:27,120 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:27,136 - root - INFO - Generating image no. 93/500000
+2023-06-14 15:13:27,137 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:27,142 - root - INFO - Generating image no. 94/500000
+2023-06-14 15:13:27,142 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:27,227 - root - INFO - Generating image no. 95/500000
+2023-06-14 15:13:27,227 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:27,244 - root - INFO - Generating image no. 96/500000
+2023-06-14 15:13:27,245 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:27,264 - root - INFO - Generating image no. 97/500000
+2023-06-14 15:13:27,264 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:27,274 - root - INFO - Generating image no. 98/500000
+2023-06-14 15:13:27,275 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:27,310 - root - INFO - Generating image no. 99/500000
+2023-06-14 15:13:27,311 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:27,324 - root - INFO - Generating image no. 100/500000
+2023-06-14 15:13:27,324 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:27,336 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/image_100.png
+2023-06-14 15:13:27,868 - root - INFO - Generating image no. 101/500000
+2023-06-14 15:13:27,868 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:27,881 - root - INFO - Generating image no. 102/500000
+2023-06-14 15:13:27,882 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:27,904 - root - INFO - Generating image no. 103/500000
+2023-06-14 15:13:27,905 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:27,934 - root - INFO - Generating image no. 104/500000
+2023-06-14 15:13:27,935 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:27,937 - root - INFO - Generating image no. 105/500000
+2023-06-14 15:13:27,937 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:27,953 - root - INFO - Generating image no. 106/500000
+2023-06-14 15:13:27,954 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:27,981 - root - INFO - Generating image no. 107/500000
+2023-06-14 15:13:27,982 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:27,992 - root - INFO - Generating image no. 108/500000
+2023-06-14 15:13:27,992 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:28,012 - root - INFO - Generating image no. 109/500000
+2023-06-14 15:13:28,013 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:28,034 - root - INFO - Generating image no. 110/500000
+2023-06-14 15:13:28,035 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:28,057 - root - INFO - Generating image no. 111/500000
+2023-06-14 15:13:28,057 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:28,061 - root - INFO - Generating image no. 112/500000
+2023-06-14 15:13:28,061 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:28,086 - root - INFO - Generating image no. 113/500000
+2023-06-14 15:13:28,086 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:28,119 - root - INFO - Generating image no. 114/500000
+2023-06-14 15:13:28,119 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:28,129 - root - INFO - Generating image no. 115/500000
+2023-06-14 15:13:28,130 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:28,139 - root - INFO - Generating image no. 116/500000
+2023-06-14 15:13:28,140 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:28,147 - root - INFO - Generating image no. 117/500000
+2023-06-14 15:13:28,147 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:28,178 - root - INFO - Generating image no. 118/500000
+2023-06-14 15:13:28,178 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:28,192 - root - INFO - Generating image no. 119/500000
+2023-06-14 15:13:28,192 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:28,198 - root - INFO - Generating image no. 120/500000
+2023-06-14 15:13:28,198 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:28,199 - root - INFO - Generating image no. 121/500000
+2023-06-14 15:13:28,200 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:28,203 - root - INFO - Generating image no. 122/500000
+2023-06-14 15:13:28,204 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:28,213 - root - INFO - Generating image no. 123/500000
+2023-06-14 15:13:28,213 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:28,266 - root - INFO - Generating image no. 124/500000
+2023-06-14 15:13:28,266 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:28,273 - root - INFO - Generating image no. 125/500000
+2023-06-14 15:13:28,273 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:28,307 - root - INFO - Generating image no. 126/500000
+2023-06-14 15:13:28,308 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:28,321 - root - INFO - Generating image no. 127/500000
+2023-06-14 15:13:28,322 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:28,335 - root - INFO - Generating image no. 128/500000
+2023-06-14 15:13:28,336 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:28,342 - root - INFO - Generating image no. 129/500000
+2023-06-14 15:13:28,343 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:28,386 - root - INFO - Generating image no. 130/500000
+2023-06-14 15:13:28,387 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:28,395 - root - INFO - Generating image no. 131/500000
+2023-06-14 15:13:28,396 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:28,403 - root - INFO - Generating image no. 132/500000
+2023-06-14 15:13:28,404 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:28,432 - root - INFO - Generating image no. 133/500000
+2023-06-14 15:13:28,433 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:28,447 - root - INFO - Generating image no. 134/500000
+2023-06-14 15:13:28,448 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:28,469 - root - INFO - Generating image no. 135/500000
+2023-06-14 15:13:28,469 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:28,506 - root - INFO - Generating image no. 136/500000
+2023-06-14 15:13:28,506 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:28,508 - root - INFO - Generating image no. 137/500000
+2023-06-14 15:13:28,509 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:28,536 - root - INFO - Generating image no. 138/500000
+2023-06-14 15:13:28,536 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:28,539 - root - INFO - Generating image no. 139/500000
+2023-06-14 15:13:28,539 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:28,542 - root - INFO - Generating image no. 140/500000
+2023-06-14 15:13:28,542 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:28,551 - root - INFO - Generating image no. 141/500000
+2023-06-14 15:13:28,551 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:28,555 - root - INFO - Generating image no. 142/500000
+2023-06-14 15:13:28,555 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:28,557 - root - INFO - Generating image no. 143/500000
+2023-06-14 15:13:28,557 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:28,592 - root - INFO - Generating image no. 144/500000
+2023-06-14 15:13:28,593 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:28,601 - root - INFO - Generating image no. 145/500000
+2023-06-14 15:13:28,601 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:28,649 - root - INFO - Generating image no. 146/500000
+2023-06-14 15:13:28,649 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:28,678 - root - INFO - Generating image no. 147/500000
+2023-06-14 15:13:28,679 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:28,703 - root - INFO - Generating image no. 148/500000
+2023-06-14 15:13:28,703 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:28,713 - root - INFO - Generating image no. 149/500000
+2023-06-14 15:13:28,713 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:28,719 - root - INFO - Generating image no. 150/500000
+2023-06-14 15:13:28,720 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:28,730 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/image_150.png
+2023-06-14 15:13:29,251 - root - INFO - Generating image no. 151/500000
+2023-06-14 15:13:29,251 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:29,255 - root - INFO - Generating image no. 152/500000
+2023-06-14 15:13:29,255 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:29,294 - root - INFO - Generating image no. 153/500000
+2023-06-14 15:13:29,294 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:29,299 - root - INFO - Generating image no. 154/500000
+2023-06-14 15:13:29,299 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:29,332 - root - INFO - Generating image no. 155/500000
+2023-06-14 15:13:29,333 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:29,338 - root - INFO - Generating image no. 156/500000
+2023-06-14 15:13:29,338 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:29,357 - root - INFO - Generating image no. 157/500000
+2023-06-14 15:13:29,357 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:29,373 - root - INFO - Generating image no. 158/500000
+2023-06-14 15:13:29,374 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:29,376 - root - INFO - Generating image no. 159/500000
+2023-06-14 15:13:29,376 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:29,381 - root - INFO - Generating image no. 160/500000
+2023-06-14 15:13:29,381 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:29,386 - root - INFO - Generating image no. 161/500000
+2023-06-14 15:13:29,386 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:29,393 - root - INFO - Generating image no. 162/500000
+2023-06-14 15:13:29,393 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:29,409 - root - INFO - Generating image no. 163/500000
+2023-06-14 15:13:29,409 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:29,419 - root - INFO - Generating image no. 164/500000
+2023-06-14 15:13:29,420 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:29,435 - root - INFO - Generating image no. 165/500000
+2023-06-14 15:13:29,435 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:29,437 - root - INFO - Generating image no. 166/500000
+2023-06-14 15:13:29,437 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:29,451 - root - INFO - Generating image no. 167/500000
+2023-06-14 15:13:29,451 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:29,461 - root - INFO - Generating image no. 168/500000
+2023-06-14 15:13:29,461 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:29,520 - root - INFO - Generating image no. 169/500000
+2023-06-14 15:13:29,521 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:29,544 - root - INFO - Generating image no. 170/500000
+2023-06-14 15:13:29,545 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:29,562 - root - INFO - Generating image no. 171/500000
+2023-06-14 15:13:29,562 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:29,592 - root - INFO - Generating image no. 172/500000
+2023-06-14 15:13:29,592 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:29,624 - root - INFO - Generating image no. 173/500000
+2023-06-14 15:13:29,624 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:29,629 - root - INFO - Generating image no. 174/500000
+2023-06-14 15:13:29,629 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:29,631 - root - INFO - Generating image no. 175/500000
+2023-06-14 15:13:29,631 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:29,637 - root - INFO - Generating image no. 176/500000
+2023-06-14 15:13:29,638 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:29,693 - root - INFO - Generating image no. 177/500000
+2023-06-14 15:13:29,693 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:29,728 - root - INFO - Generating image no. 178/500000
+2023-06-14 15:13:29,728 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:29,739 - root - INFO - Generating image no. 179/500000
+2023-06-14 15:13:29,739 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:29,746 - root - INFO - Generating image no. 180/500000
+2023-06-14 15:13:29,746 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:29,778 - root - INFO - Generating image no. 181/500000
+2023-06-14 15:13:29,778 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:29,805 - root - INFO - Generating image no. 182/500000
+2023-06-14 15:13:29,805 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:29,819 - root - INFO - Generating image no. 183/500000
+2023-06-14 15:13:29,819 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:29,831 - root - INFO - Generating image no. 184/500000
+2023-06-14 15:13:29,831 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:29,838 - root - INFO - Generating image no. 185/500000
+2023-06-14 15:13:29,838 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:29,864 - root - INFO - Generating image no. 186/500000
+2023-06-14 15:13:29,864 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:29,907 - root - INFO - Generating image no. 187/500000
+2023-06-14 15:13:29,907 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:29,920 - root - INFO - Generating image no. 188/500000
+2023-06-14 15:13:29,920 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:29,933 - root - INFO - Generating image no. 189/500000
+2023-06-14 15:13:29,934 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:29,970 - root - INFO - Generating image no. 190/500000
+2023-06-14 15:13:29,970 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:29,976 - root - INFO - Generating image no. 191/500000
+2023-06-14 15:13:29,976 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:29,978 - root - INFO - Generating image no. 192/500000
+2023-06-14 15:13:29,978 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:29,990 - root - INFO - Generating image no. 193/500000
+2023-06-14 15:13:29,990 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:29,992 - root - INFO - Generating image no. 194/500000
+2023-06-14 15:13:29,992 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:30,007 - root - INFO - Generating image no. 195/500000
+2023-06-14 15:13:30,007 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:30,013 - root - INFO - Generating image no. 196/500000
+2023-06-14 15:13:30,014 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:30,026 - root - INFO - Generating image no. 197/500000
+2023-06-14 15:13:30,027 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:30,031 - root - INFO - Generating image no. 198/500000
+2023-06-14 15:13:30,031 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:30,037 - root - INFO - Generating image no. 199/500000
+2023-06-14 15:13:30,037 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:30,069 - root - INFO - Generating image no. 200/500000
+2023-06-14 15:13:30,069 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:30,074 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/image_200.png
+2023-06-14 15:13:30,657 - root - INFO - Generating image no. 201/500000
+2023-06-14 15:13:30,657 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:30,667 - root - INFO - Generating image no. 202/500000
+2023-06-14 15:13:30,667 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:30,691 - root - INFO - Generating image no. 203/500000
+2023-06-14 15:13:30,692 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:30,700 - root - INFO - Generating image no. 204/500000
+2023-06-14 15:13:30,701 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:30,705 - root - INFO - Generating image no. 205/500000
+2023-06-14 15:13:30,705 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:30,712 - root - INFO - Generating image no. 206/500000
+2023-06-14 15:13:30,712 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:30,725 - root - INFO - Generating image no. 207/500000
+2023-06-14 15:13:30,725 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:30,730 - root - INFO - Generating image no. 208/500000
+2023-06-14 15:13:30,730 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:30,741 - root - INFO - Generating image no. 209/500000
+2023-06-14 15:13:30,742 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:30,759 - root - INFO - Generating image no. 210/500000
+2023-06-14 15:13:30,759 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:30,791 - root - INFO - Generating image no. 211/500000
+2023-06-14 15:13:30,791 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:30,808 - root - INFO - Generating image no. 212/500000
+2023-06-14 15:13:30,808 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:30,819 - root - INFO - Generating image no. 213/500000
+2023-06-14 15:13:30,820 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:30,838 - root - INFO - Generating image no. 214/500000
+2023-06-14 15:13:30,838 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:30,933 - root - INFO - Generating image no. 215/500000
+2023-06-14 15:13:30,934 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:30,971 - root - INFO - Generating image no. 216/500000
+2023-06-14 15:13:30,971 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:30,995 - root - INFO - Generating image no. 217/500000
+2023-06-14 15:13:30,995 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:31,004 - root - INFO - Generating image no. 218/500000
+2023-06-14 15:13:31,004 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:31,006 - root - INFO - Generating image no. 219/500000
+2023-06-14 15:13:31,006 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:31,013 - root - INFO - Generating image no. 220/500000
+2023-06-14 15:13:31,013 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:31,032 - root - INFO - Generating image no. 221/500000
+2023-06-14 15:13:31,032 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:31,041 - root - INFO - Generating image no. 222/500000
+2023-06-14 15:13:31,041 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:31,053 - root - INFO - Generating image no. 223/500000
+2023-06-14 15:13:31,053 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:31,082 - root - INFO - Generating image no. 224/500000
+2023-06-14 15:13:31,083 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:31,086 - root - INFO - Generating image no. 225/500000
+2023-06-14 15:13:31,087 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:31,101 - root - INFO - Generating image no. 226/500000
+2023-06-14 15:13:31,101 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:31,111 - root - INFO - Generating image no. 227/500000
+2023-06-14 15:13:31,111 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:31,122 - root - INFO - Generating image no. 228/500000
+2023-06-14 15:13:31,122 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:31,142 - root - INFO - Generating image no. 229/500000
+2023-06-14 15:13:31,142 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:31,147 - root - INFO - Generating image no. 230/500000
+2023-06-14 15:13:31,147 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:31,179 - root - INFO - Generating image no. 231/500000
+2023-06-14 15:13:31,180 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:31,185 - root - INFO - Generating image no. 232/500000
+2023-06-14 15:13:31,185 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:31,195 - root - INFO - Generating image no. 233/500000
+2023-06-14 15:13:31,195 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:31,227 - root - INFO - Generating image no. 234/500000
+2023-06-14 15:13:31,227 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:31,258 - root - INFO - Generating image no. 235/500000
+2023-06-14 15:13:31,258 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:31,270 - root - INFO - Generating image no. 236/500000
+2023-06-14 15:13:31,270 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:31,280 - root - INFO - Generating image no. 237/500000
+2023-06-14 15:13:31,281 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:31,311 - root - INFO - Generating image no. 238/500000
+2023-06-14 15:13:31,311 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:31,314 - root - INFO - Generating image no. 239/500000
+2023-06-14 15:13:31,315 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:31,318 - root - INFO - Generating image no. 240/500000
+2023-06-14 15:13:31,319 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:31,332 - root - INFO - Generating image no. 241/500000
+2023-06-14 15:13:31,332 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:31,363 - root - INFO - Generating image no. 242/500000
+2023-06-14 15:13:31,364 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:31,381 - root - INFO - Generating image no. 243/500000
+2023-06-14 15:13:31,382 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:31,404 - root - INFO - Generating image no. 244/500000
+2023-06-14 15:13:31,405 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:31,407 - root - INFO - Generating image no. 245/500000
+2023-06-14 15:13:31,407 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:31,460 - root - INFO - Generating image no. 246/500000
+2023-06-14 15:13:31,461 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:31,468 - root - INFO - Generating image no. 247/500000
+2023-06-14 15:13:31,469 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:31,470 - root - INFO - Generating image no. 248/500000
+2023-06-14 15:13:31,471 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:31,476 - root - INFO - Generating image no. 249/500000
+2023-06-14 15:13:31,476 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:31,536 - root - INFO - Generating image no. 250/500000
+2023-06-14 15:13:31,536 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:31,562 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/image_250.png
+2023-06-14 15:13:32,094 - root - INFO - Generating image no. 251/500000
+2023-06-14 15:13:32,095 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:32,097 - root - INFO - Generating image no. 252/500000
+2023-06-14 15:13:32,097 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:32,118 - root - INFO - Generating image no. 253/500000
+2023-06-14 15:13:32,118 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:32,148 - root - INFO - Generating image no. 254/500000
+2023-06-14 15:13:32,148 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:32,170 - root - INFO - Generating image no. 255/500000
+2023-06-14 15:13:32,170 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:32,204 - root - INFO - Generating image no. 256/500000
+2023-06-14 15:13:32,205 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:32,221 - root - INFO - Generating image no. 257/500000
+2023-06-14 15:13:32,221 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:32,226 - root - INFO - Generating image no. 258/500000
+2023-06-14 15:13:32,226 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:32,243 - root - INFO - Generating image no. 259/500000
+2023-06-14 15:13:32,244 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:32,299 - root - INFO - Generating image no. 260/500000
+2023-06-14 15:13:32,300 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:32,404 - root - INFO - Generating image no. 261/500000
+2023-06-14 15:13:32,404 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:32,407 - root - INFO - Generating image no. 262/500000
+2023-06-14 15:13:32,407 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:32,442 - root - INFO - Generating image no. 263/500000
+2023-06-14 15:13:32,442 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:32,449 - root - INFO - Generating image no. 264/500000
+2023-06-14 15:13:32,449 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:32,458 - root - INFO - Generating image no. 265/500000
+2023-06-14 15:13:32,458 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:32,467 - root - INFO - Generating image no. 266/500000
+2023-06-14 15:13:32,468 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:32,474 - root - INFO - Generating image no. 267/500000
+2023-06-14 15:13:32,475 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:32,479 - root - INFO - Generating image no. 268/500000
+2023-06-14 15:13:32,479 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:32,609 - root - INFO - Generating image no. 269/500000
+2023-06-14 15:13:32,609 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:32,611 - root - INFO - Generating image no. 270/500000
+2023-06-14 15:13:32,611 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:32,619 - root - INFO - Generating image no. 271/500000
+2023-06-14 15:13:32,619 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:32,625 - root - INFO - Generating image no. 272/500000
+2023-06-14 15:13:32,625 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:32,645 - root - INFO - Generating image no. 273/500000
+2023-06-14 15:13:32,645 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:32,656 - root - INFO - Generating image no. 274/500000
+2023-06-14 15:13:32,656 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:32,676 - root - INFO - Generating image no. 275/500000
+2023-06-14 15:13:32,677 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:32,686 - root - INFO - Generating image no. 276/500000
+2023-06-14 15:13:32,686 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:32,689 - root - INFO - Generating image no. 277/500000
+2023-06-14 15:13:32,690 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:32,712 - root - INFO - Generating image no. 278/500000
+2023-06-14 15:13:32,713 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:32,731 - root - INFO - Generating image no. 279/500000
+2023-06-14 15:13:32,732 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:32,742 - root - INFO - Generating image no. 280/500000
+2023-06-14 15:13:32,743 - root - INFO - The image will have 2 circles
+2023-06-14 15:13:32,750 - root - INFO - Generating image no. 281/500000
+2023-06-14 15:13:32,750 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:32,752 - root - INFO - Generating image no. 282/500000
+2023-06-14 15:13:32,752 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:32,757 - root - INFO - Generating image no. 283/500000
+2023-06-14 15:13:32,757 - root - INFO - The image will have 3 circles
+2023-06-14 15:13:32,832 - root - INFO - Generating image no. 284/500000
+2023-06-14 15:13:32,833 - root - INFO - The image will have 1 circles
+2023-06-14 15:13:32,843 - root - INFO - Generating image no. 285/500000
+2023-06-14 15:13:32,844 - root - INFO - The image will have 2 circles
+2023-06-14 15:14:30,141 - root - INFO - Starting image generator
+2023-06-14 15:14:30,142 - root - INFO - 10 images with random number of circles (between 1 and 3) will be generated
+2023-06-14 15:14:30,142 - root - INFO - Generating image no. 1/10
+2023-06-14 15:14:30,143 - root - INFO - The image will have 3 circles
+2023-06-14 15:14:30,176 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-06-14 15:14:30,734 - root - INFO - Generating image no. 2/10
+2023-06-14 15:14:30,735 - root - INFO - The image will have 1 circles
+2023-06-14 15:14:30,741 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_2.png
+2023-06-14 15:14:31,271 - root - INFO - Generating image no. 3/10
+2023-06-14 15:14:31,272 - root - INFO - The image will have 2 circles
+2023-06-14 15:14:31,280 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_3.png
+2023-06-14 15:14:31,825 - root - INFO - Generating image no. 4/10
+2023-06-14 15:14:31,825 - root - INFO - The image will have 3 circles
+2023-06-14 15:14:31,844 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_4.png
+2023-06-14 15:14:32,350 - root - INFO - Generating image no. 5/10
+2023-06-14 15:14:32,350 - root - INFO - The image will have 3 circles
+2023-06-14 15:14:32,523 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_5.png
+2023-06-14 15:14:33,104 - root - INFO - Generating image no. 6/10
+2023-06-14 15:14:33,104 - root - INFO - The image will have 1 circles
+2023-06-14 15:14:33,106 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_6.png
+2023-06-14 15:14:33,616 - root - INFO - Generating image no. 7/10
+2023-06-14 15:14:33,617 - root - INFO - The image will have 3 circles
+2023-06-14 15:14:33,635 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_7.png
+2023-06-14 15:14:34,137 - root - INFO - Generating image no. 8/10
+2023-06-14 15:14:34,137 - root - INFO - The image will have 2 circles
+2023-06-14 15:14:34,179 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_8.png
+2023-06-14 15:14:34,695 - root - INFO - Generating image no. 9/10
+2023-06-14 15:14:34,695 - root - INFO - The image will have 2 circles
+2023-06-14 15:14:34,752 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_9.png
+2023-06-14 15:14:35,265 - root - INFO - Generating image no. 10/10
+2023-06-14 15:14:35,265 - root - INFO - The image will have 3 circles
+2023-06-14 15:14:35,313 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_10.png
+2023-06-14 15:14:35,836 - root - INFO - Saving 10 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-06-14 15:15:05,422 - root - INFO - Starting image generator
+2023-06-14 15:15:05,423 - root - INFO - 10 images with random number of circles (between 1 and 3) will be generated
+2023-06-14 15:15:05,423 - root - INFO - Generating image no. 1/10
+2023-06-14 15:15:05,424 - root - INFO - The image will have 2 circles
+2023-06-14 15:15:05,435 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-06-14 15:15:05,992 - root - INFO - Generating image no. 2/10
+2023-06-14 15:15:05,993 - root - INFO - The image will have 1 circles
+2023-06-14 15:15:05,995 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_2.png
+2023-06-14 15:15:06,519 - root - INFO - Generating image no. 3/10
+2023-06-14 15:15:06,520 - root - INFO - The image will have 3 circles
+2023-06-14 15:15:06,575 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_3.png
+2023-06-14 15:15:07,106 - root - INFO - Generating image no. 4/10
+2023-06-14 15:15:07,106 - root - INFO - The image will have 2 circles
+2023-06-14 15:15:07,123 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_4.png
+2023-06-14 15:15:07,699 - root - INFO - Generating image no. 5/10
+2023-06-14 15:15:07,700 - root - INFO - The image will have 4 circles
+2023-06-14 15:15:07,743 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_5.png
+2023-06-14 15:15:08,260 - root - INFO - Generating image no. 6/10
+2023-06-14 15:15:08,260 - root - INFO - The image will have 3 circles
+2023-06-14 15:15:08,270 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_6.png
+2023-06-14 15:15:08,795 - root - INFO - Generating image no. 7/10
+2023-06-14 15:15:08,796 - root - INFO - The image will have 3 circles
+2023-06-14 15:15:08,814 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_7.png
+2023-06-14 15:15:09,329 - root - INFO - Generating image no. 8/10
+2023-06-14 15:15:09,330 - root - INFO - The image will have 2 circles
+2023-06-14 15:15:09,341 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_8.png
+2023-06-14 15:15:09,852 - root - INFO - Generating image no. 9/10
+2023-06-14 15:15:09,852 - root - INFO - The image will have 2 circles
+2023-06-14 15:15:09,883 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_9.png
+2023-06-14 15:15:10,400 - root - INFO - Generating image no. 10/10
+2023-06-14 15:15:10,401 - root - INFO - The image will have 2 circles
+2023-06-14 15:15:10,414 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_10.png
+2023-06-14 15:15:10,915 - root - INFO - Saving 10 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-06-14 15:16:42,169 - root - INFO - Starting image generator
+2023-06-14 15:16:42,170 - root - INFO - 10 images with random number of circles (between 1 and 3) will be generated
+2023-06-14 15:16:42,170 - root - INFO - Generating image no. 1/10
+2023-06-14 15:16:42,171 - root - INFO - The image will have 1 circles
+2023-06-14 15:16:42,183 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-06-14 15:16:42,717 - root - INFO - Generating image no. 2/10
+2023-06-14 15:16:42,718 - root - INFO - The image will have 1 circles
+2023-06-14 15:16:42,727 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_2.png
+2023-06-14 15:16:43,253 - root - INFO - Generating image no. 3/10
+2023-06-14 15:16:43,253 - root - INFO - The image will have 1 circles
+2023-06-14 15:16:43,258 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_3.png
+2023-06-14 15:16:43,779 - root - INFO - Generating image no. 4/10
+2023-06-14 15:16:43,779 - root - INFO - The image will have 3 circles
+2023-06-14 15:16:43,809 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_4.png
+2023-06-14 15:16:44,335 - root - INFO - Generating image no. 5/10
+2023-06-14 15:16:44,336 - root - INFO - The image will have 2 circles
+2023-06-14 15:16:44,347 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_5.png
+2023-06-14 15:16:44,924 - root - INFO - Generating image no. 6/10
+2023-06-14 15:16:44,924 - root - INFO - The image will have 2 circles
+2023-06-14 15:16:44,963 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_6.png
+2023-06-14 15:16:45,509 - root - INFO - Generating image no. 7/10
+2023-06-14 15:16:45,509 - root - INFO - The image will have 2 circles
+2023-06-14 15:16:45,565 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_7.png
+2023-06-14 15:16:46,077 - root - INFO - Generating image no. 8/10
+2023-06-14 15:16:46,077 - root - INFO - The image will have 2 circles
+2023-06-14 15:16:46,097 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_8.png
+2023-06-14 15:16:46,625 - root - INFO - Generating image no. 9/10
+2023-06-14 15:16:46,625 - root - INFO - The image will have 2 circles
+2023-06-14 15:16:46,728 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_9.png
+2023-06-14 15:16:47,254 - root - INFO - Generating image no. 10/10
+2023-06-14 15:16:47,255 - root - INFO - The image will have 1 circles
+2023-06-14 15:16:47,280 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_10.png
+2023-06-14 15:16:47,785 - root - INFO - Saving 10 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-06-14 15:17:03,540 - root - INFO - Starting MWT solver
+2023-06-14 15:17:04,844 - root - INFO - iter=1/20
+2023-06-14 15:17:06,156 - root - INFO - loss after updating Electric Field = 161.62054049642092, error_E=0.2447747866162344
+2023-06-14 15:18:33,033 - root - INFO - loss after updating Relative Permittivities = 77.06591624937525, error_rel_perm=0.527598796287132
+2023-06-14 15:18:33,033 - root - INFO - iter=2/20
+2023-06-14 15:18:34,475 - root - INFO - loss after updating Electric Field = 20.919872143050192, error_E=0.08691029923491068
+2023-06-14 15:20:01,517 - root - INFO - loss after updating Relative Permittivities = 9.097704014796985, error_rel_perm=0.3618772308540462
+2023-06-14 15:20:01,517 - root - INFO - iter=3/20
+2023-06-14 15:20:02,940 - root - INFO - loss after updating Electric Field = 4.210221817350975, error_E=0.042801623492204906
+2023-06-14 15:21:28,769 - root - INFO - loss after updating Relative Permittivities = 2.335828326286222, error_rel_perm=0.31684281255187924
+2023-06-14 15:21:28,769 - root - INFO - iter=4/20
+2023-06-14 15:21:30,359 - root - INFO - loss after updating Electric Field = 1.4593517274891779, error_E=0.026530858285340887
+2023-06-14 15:22:52,568 - root - INFO - loss after updating Relative Permittivities = 0.9531462571454301, error_rel_perm=0.2957155118491632
+2023-06-14 15:22:52,568 - root - INFO - iter=5/20
+2023-06-14 15:22:53,784 - root - INFO - loss after updating Electric Field = 0.673365559068594, error_E=0.01836483132134056
+2023-06-14 15:24:17,335 - root - INFO - loss after updating Relative Permittivities = 0.4725275394082982, error_rel_perm=0.2851435950803596
+2023-06-14 15:24:17,336 - root - INFO - iter=6/20
+2023-06-14 15:24:18,719 - root - INFO - loss after updating Electric Field = 0.35261871701582326, error_E=0.013415469489461703
+2023-06-14 15:25:42,651 - root - INFO - loss after updating Relative Permittivities = 0.25861594199445237, error_rel_perm=0.28010405840942704
+2023-06-14 15:25:42,652 - root - INFO - iter=7/20
+2023-06-14 15:25:44,290 - root - INFO - loss after updating Electric Field = 0.20393099272229842, error_E=0.010277948777907941
+2023-06-14 15:27:09,133 - root - INFO - loss after updating Relative Permittivities = 0.15608068553363968, error_rel_perm=0.2778683588793551
+2023-06-14 15:27:09,134 - root - INFO - iter=8/20
+2023-06-14 15:27:10,447 - root - INFO - loss after updating Electric Field = 0.12867999702070723, error_E=0.008213055053204495
+2023-06-14 15:28:32,951 - root - INFO - loss after updating Relative Permittivities = 0.103001644857548, error_rel_perm=0.2770856883477259
+2023-06-14 15:28:32,951 - root - INFO - iter=9/20
+2023-06-14 15:28:34,758 - root - INFO - loss after updating Electric Field = 0.08941621769643154, error_E=0.006876507993569416
+2023-06-14 15:30:03,332 - root - INFO - loss after updating Relative Permittivities = 0.07467302617630564, error_rel_perm=0.2767284945747779
+2023-06-14 15:30:03,332 - root - INFO - iter=10/20
+2023-06-14 15:30:04,707 - root - INFO - loss after updating Electric Field = 0.06744237571006408, error_E=0.005981297019458593
+2023-06-14 15:31:31,696 - root - INFO - loss after updating Relative Permittivities = 0.05973424554540778, error_rel_perm=0.2766709190385943
+2023-06-14 15:31:31,696 - root - INFO - iter=11/20
+2023-06-14 15:31:33,319 - root - INFO - loss after updating Electric Field = 0.05593194649862952, error_E=0.005441573943394201
+2023-06-14 15:33:01,681 - root - INFO - loss after updating Relative Permittivities = 0.0519185342840254, error_rel_perm=0.27691793723031843
+2023-06-14 15:33:01,681 - root - INFO - iter=12/20
+2023-06-14 15:33:03,220 - root - INFO - loss after updating Electric Field = 0.049676142676199075, error_E=0.005106682659106978
+2023-06-14 15:34:32,069 - root - INFO - loss after updating Relative Permittivities = 0.04702354175102694, error_rel_perm=0.27686060243363636
+2023-06-14 15:34:32,069 - root - INFO - iter=13/20
+2023-06-14 15:34:33,942 - root - INFO - loss after updating Electric Field = 0.045742272193587855, error_E=0.0048817307193230975
+2023-06-14 15:36:03,193 - root - INFO - loss after updating Relative Permittivities = 0.043375485739204245, error_rel_perm=0.2768985737022069
+2023-06-14 15:36:03,193 - root - INFO - iter=14/20
+2023-06-14 15:36:04,665 - root - INFO - loss after updating Electric Field = 0.04276092095429402, error_E=0.004724628811820872
+2023-06-14 15:37:33,559 - root - INFO - loss after updating Relative Permittivities = 0.04136069891133552, error_rel_perm=0.2770975706149257
+2023-06-14 15:37:33,559 - root - INFO - iter=15/20
+2023-06-14 15:37:35,025 - root - INFO - loss after updating Electric Field = 0.040896040982792675, error_E=0.00461061851091707
+2023-06-14 15:39:03,362 - root - INFO - loss after updating Relative Permittivities = 0.04002297519887193, error_rel_perm=0.27715668183274866
+2023-06-14 15:39:03,362 - root - INFO - iter=16/20
+2023-06-14 15:39:04,863 - root - INFO - loss after updating Electric Field = 0.039776937848504904, error_E=0.004543987852647204
+2023-06-14 15:40:32,266 - root - INFO - loss after updating Relative Permittivities = 0.03949840223779351, error_rel_perm=0.2772577912285425
+2023-06-14 15:40:32,268 - root - INFO - iter=17/20
+2023-06-14 15:40:33,563 - root - INFO - loss after updating Electric Field = 0.039347468116616026, error_E=0.00450713375334337
+2023-06-14 15:42:00,449 - root - INFO - loss after updating Relative Permittivities = 0.038716535557307336, error_rel_perm=0.27721292679827514
+2023-06-14 15:42:00,450 - root - INFO - iter=18/20
+2023-06-14 15:42:01,898 - root - INFO - loss after updating Electric Field = 0.03863863597227937, error_E=0.004462106091001858
+2023-06-14 15:43:27,192 - root - INFO - loss after updating Relative Permittivities = 0.0383964740365439, error_rel_perm=0.2772239587848465
+2023-06-14 15:43:27,192 - root - INFO - iter=19/20
+2023-06-14 15:43:28,548 - root - INFO - loss after updating Electric Field = 0.03829136556863838, error_E=0.004429300438896352
+2023-06-14 15:44:55,649 - root - INFO - loss after updating Relative Permittivities = 0.03801174155041585, error_rel_perm=0.2772632641065342
+2023-06-14 15:44:55,650 - root - INFO - iter=20/20
+2023-06-14 15:44:57,953 - root - INFO - loss after updating Electric Field = 0.037903197767020225, error_E=0.004409428876684999
+2023-06-14 15:46:26,165 - root - INFO - loss after updating Relative Permittivities = 0.03812081220255746, error_rel_perm=0.2773772837757958
+2023-06-14 15:48:36,294 - root - INFO - Starting image generator
+2023-06-14 15:48:36,295 - root - INFO - 10 images with random number of circles (between 1 and 3) will be generated
+2023-06-14 15:48:36,295 - root - INFO - Generating image no. 1/10
+2023-06-14 15:48:36,296 - root - INFO - The image will have 2 circles
+2023-06-14 15:48:36,306 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-06-14 15:48:36,844 - root - INFO - Generating image no. 2/10
+2023-06-14 15:48:36,845 - root - INFO - The image will have 2 circles
+2023-06-14 15:48:36,857 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_2.png
+2023-06-14 15:48:37,380 - root - INFO - Generating image no. 3/10
+2023-06-14 15:48:37,380 - root - INFO - The image will have 3 circles
+2023-06-14 15:48:37,407 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_3.png
+2023-06-14 15:48:37,916 - root - INFO - Generating image no. 4/10
+2023-06-14 15:48:37,916 - root - INFO - The image will have 1 circles
+2023-06-14 15:48:37,921 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_4.png
+2023-06-14 15:48:38,456 - root - INFO - Generating image no. 5/10
+2023-06-14 15:48:38,457 - root - INFO - The image will have 2 circles
+2023-06-14 15:48:38,481 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_5.png
+2023-06-14 15:48:39,038 - root - INFO - Generating image no. 6/10
+2023-06-14 15:48:39,038 - root - INFO - The image will have 1 circles
+2023-06-14 15:48:39,042 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_6.png
+2023-06-14 15:48:39,559 - root - INFO - Generating image no. 7/10
+2023-06-14 15:48:39,560 - root - INFO - The image will have 1 circles
+2023-06-14 15:48:39,563 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_7.png
+2023-06-14 15:48:40,068 - root - INFO - Generating image no. 8/10
+2023-06-14 15:48:40,068 - root - INFO - The image will have 1 circles
+2023-06-14 15:48:40,086 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_8.png
+2023-06-14 15:48:40,602 - root - INFO - Generating image no. 9/10
+2023-06-14 15:48:40,603 - root - INFO - The image will have 3 circles
+2023-06-14 15:48:40,642 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_9.png
+2023-06-14 15:48:41,169 - root - INFO - Generating image no. 10/10
+2023-06-14 15:48:41,170 - root - INFO - The image will have 1 circles
+2023-06-14 15:48:41,172 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_10.png
+2023-06-14 15:48:41,687 - root - INFO - Saving 10 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-06-14 15:48:58,735 - root - INFO - Starting MWT solver
+2023-06-14 15:49:00,148 - root - INFO - iter=1/20
+2023-06-14 15:49:01,658 - root - INFO - loss after updating Electric Field = 174.80854451443858, error_E=0.25903067649719286
+2023-06-14 15:50:23,779 - root - INFO - loss after updating Relative Permittivities = 85.53769059723405, error_rel_perm=0.5806906882722754
+2023-06-14 15:50:23,779 - root - INFO - iter=2/20
+2023-06-14 15:50:25,116 - root - INFO - loss after updating Electric Field = 25.984741828751055, error_E=0.10328193142766239
+2023-06-14 15:51:48,896 - root - INFO - loss after updating Relative Permittivities = 12.968783475776801, error_rel_perm=0.49935403818678165
+2023-06-14 15:51:48,896 - root - INFO - iter=3/20
+2023-06-14 15:51:50,523 - root - INFO - loss after updating Electric Field = 7.316583719471147, error_E=0.06167900767331968
+2023-06-14 15:53:14,478 - root - INFO - loss after updating Relative Permittivities = 4.762567251241396, error_rel_perm=0.46122716555022053
+2023-06-14 15:53:14,478 - root - INFO - iter=4/20
+2023-06-14 15:53:15,712 - root - INFO - loss after updating Electric Field = 3.421001303736947, error_E=0.044762168632775
+2023-06-14 15:54:37,204 - root - INFO - loss after updating Relative Permittivities = 2.5478387631359296, error_rel_perm=0.43102516540713587
+2023-06-14 15:54:37,204 - root - INFO - iter=5/20
+2023-06-14 15:54:38,434 - root - INFO - loss after updating Electric Field = 1.9906390721883647, error_E=0.035087404489044044
+2023-06-14 15:55:57,927 - root - INFO - loss after updating Relative Permittivities = 1.5737765295089892, error_rel_perm=0.4027007503095596
+2023-06-14 15:55:57,927 - root - INFO - iter=6/20
+2023-06-14 15:55:59,173 - root - INFO - loss after updating Electric Field = 1.2843387651867417, error_E=0.02860085855838271
+2023-06-14 15:57:18,859 - root - INFO - loss after updating Relative Permittivities = 1.044985231015078, error_rel_perm=0.38032034493753464
+2023-06-14 15:57:18,859 - root - INFO - iter=7/20
+2023-06-14 15:57:20,053 - root - INFO - loss after updating Electric Field = 0.8765117765064782, error_E=0.02390772452692751
+2023-06-14 15:58:38,809 - root - INFO - loss after updating Relative Permittivities = 0.7296502419289158, error_rel_perm=0.3609098851774045
+2023-06-14 15:58:38,809 - root - INFO - iter=8/20
+2023-06-14 15:58:40,034 - root - INFO - loss after updating Electric Field = 0.6248313031141903, error_E=0.02034671549919942
+2023-06-14 15:59:58,959 - root - INFO - loss after updating Relative Permittivities = 0.5288658991712922, error_rel_perm=0.34566245378458255
+2023-06-14 15:59:58,960 - root - INFO - iter=9/20
+2023-06-14 16:00:00,154 - root - INFO - loss after updating Electric Field = 0.4601522959011012, error_E=0.017572187649508676
+2023-06-14 16:01:19,541 - root - INFO - loss after updating Relative Permittivities = 0.3941216435216782, error_rel_perm=0.33376290782171736
+2023-06-14 16:01:19,542 - root - INFO - iter=10/20
+2023-06-14 16:01:20,778 - root - INFO - loss after updating Electric Field = 0.3496249823353901, error_E=0.015392082448109468
+2023-06-14 16:02:39,672 - root - INFO - loss after updating Relative Permittivities = 0.3024401669027472, error_rel_perm=0.32587725626659475
+2023-06-14 16:02:39,672 - root - INFO - iter=11/20
+2023-06-14 16:02:40,905 - root - INFO - loss after updating Electric Field = 0.2702219720219766, error_E=0.013598952163206345
+2023-06-14 16:04:00,637 - root - INFO - loss after updating Relative Permittivities = 0.23642148338324273, error_rel_perm=0.3195595057144675
+2023-06-14 16:04:00,637 - root - INFO - iter=12/20
+2023-06-14 16:04:01,900 - root - INFO - loss after updating Electric Field = 0.21462296933153685, error_E=0.01215842563516623
+2023-06-14 16:05:23,065 - root - INFO - loss after updating Relative Permittivities = 0.18987000911319632, error_rel_perm=0.31404465259755554
+2023-06-14 16:05:23,066 - root - INFO - iter=13/20
+2023-06-14 16:05:24,287 - root - INFO - loss after updating Electric Field = 0.17441713760636457, error_E=0.010970288412392013
+2023-06-14 16:06:53,284 - root - INFO - loss after updating Relative Permittivities = 0.156066434299511, error_rel_perm=0.30961223147122485
+2023-06-14 16:06:53,285 - root - INFO - iter=14/20
+2023-06-14 16:06:54,852 - root - INFO - loss after updating Electric Field = 0.14403435148202862, error_E=0.009960028893752857
+2023-06-14 16:08:24,869 - root - INFO - loss after updating Relative Permittivities = 0.13034873998615, error_rel_perm=0.305996523666165
+2023-06-14 16:08:24,870 - root - INFO - iter=15/20
+2023-06-14 16:08:26,235 - root - INFO - loss after updating Electric Field = 0.12153683294585921, error_E=0.00911674996840676
+2023-06-14 16:09:56,654 - root - INFO - loss after updating Relative Permittivities = 0.11014347141634631, error_rel_perm=0.30277694305003633
+2023-06-14 16:09:56,655 - root - INFO - iter=16/20
+2023-06-14 16:09:58,041 - root - INFO - loss after updating Electric Field = 0.10364558944237605, error_E=0.008406040994056967
+2023-06-14 16:11:27,358 - root - INFO - loss after updating Relative Permittivities = 0.09529791113962979, error_rel_perm=0.3000543032403128
+2023-06-14 16:11:27,358 - root - INFO - iter=17/20
+2023-06-14 16:11:28,748 - root - INFO - loss after updating Electric Field = 0.09014637667016817, error_E=0.007806479358805672
+2023-06-14 16:12:57,766 - root - INFO - loss after updating Relative Permittivities = 0.08379695820633222, error_rel_perm=0.2978912779731204
+2023-06-14 16:12:57,766 - root - INFO - iter=18/20
+2023-06-14 16:12:59,190 - root - INFO - loss after updating Electric Field = 0.08018808066113078, error_E=0.007319182004816308
+2023-06-14 16:14:24,712 - root - INFO - loss after updating Relative Permittivities = 0.0754201823036614, error_rel_perm=0.29586833104744115
+2023-06-14 16:14:24,712 - root - INFO - iter=19/20
+2023-06-14 16:14:26,079 - root - INFO - loss after updating Electric Field = 0.07288260939134072, error_E=0.006927844591951299
+2023-06-14 16:15:53,150 - root - INFO - loss after updating Relative Permittivities = 0.06953375792052952, error_rel_perm=0.2942788492017393
+2023-06-14 16:15:53,151 - root - INFO - iter=20/20
+2023-06-14 16:15:54,469 - root - INFO - loss after updating Electric Field = 0.06786401524920602, error_E=0.006629316000073067
+2023-06-14 16:17:17,885 - root - INFO - loss after updating Relative Permittivities = 0.06483421748675289, error_rel_perm=0.2929049133837828

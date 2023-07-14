@@ -1,0 +1,236 @@
+2023-06-20 01:13:53,925 - root - INFO - Starting image generator
+2023-06-20 01:13:53,925 - root - INFO - Starting image generator
+2023-06-20 01:13:53,926 - root - INFO - 1 images with random number of circles (between 1 and 3) will be generated
+2023-06-20 01:13:53,926 - root - INFO - 1 images with random number of circles (between 1 and 3) will be generated
+2023-06-20 01:13:53,926 - root - INFO - Generating image no. 1/1
+2023-06-20 01:13:53,926 - root - INFO - Generating image no. 1/1
+2023-06-20 01:13:53,927 - root - INFO - The image will have 2 circles
+2023-06-20 01:13:53,927 - root - INFO - The image will have 2 circles
+2023-06-20 01:13:53,939 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-06-20 01:13:53,939 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-06-20 01:13:54,507 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-06-20 01:13:54,507 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-06-20 01:13:54,905 - root - INFO - Starting MWT solver
+2023-06-20 01:13:54,905 - root - INFO - Starting MWT solver
+2023-06-20 01:13:56,312 - root - INFO - iter=1/30
+2023-06-20 01:13:56,312 - root - INFO - iter=1/30
+2023-06-20 01:13:57,769 - root - INFO - loss after updating Electric Field = 176.8677520414887, error_E=0.24786622707782707
+2023-06-20 01:13:57,769 - root - INFO - loss after updating Electric Field = 176.8677520414887, error_E=0.24786622707782707
+2023-06-20 01:15:29,750 - root - INFO - loss after updating Relative Permittivities = 81.19437547001864, error_rel_perm=0.5250568899169598
+2023-06-20 01:15:29,750 - root - INFO - loss after updating Relative Permittivities = 81.19437547001864, error_rel_perm=0.5250568899169598
+2023-06-20 01:15:29,750 - root - INFO - iter=2/30
+2023-06-20 01:15:29,750 - root - INFO - iter=2/30
+2023-06-20 01:15:31,240 - root - INFO - loss after updating Electric Field = 18.41599515498262, error_E=0.0754487788255447
+2023-06-20 01:15:31,240 - root - INFO - loss after updating Electric Field = 18.41599515498262, error_E=0.0754487788255447
+2023-06-20 01:17:02,426 - root - INFO - loss after updating Relative Permittivities = 6.66519746637513, error_rel_perm=0.33880677969078876
+2023-06-20 01:17:02,426 - root - INFO - loss after updating Relative Permittivities = 6.66519746637513, error_rel_perm=0.33880677969078876
+2023-06-20 01:17:02,427 - root - INFO - iter=3/30
+2023-06-20 01:17:02,427 - root - INFO - iter=3/30
+2023-06-20 01:17:03,978 - root - INFO - loss after updating Electric Field = 2.4602063203362823, error_E=0.030258787117600043
+2023-06-20 01:17:03,978 - root - INFO - loss after updating Electric Field = 2.4602063203362823, error_E=0.030258787117600043
+2023-06-20 01:18:34,535 - root - INFO - loss after updating Relative Permittivities = 1.1149147570677693, error_rel_perm=0.29929044183688397
+2023-06-20 01:18:34,535 - root - INFO - loss after updating Relative Permittivities = 1.1149147570677693, error_rel_perm=0.29929044183688397
+2023-06-20 01:18:34,536 - root - INFO - iter=4/30
+2023-06-20 01:18:34,536 - root - INFO - iter=4/30
+2023-06-20 01:18:36,192 - root - INFO - loss after updating Electric Field = 0.5810103675002685, error_E=0.015907954348219244
+2023-06-20 01:18:36,192 - root - INFO - loss after updating Electric Field = 0.5810103675002685, error_E=0.015907954348219244
+2023-06-20 01:20:06,568 - root - INFO - loss after updating Relative Permittivities = 0.3429543985019925, error_rel_perm=0.2885797674986858
+2023-06-20 01:20:06,568 - root - INFO - loss after updating Relative Permittivities = 0.3429543985019925, error_rel_perm=0.2885797674986858
+2023-06-20 01:20:06,569 - root - INFO - iter=5/30
+2023-06-20 01:20:06,569 - root - INFO - iter=5/30
+2023-06-20 01:20:08,067 - root - INFO - loss after updating Electric Field = 0.23059302619083133, error_E=0.010249074111521785
+2023-06-20 01:20:08,067 - root - INFO - loss after updating Electric Field = 0.23059302619083133, error_E=0.010249074111521785
+2023-06-20 01:21:39,785 - root - INFO - loss after updating Relative Permittivities = 0.161661262193646, error_rel_perm=0.28617439392215005
+2023-06-20 01:21:39,785 - root - INFO - loss after updating Relative Permittivities = 0.161661262193646, error_rel_perm=0.28617439392215005
+2023-06-20 01:21:39,787 - root - INFO - iter=6/30
+2023-06-20 01:21:39,787 - root - INFO - iter=6/30
+2023-06-20 01:21:41,355 - root - INFO - loss after updating Electric Field = 0.1265427045414878, error_E=0.007517181790343084
+2023-06-20 01:21:41,355 - root - INFO - loss after updating Electric Field = 0.1265427045414878, error_E=0.007517181790343084
+2023-06-20 01:23:14,337 - root - INFO - loss after updating Relative Permittivities = 0.09794716871109252, error_rel_perm=0.28447800759107306
+2023-06-20 01:23:14,337 - root - INFO - loss after updating Relative Permittivities = 0.09794716871109252, error_rel_perm=0.28447800759107306
+2023-06-20 01:23:14,338 - root - INFO - iter=7/30
+2023-06-20 01:23:14,338 - root - INFO - iter=7/30
+2023-06-20 01:23:15,969 - root - INFO - loss after updating Electric Field = 0.08398483121030216, error_E=0.006008973413101191
+2023-06-20 01:23:15,969 - root - INFO - loss after updating Electric Field = 0.08398483121030216, error_E=0.006008973413101191
+2023-06-20 01:24:43,932 - root - INFO - loss after updating Relative Permittivities = 0.07020189482148789, error_rel_perm=0.2845289579267647
+2023-06-20 01:24:43,932 - root - INFO - loss after updating Relative Permittivities = 0.07020189482148789, error_rel_perm=0.2845289579267647
+2023-06-20 01:24:43,934 - root - INFO - iter=8/30
+2023-06-20 01:24:43,934 - root - INFO - iter=8/30
+2023-06-20 01:24:45,143 - root - INFO - loss after updating Electric Field = 0.06408483842540805, error_E=0.005153201432636644
+2023-06-20 01:24:45,143 - root - INFO - loss after updating Electric Field = 0.06408483842540805, error_E=0.005153201432636644
+2023-06-20 01:26:03,901 - root - INFO - loss after updating Relative Permittivities = 0.05672442581625651, error_rel_perm=0.28435439319152095
+2023-06-20 01:26:03,901 - root - INFO - loss after updating Relative Permittivities = 0.05672442581625651, error_rel_perm=0.28435439319152095
+2023-06-20 01:26:03,901 - root - INFO - iter=9/30
+2023-06-20 01:26:03,901 - root - INFO - iter=9/30
+2023-06-20 01:26:05,114 - root - INFO - loss after updating Electric Field = 0.054078268818091246, error_E=0.00467491000874094
+2023-06-20 01:26:05,114 - root - INFO - loss after updating Electric Field = 0.054078268818091246, error_E=0.00467491000874094
+2023-06-20 01:27:24,192 - root - INFO - loss after updating Relative Permittivities = 0.05023552264484136, error_rel_perm=0.2843613821104834
+2023-06-20 01:27:24,192 - root - INFO - loss after updating Relative Permittivities = 0.05023552264484136, error_rel_perm=0.2843613821104834
+2023-06-20 01:27:24,194 - root - INFO - iter=10/30
+2023-06-20 01:27:24,194 - root - INFO - iter=10/30
+2023-06-20 01:27:25,458 - root - INFO - loss after updating Electric Field = 0.0490357185783601, error_E=0.00441115672382887
+2023-06-20 01:27:25,458 - root - INFO - loss after updating Electric Field = 0.0490357185783601, error_E=0.00441115672382887
+2023-06-20 01:28:45,407 - root - INFO - loss after updating Relative Permittivities = 0.04681661503306273, error_rel_perm=0.2844973922542131
+2023-06-20 01:28:45,407 - root - INFO - loss after updating Relative Permittivities = 0.04681661503306273, error_rel_perm=0.2844973922542131
+2023-06-20 01:28:45,407 - root - INFO - iter=11/30
+2023-06-20 01:28:45,407 - root - INFO - iter=11/30
+2023-06-20 01:28:46,632 - root - INFO - loss after updating Electric Field = 0.046319923664762785, error_E=0.0042644227098707225
+2023-06-20 01:28:46,632 - root - INFO - loss after updating Electric Field = 0.046319923664762785, error_E=0.0042644227098707225
+2023-06-20 01:30:05,795 - root - INFO - loss after updating Relative Permittivities = 0.045227362798711195, error_rel_perm=0.28431511270201254
+2023-06-20 01:30:05,795 - root - INFO - loss after updating Relative Permittivities = 0.045227362798711195, error_rel_perm=0.28431511270201254
+2023-06-20 01:30:05,797 - root - INFO - iter=12/30
+2023-06-20 01:30:05,797 - root - INFO - iter=12/30
+2023-06-20 01:30:07,040 - root - INFO - loss after updating Electric Field = 0.044939810295554, error_E=0.004183926638229086
+2023-06-20 01:30:07,040 - root - INFO - loss after updating Electric Field = 0.044939810295554, error_E=0.004183926638229086
+2023-06-20 01:31:25,904 - root - INFO - loss after updating Relative Permittivities = 0.04405653658697104, error_rel_perm=0.2843323703796674
+2023-06-20 01:31:25,904 - root - INFO - loss after updating Relative Permittivities = 0.04405653658697104, error_rel_perm=0.2843323703796674
+2023-06-20 01:31:25,904 - root - INFO - iter=13/30
+2023-06-20 01:31:25,904 - root - INFO - iter=13/30
+2023-06-20 01:31:27,162 - root - INFO - loss after updating Electric Field = 0.04392287682190318, error_E=0.004125065640906668
+2023-06-20 01:31:27,162 - root - INFO - loss after updating Electric Field = 0.04392287682190318, error_E=0.004125065640906668
+2023-06-20 01:32:48,690 - root - INFO - loss after updating Relative Permittivities = 0.042963032220345476, error_rel_perm=0.28424675641977154
+2023-06-20 01:32:48,690 - root - INFO - loss after updating Relative Permittivities = 0.042963032220345476, error_rel_perm=0.28424675641977154
+2023-06-20 01:32:48,693 - root - INFO - iter=14/30
+2023-06-20 01:32:48,693 - root - INFO - iter=14/30
+2023-06-20 01:32:49,905 - root - INFO - loss after updating Electric Field = 0.04288592949782311, error_E=0.004076229237465603
+2023-06-20 01:32:49,905 - root - INFO - loss after updating Electric Field = 0.04288592949782311, error_E=0.004076229237465603
+2023-06-20 01:34:10,568 - root - INFO - loss after updating Relative Permittivities = 0.042279707451511175, error_rel_perm=0.2844092600085721
+2023-06-20 01:34:10,568 - root - INFO - loss after updating Relative Permittivities = 0.042279707451511175, error_rel_perm=0.2844092600085721
+2023-06-20 01:34:10,569 - root - INFO - iter=15/30
+2023-06-20 01:34:10,569 - root - INFO - iter=15/30
+2023-06-20 01:34:11,832 - root - INFO - loss after updating Electric Field = 0.04223957737594672, error_E=0.004043704304813152
+2023-06-20 01:34:11,832 - root - INFO - loss after updating Electric Field = 0.04223957737594672, error_E=0.004043704304813152
+2023-06-20 01:35:32,656 - root - INFO - loss after updating Relative Permittivities = 0.04213531762097332, error_rel_perm=0.28456942451564676
+2023-06-20 01:35:32,656 - root - INFO - loss after updating Relative Permittivities = 0.04213531762097332, error_rel_perm=0.28456942451564676
+2023-06-20 01:35:32,658 - root - INFO - iter=16/30
+2023-06-20 01:35:32,658 - root - INFO - iter=16/30
+2023-06-20 01:35:33,913 - root - INFO - loss after updating Electric Field = 0.0421116156814863, error_E=0.004034564212253066
+2023-06-20 01:35:33,913 - root - INFO - loss after updating Electric Field = 0.0421116156814863, error_E=0.004034564212253066
+2023-06-20 01:36:53,566 - root - INFO - loss after updating Relative Permittivities = 0.041834145948991736, error_rel_perm=0.2844291284360312
+2023-06-20 01:36:53,566 - root - INFO - loss after updating Relative Permittivities = 0.041834145948991736, error_rel_perm=0.2844291284360312
+2023-06-20 01:36:53,567 - root - INFO - iter=17/30
+2023-06-20 01:36:53,567 - root - INFO - iter=17/30
+2023-06-20 01:36:54,812 - root - INFO - loss after updating Electric Field = 0.04182253675877988, error_E=0.004019466570898462
+2023-06-20 01:36:54,812 - root - INFO - loss after updating Electric Field = 0.04182253675877988, error_E=0.004019466570898462
+2023-06-20 01:38:14,534 - root - INFO - loss after updating Relative Permittivities = 0.04193236587282662, error_rel_perm=0.2845055119916562
+2023-06-20 01:38:14,534 - root - INFO - loss after updating Relative Permittivities = 0.04193236587282662, error_rel_perm=0.2845055119916562
+2023-06-20 01:38:14,535 - root - INFO - iter=18/30
+2023-06-20 01:38:14,535 - root - INFO - iter=18/30
+2023-06-20 01:38:15,755 - root - INFO - loss after updating Electric Field = 0.04191338739789953, error_E=0.004020855062382953
+2023-06-20 01:38:15,755 - root - INFO - loss after updating Electric Field = 0.04191338739789953, error_E=0.004020855062382953
+2023-06-20 01:39:35,867 - root - INFO - loss after updating Relative Permittivities = 0.041876027844444594, error_rel_perm=0.28444892419525725
+2023-06-20 01:39:35,867 - root - INFO - loss after updating Relative Permittivities = 0.041876027844444594, error_rel_perm=0.28444892419525725
+2023-06-20 01:39:35,868 - root - INFO - iter=19/30
+2023-06-20 01:39:35,868 - root - INFO - iter=19/30
+2023-06-20 01:39:37,134 - root - INFO - loss after updating Electric Field = 0.04186326403906072, error_E=0.004021117109132043
+2023-06-20 01:39:37,134 - root - INFO - loss after updating Electric Field = 0.04186326403906072, error_E=0.004021117109132043
+2023-06-20 01:40:55,820 - root - INFO - loss after updating Relative Permittivities = 0.04206409555801331, error_rel_perm=0.28444463861187597
+2023-06-20 01:40:55,820 - root - INFO - loss after updating Relative Permittivities = 0.04206409555801331, error_rel_perm=0.28444463861187597
+2023-06-20 01:40:55,820 - root - INFO - iter=20/30
+2023-06-20 01:40:55,820 - root - INFO - iter=20/30
+2023-06-20 01:40:57,054 - root - INFO - loss after updating Electric Field = 0.042054422473420186, error_E=0.004028769569552582
+2023-06-20 01:40:57,054 - root - INFO - loss after updating Electric Field = 0.042054422473420186, error_E=0.004028769569552582
+2023-06-20 01:42:15,528 - root - INFO - loss after updating Relative Permittivities = 0.04200763485841212, error_rel_perm=0.2846728387983519
+2023-06-20 01:42:15,528 - root - INFO - loss after updating Relative Permittivities = 0.04200763485841212, error_rel_perm=0.2846728387983519
+2023-06-20 01:42:15,529 - root - INFO - iter=21/30
+2023-06-20 01:42:15,529 - root - INFO - iter=21/30
+2023-06-20 01:42:16,748 - root - INFO - loss after updating Electric Field = 0.04199543615094077, error_E=0.004024531164191132
+2023-06-20 01:42:16,748 - root - INFO - loss after updating Electric Field = 0.04199543615094077, error_E=0.004024531164191132
+2023-06-20 01:43:36,128 - root - INFO - loss after updating Relative Permittivities = 0.042164375294161595, error_rel_perm=0.2846325010374964
+2023-06-20 01:43:36,128 - root - INFO - loss after updating Relative Permittivities = 0.042164375294161595, error_rel_perm=0.2846325010374964
+2023-06-20 01:43:36,128 - root - INFO - iter=22/30
+2023-06-20 01:43:36,128 - root - INFO - iter=22/30
+2023-06-20 01:43:37,359 - root - INFO - loss after updating Electric Field = 0.04215345094315365, error_E=0.00402763796102714
+2023-06-20 01:43:37,359 - root - INFO - loss after updating Electric Field = 0.04215345094315365, error_E=0.00402763796102714
+2023-06-20 01:44:56,362 - root - INFO - loss after updating Relative Permittivities = 0.041713624892859694, error_rel_perm=0.28464813937864897
+2023-06-20 01:44:56,362 - root - INFO - loss after updating Relative Permittivities = 0.041713624892859694, error_rel_perm=0.28464813937864897
+2023-06-20 01:44:56,362 - root - INFO - iter=23/30
+2023-06-20 01:44:56,362 - root - INFO - iter=23/30
+2023-06-20 01:44:57,648 - root - INFO - loss after updating Electric Field = 0.041704912722870253, error_E=0.004009198500534494
+2023-06-20 01:44:57,648 - root - INFO - loss after updating Electric Field = 0.041704912722870253, error_E=0.004009198500534494
+2023-06-20 01:46:16,543 - root - INFO - loss after updating Relative Permittivities = 0.04178125975436942, error_rel_perm=0.2846645830279104
+2023-06-20 01:46:16,543 - root - INFO - loss after updating Relative Permittivities = 0.04178125975436942, error_rel_perm=0.2846645830279104
+2023-06-20 01:46:16,543 - root - INFO - iter=24/30
+2023-06-20 01:46:16,543 - root - INFO - iter=24/30
+2023-06-20 01:46:17,833 - root - INFO - loss after updating Electric Field = 0.04177490598812675, error_E=0.004010593615597842
+2023-06-20 01:46:17,833 - root - INFO - loss after updating Electric Field = 0.04177490598812675, error_E=0.004010593615597842
+2023-06-20 01:47:36,641 - root - INFO - loss after updating Relative Permittivities = 0.04177868265000638, error_rel_perm=0.2845939339964898
+2023-06-20 01:47:36,641 - root - INFO - loss after updating Relative Permittivities = 0.04177868265000638, error_rel_perm=0.2845939339964898
+2023-06-20 01:47:36,641 - root - INFO - iter=25/30
+2023-06-20 01:47:36,641 - root - INFO - iter=25/30
+2023-06-20 01:47:37,884 - root - INFO - loss after updating Electric Field = 0.04176707946866379, error_E=0.00401053342298095
+2023-06-20 01:47:37,884 - root - INFO - loss after updating Electric Field = 0.04176707946866379, error_E=0.00401053342298095
+2023-06-20 01:48:57,293 - root - INFO - loss after updating Relative Permittivities = 0.041873065570920534, error_rel_perm=0.2845697300333755
+2023-06-20 01:48:57,293 - root - INFO - loss after updating Relative Permittivities = 0.041873065570920534, error_rel_perm=0.2845697300333755
+2023-06-20 01:48:57,293 - root - INFO - iter=26/30
+2023-06-20 01:48:57,293 - root - INFO - iter=26/30
+2023-06-20 01:48:58,502 - root - INFO - loss after updating Electric Field = 0.04186605902278401, error_E=0.004014704015983764
+2023-06-20 01:48:58,502 - root - INFO - loss after updating Electric Field = 0.04186605902278401, error_E=0.004014704015983764
+2023-06-20 01:50:17,202 - root - INFO - loss after updating Relative Permittivities = 0.041887854950762346, error_rel_perm=0.28452822463957655
+2023-06-20 01:50:17,202 - root - INFO - loss after updating Relative Permittivities = 0.041887854950762346, error_rel_perm=0.28452822463957655
+2023-06-20 01:50:17,203 - root - INFO - iter=27/30
+2023-06-20 01:50:17,203 - root - INFO - iter=27/30
+2023-06-20 01:50:18,416 - root - INFO - loss after updating Electric Field = 0.041879614994273985, error_E=0.004015285940811402
+2023-06-20 01:50:18,416 - root - INFO - loss after updating Electric Field = 0.041879614994273985, error_E=0.004015285940811402
+2023-06-20 01:51:37,728 - root - INFO - loss after updating Relative Permittivities = 0.04176808040422066, error_rel_perm=0.2844906191797617
+2023-06-20 01:51:37,728 - root - INFO - loss after updating Relative Permittivities = 0.04176808040422066, error_rel_perm=0.2844906191797617
+2023-06-20 01:51:37,728 - root - INFO - iter=28/30
+2023-06-20 01:51:37,728 - root - INFO - iter=28/30
+2023-06-20 01:51:39,393 - root - INFO - loss after updating Electric Field = 0.0417575157577511, error_E=0.0040126384428174865
+2023-06-20 01:51:39,393 - root - INFO - loss after updating Electric Field = 0.0417575157577511, error_E=0.0040126384428174865
+2023-06-20 01:52:59,095 - root - INFO - loss after updating Relative Permittivities = 0.04176311765577109, error_rel_perm=0.2845005243445319
+2023-06-20 01:52:59,095 - root - INFO - loss after updating Relative Permittivities = 0.04176311765577109, error_rel_perm=0.2845005243445319
+2023-06-20 01:52:59,095 - root - INFO - iter=29/30
+2023-06-20 01:52:59,095 - root - INFO - iter=29/30
+2023-06-20 01:53:00,886 - root - INFO - loss after updating Electric Field = 0.041755127329946636, error_E=0.004012552827950953
+2023-06-20 01:53:00,886 - root - INFO - loss after updating Electric Field = 0.041755127329946636, error_E=0.004012552827950953
+2023-06-20 01:54:21,030 - root - INFO - loss after updating Relative Permittivities = 0.0415694463909395, error_rel_perm=0.28450787524910576
+2023-06-20 01:54:21,030 - root - INFO - loss after updating Relative Permittivities = 0.0415694463909395, error_rel_perm=0.28450787524910576
+2023-06-20 01:54:21,030 - root - INFO - iter=30/30
+2023-06-20 01:54:21,030 - root - INFO - iter=30/30
+2023-06-20 01:54:22,627 - root - INFO - loss after updating Electric Field = 0.04155861854769574, error_E=0.004001972703233711
+2023-06-20 01:54:22,627 - root - INFO - loss after updating Electric Field = 0.04155861854769574, error_E=0.004001972703233711
+2023-06-20 01:55:42,048 - root - INFO - loss after updating Relative Permittivities = 0.04188130275655373, error_rel_perm=0.2845385252368877
+2023-06-20 01:55:42,048 - root - INFO - loss after updating Relative Permittivities = 0.04188130275655373, error_rel_perm=0.2845385252368877
+2023-06-20 01:55:43,888 - root - INFO - Starting MWT solver
+2023-06-20 01:55:43,888 - root - INFO - Starting MWT solver
+2023-06-20 01:55:45,274 - root - INFO - iter=1/2
+2023-06-20 01:55:45,274 - root - INFO - iter=1/2
+2023-06-20 01:55:46,487 - root - INFO - loss after updating Electric Field = 0.041861551036625366, error_E=0.004012050732715816
+2023-06-20 01:55:46,487 - root - INFO - loss after updating Electric Field = 0.041861551036625366, error_E=0.004012050732715816
+2023-06-20 03:52:43,385 - root - INFO - loss after updating Relative Permittivities = 0.02027576624175205, error_rel_perm=0.15783712151124848
+2023-06-20 03:52:43,385 - root - INFO - loss after updating Relative Permittivities = 0.02027576624175205, error_rel_perm=0.15783712151124848
+2023-06-20 03:52:43,386 - root - INFO - iter=2/2
+2023-06-20 03:52:43,386 - root - INFO - iter=2/2
+2023-06-20 03:52:44,644 - root - INFO - loss after updating Electric Field = 0.009203824789614144, error_E=0.0020252678094279117
+2023-06-20 03:52:44,644 - root - INFO - loss after updating Electric Field = 0.009203824789614144, error_E=0.0020252678094279117
+2023-06-20 05:50:17,242 - root - INFO - loss after updating Relative Permittivities = 0.005040076319905052, error_rel_perm=0.15050550972153148
+2023-06-20 05:50:17,242 - root - INFO - loss after updating Relative Permittivities = 0.005040076319905052, error_rel_perm=0.15050550972153148
+2023-06-20 11:44:22,975 - root - INFO - Starting MWT solver
+2023-06-20 11:44:22,975 - root - INFO - Starting MWT solver
+2023-06-20 11:44:30,154 - root - INFO - iter=1/2
+2023-06-20 11:44:30,154 - root - INFO - iter=1/2
+2023-06-20 11:44:31,527 - root - INFO - loss after updating Electric Field = 0.0032722083965301928, error_E=0.0013602943787875996
+2023-06-20 11:44:31,527 - root - INFO - loss after updating Electric Field = 0.0032722083965301928, error_E=0.0013602943787875996
+2023-06-20 13:42:07,812 - root - INFO - loss after updating Relative Permittivities = 0.002126013910161, error_rel_perm=0.1498036229121161
+2023-06-20 13:42:07,812 - root - INFO - loss after updating Relative Permittivities = 0.002126013910161, error_rel_perm=0.1498036229121161
+2023-06-20 13:42:07,814 - root - INFO - iter=2/2
+2023-06-20 13:42:07,814 - root - INFO - iter=2/2
+2023-06-20 13:42:09,210 - root - INFO - loss after updating Electric Field = 0.0016260578544824368, error_E=0.001073468200029214
+2023-06-20 13:42:09,210 - root - INFO - loss after updating Electric Field = 0.0016260578544824368, error_E=0.001073468200029214
+2023-06-20 15:39:07,001 - root - INFO - loss after updating Relative Permittivities = 0.0011842623650719917, error_rel_perm=0.15099828875214083
+2023-06-20 15:39:07,001 - root - INFO - loss after updating Relative Permittivities = 0.0011842623650719917, error_rel_perm=0.15099828875214083
+2023-06-20 20:29:49,425 - root - INFO - Starting MWT solver
+2023-06-20 20:29:49,425 - root - INFO - Starting MWT solver
+2023-06-20 20:29:55,844 - root - INFO - iter=1/2
+2023-06-20 20:29:55,844 - root - INFO - iter=1/2
+2023-06-20 20:29:57,087 - root - INFO - loss after updating Electric Field = 0.0010009184320065652, error_E=0.0009405572893778715
+2023-06-20 20:29:57,087 - root - INFO - loss after updating Electric Field = 0.0010009184320065652, error_E=0.0009405572893778715
+2023-06-20 22:27:04,322 - root - INFO - loss after updating Relative Permittivities = 0.0007878791230234467, error_rel_perm=0.15253655720089643
+2023-06-20 22:27:04,322 - root - INFO - loss after updating Relative Permittivities = 0.0007878791230234467, error_rel_perm=0.15253655720089643
+2023-06-20 22:27:04,323 - root - INFO - iter=2/2
+2023-06-20 22:27:04,323 - root - INFO - iter=2/2
+2023-06-20 22:27:05,746 - root - INFO - loss after updating Electric Field = 0.0007092757169248826, error_E=0.0008782189396044187
+2023-06-20 22:27:05,746 - root - INFO - loss after updating Electric Field = 0.0007092757169248826, error_E=0.0008782189396044187
+2023-06-21 00:24:10,825 - root - INFO - loss after updating Relative Permittivities = 0.0005921885049449604, error_rel_perm=0.15393136623327916
+2023-06-21 00:24:10,825 - root - INFO - loss after updating Relative Permittivities = 0.0005921885049449604, error_rel_perm=0.15393136623327916

@@ -1,0 +1,1056 @@
+2023-07-09 10:26:21,082 - root - INFO - Starting image generator
+2023-07-09 10:26:21,082 - root - INFO - Starting image generator
+2023-07-09 10:26:21,083 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 10:26:21,083 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 10:26:21,083 - root - INFO - Generating image no. 1/1
+2023-07-09 10:26:21,083 - root - INFO - Generating image no. 1/1
+2023-07-09 10:26:21,084 - root - INFO - The image will have 3 circles
+2023-07-09 10:26:21,084 - root - INFO - The image will have 3 circles
+2023-07-09 10:26:21,149 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 10:26:21,149 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 10:26:21,697 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 10:26:21,697 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 10:26:22,079 - root - INFO - Starting MWT solver
+2023-07-09 10:26:22,079 - root - INFO - Starting MWT solver
+2023-07-09 10:26:23,377 - root - INFO - iter=1/30
+2023-07-09 10:26:23,377 - root - INFO - iter=1/30
+2023-07-09 10:26:24,739 - root - INFO - loss after updating Electric Field = 209.96095884538772, error_E=0.2932329214996373
+2023-07-09 10:26:24,739 - root - INFO - loss after updating Electric Field = 209.96095884538772, error_E=0.2932329214996373
+2023-07-09 10:29:34,976 - root - INFO - Starting image generator
+2023-07-09 10:29:34,976 - root - INFO - Starting image generator
+2023-07-09 10:29:34,977 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 10:29:34,977 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 10:29:34,977 - root - INFO - Generating image no. 1/1
+2023-07-09 10:29:34,977 - root - INFO - Generating image no. 1/1
+2023-07-09 10:29:34,978 - root - INFO - The image will have 3 circles
+2023-07-09 10:29:34,978 - root - INFO - The image will have 3 circles
+2023-07-09 10:29:35,025 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 10:29:35,025 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 10:29:35,572 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 10:29:35,572 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 10:29:35,904 - root - INFO - Starting MWT solver
+2023-07-09 10:29:35,904 - root - INFO - Starting MWT solver
+2023-07-09 10:29:37,320 - root - INFO - iter=1/30
+2023-07-09 10:29:37,320 - root - INFO - iter=1/30
+2023-07-09 10:29:38,656 - root - INFO - loss after updating Electric Field = 218.6632570098681, error_E=0.2989286343295275
+2023-07-09 10:29:38,656 - root - INFO - loss after updating Electric Field = 218.6632570098681, error_E=0.2989286343295275
+2023-07-09 10:36:04,350 - root - INFO - Starting image generator
+2023-07-09 10:36:04,350 - root - INFO - Starting image generator
+2023-07-09 10:36:04,351 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 10:36:04,351 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 10:36:04,351 - root - INFO - Generating image no. 1/1
+2023-07-09 10:36:04,351 - root - INFO - Generating image no. 1/1
+2023-07-09 10:36:04,352 - root - INFO - The image will have 3 circles
+2023-07-09 10:36:04,352 - root - INFO - The image will have 3 circles
+2023-07-09 10:36:04,404 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 10:36:04,404 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 10:36:04,946 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 10:36:04,946 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 10:36:05,271 - root - INFO - Starting MWT solver
+2023-07-09 10:36:05,271 - root - INFO - Starting MWT solver
+2023-07-09 10:36:06,564 - root - INFO - iter=1/30
+2023-07-09 10:36:06,564 - root - INFO - iter=1/30
+2023-07-09 10:36:07,864 - root - INFO - loss after updating Electric Field = 197.73978240285166, error_E=0.28697499815491456
+2023-07-09 10:36:07,864 - root - INFO - loss after updating Electric Field = 197.73978240285166, error_E=0.28697499815491456
+2023-07-09 10:36:50,725 - root - INFO - Starting image generator
+2023-07-09 10:36:50,725 - root - INFO - Starting image generator
+2023-07-09 10:36:50,726 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 10:36:50,726 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 10:36:50,726 - root - INFO - Generating image no. 1/1
+2023-07-09 10:36:50,726 - root - INFO - Generating image no. 1/1
+2023-07-09 10:36:50,726 - root - INFO - The image will have 3 circles
+2023-07-09 10:36:50,726 - root - INFO - The image will have 3 circles
+2023-07-09 10:36:50,773 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 10:36:50,773 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 10:36:51,320 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 10:36:51,320 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 10:36:51,645 - root - INFO - Starting MWT solver
+2023-07-09 10:36:51,645 - root - INFO - Starting MWT solver
+2023-07-09 10:36:52,932 - root - INFO - iter=1/30
+2023-07-09 10:36:52,932 - root - INFO - iter=1/30
+2023-07-09 10:36:54,385 - root - INFO - loss after updating Electric Field = 213.23800899959605, error_E=0.2988725939140308
+2023-07-09 10:36:54,385 - root - INFO - loss after updating Electric Field = 213.23800899959605, error_E=0.2988725939140308
+2023-07-09 10:38:14,419 - root - INFO - Starting image generator
+2023-07-09 10:38:14,419 - root - INFO - Starting image generator
+2023-07-09 10:38:14,420 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 10:38:14,420 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 10:38:14,420 - root - INFO - Generating image no. 1/1
+2023-07-09 10:38:14,420 - root - INFO - Generating image no. 1/1
+2023-07-09 10:38:14,421 - root - INFO - The image will have 3 circles
+2023-07-09 10:38:14,421 - root - INFO - The image will have 3 circles
+2023-07-09 10:38:14,473 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 10:38:14,473 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 10:38:15,014 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 10:38:15,014 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 10:38:15,337 - root - INFO - Starting MWT solver
+2023-07-09 10:38:15,337 - root - INFO - Starting MWT solver
+2023-07-09 10:38:16,679 - root - INFO - iter=1/30
+2023-07-09 10:38:16,679 - root - INFO - iter=1/30
+2023-07-09 10:38:18,149 - root - INFO - loss after updating Electric Field = 213.96636620534863, error_E=0.2964702726988109
+2023-07-09 10:38:18,149 - root - INFO - loss after updating Electric Field = 213.96636620534863, error_E=0.2964702726988109
+2023-07-09 10:39:42,833 - root - INFO - Starting image generator
+2023-07-09 10:39:42,833 - root - INFO - Starting image generator
+2023-07-09 10:39:42,834 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 10:39:42,834 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 10:39:42,834 - root - INFO - Generating image no. 1/1
+2023-07-09 10:39:42,834 - root - INFO - Generating image no. 1/1
+2023-07-09 10:39:42,834 - root - INFO - The image will have 3 circles
+2023-07-09 10:39:42,834 - root - INFO - The image will have 3 circles
+2023-07-09 10:39:42,879 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 10:39:42,879 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 10:39:43,428 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 10:39:43,428 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 10:39:43,751 - root - INFO - Starting MWT solver
+2023-07-09 10:39:43,751 - root - INFO - Starting MWT solver
+2023-07-09 10:39:45,048 - root - INFO - iter=1/30
+2023-07-09 10:39:45,048 - root - INFO - iter=1/30
+2023-07-09 10:39:46,467 - root - INFO - loss after updating Electric Field = 200.8715397849825, error_E=0.28790730127466696
+2023-07-09 10:39:46,467 - root - INFO - loss after updating Electric Field = 200.8715397849825, error_E=0.28790730127466696
+2023-07-09 10:40:10,690 - root - INFO - Starting image generator
+2023-07-09 10:40:10,690 - root - INFO - Starting image generator
+2023-07-09 10:40:10,691 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 10:40:10,691 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 10:40:10,691 - root - INFO - Generating image no. 1/1
+2023-07-09 10:40:10,691 - root - INFO - Generating image no. 1/1
+2023-07-09 10:40:10,692 - root - INFO - The image will have 3 circles
+2023-07-09 10:40:10,692 - root - INFO - The image will have 3 circles
+2023-07-09 10:40:10,736 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 10:40:10,736 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 10:40:11,279 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 10:40:11,279 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 10:40:11,601 - root - INFO - Starting MWT solver
+2023-07-09 10:40:11,601 - root - INFO - Starting MWT solver
+2023-07-09 10:40:12,878 - root - INFO - iter=1/30
+2023-07-09 10:40:12,878 - root - INFO - iter=1/30
+2023-07-09 10:40:14,183 - root - INFO - loss after updating Electric Field = 212.1541321206755, error_E=0.29537377483368416
+2023-07-09 10:40:14,183 - root - INFO - loss after updating Electric Field = 212.1541321206755, error_E=0.29537377483368416
+2023-07-09 10:42:20,025 - root - INFO - Starting image generator
+2023-07-09 10:42:20,025 - root - INFO - Starting image generator
+2023-07-09 10:42:20,025 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 10:42:20,025 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 10:42:20,026 - root - INFO - Generating image no. 1/1
+2023-07-09 10:42:20,026 - root - INFO - Generating image no. 1/1
+2023-07-09 10:42:20,026 - root - INFO - The image will have 3 circles
+2023-07-09 10:42:20,026 - root - INFO - The image will have 3 circles
+2023-07-09 10:42:20,077 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 10:42:20,077 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 10:42:20,621 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 10:42:20,621 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 10:42:20,948 - root - INFO - Starting MWT solver
+2023-07-09 10:42:20,948 - root - INFO - Starting MWT solver
+2023-07-09 10:42:22,218 - root - INFO - iter=1/30
+2023-07-09 10:42:22,218 - root - INFO - iter=1/30
+2023-07-09 10:42:23,637 - root - INFO - loss after updating Electric Field = 212.34747265407347, error_E=0.29644743025974274
+2023-07-09 10:42:23,637 - root - INFO - loss after updating Electric Field = 212.34747265407347, error_E=0.29644743025974274
+2023-07-09 10:44:53,079 - root - INFO - Starting image generator
+2023-07-09 10:44:53,079 - root - INFO - Starting image generator
+2023-07-09 10:44:53,080 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 10:44:53,080 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 10:44:53,080 - root - INFO - Generating image no. 1/1
+2023-07-09 10:44:53,080 - root - INFO - Generating image no. 1/1
+2023-07-09 10:44:53,081 - root - INFO - The image will have 3 circles
+2023-07-09 10:44:53,081 - root - INFO - The image will have 3 circles
+2023-07-09 10:44:53,126 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 10:44:53,126 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 10:44:53,671 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 10:44:53,671 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 10:44:53,993 - root - INFO - Starting MWT solver
+2023-07-09 10:44:53,993 - root - INFO - Starting MWT solver
+2023-07-09 10:44:55,267 - root - INFO - iter=1/30
+2023-07-09 10:44:55,267 - root - INFO - iter=1/30
+2023-07-09 10:44:56,621 - root - INFO - loss after updating Electric Field = 211.10724346726096, error_E=0.2949509187946341
+2023-07-09 10:44:56,621 - root - INFO - loss after updating Electric Field = 211.10724346726096, error_E=0.2949509187946341
+2023-07-09 10:48:48,145 - root - INFO - Starting image generator
+2023-07-09 10:48:48,145 - root - INFO - Starting image generator
+2023-07-09 10:48:48,146 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 10:48:48,146 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 10:48:48,146 - root - INFO - Generating image no. 1/1
+2023-07-09 10:48:48,146 - root - INFO - Generating image no. 1/1
+2023-07-09 10:48:48,147 - root - INFO - The image will have 3 circles
+2023-07-09 10:48:48,147 - root - INFO - The image will have 3 circles
+2023-07-09 10:48:48,192 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 10:48:48,192 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 10:48:48,732 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 10:48:48,732 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 10:48:49,049 - root - INFO - Starting MWT solver
+2023-07-09 10:48:49,049 - root - INFO - Starting MWT solver
+2023-07-09 10:48:50,318 - root - INFO - iter=1/30
+2023-07-09 10:48:50,318 - root - INFO - iter=1/30
+2023-07-09 10:48:51,661 - root - INFO - loss after updating Electric Field = 209.5901374710922, error_E=0.29322241577921454
+2023-07-09 10:48:51,661 - root - INFO - loss after updating Electric Field = 209.5901374710922, error_E=0.29322241577921454
+2023-07-09 10:49:31,472 - root - INFO - Starting image generator
+2023-07-09 10:49:31,472 - root - INFO - Starting image generator
+2023-07-09 10:49:31,473 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 10:49:31,473 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 10:49:31,473 - root - INFO - Generating image no. 1/1
+2023-07-09 10:49:31,473 - root - INFO - Generating image no. 1/1
+2023-07-09 10:49:31,473 - root - INFO - The image will have 3 circles
+2023-07-09 10:49:31,473 - root - INFO - The image will have 3 circles
+2023-07-09 10:49:31,519 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 10:49:31,519 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 10:49:32,063 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 10:49:32,063 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 10:49:32,380 - root - INFO - Starting MWT solver
+2023-07-09 10:49:32,380 - root - INFO - Starting MWT solver
+2023-07-09 10:49:33,679 - root - INFO - iter=1/30
+2023-07-09 10:49:33,679 - root - INFO - iter=1/30
+2023-07-09 10:49:34,980 - root - INFO - loss after updating Electric Field = 205.8684371553577, error_E=0.28943971286336145
+2023-07-09 10:49:34,980 - root - INFO - loss after updating Electric Field = 205.8684371553577, error_E=0.28943971286336145
+2023-07-09 10:50:19,833 - root - INFO - Starting image generator
+2023-07-09 10:50:19,833 - root - INFO - Starting image generator
+2023-07-09 10:50:19,834 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 10:50:19,834 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 10:50:19,835 - root - INFO - Generating image no. 1/1
+2023-07-09 10:50:19,835 - root - INFO - Generating image no. 1/1
+2023-07-09 10:50:19,835 - root - INFO - The image will have 3 circles
+2023-07-09 10:50:19,835 - root - INFO - The image will have 3 circles
+2023-07-09 10:50:19,879 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 10:50:19,879 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 10:50:20,418 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 10:50:20,418 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 10:50:20,735 - root - INFO - Starting MWT solver
+2023-07-09 10:50:20,735 - root - INFO - Starting MWT solver
+2023-07-09 10:50:22,000 - root - INFO - iter=1/30
+2023-07-09 10:50:22,000 - root - INFO - iter=1/30
+2023-07-09 10:50:23,285 - root - INFO - loss after updating Electric Field = 203.3578578469979, error_E=0.2900567084182579
+2023-07-09 10:50:23,285 - root - INFO - loss after updating Electric Field = 203.3578578469979, error_E=0.2900567084182579
+2023-07-09 10:56:18,577 - root - INFO - Starting image generator
+2023-07-09 10:56:18,577 - root - INFO - Starting image generator
+2023-07-09 10:56:18,578 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 10:56:18,578 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 10:56:18,578 - root - INFO - Generating image no. 1/1
+2023-07-09 10:56:18,578 - root - INFO - Generating image no. 1/1
+2023-07-09 10:56:18,579 - root - INFO - The image will have 3 circles
+2023-07-09 10:56:18,579 - root - INFO - The image will have 3 circles
+2023-07-09 10:56:18,683 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 10:56:18,683 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 10:56:19,226 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 10:56:19,226 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 10:56:19,542 - root - INFO - Starting MWT solver
+2023-07-09 10:56:19,542 - root - INFO - Starting MWT solver
+2023-07-09 10:56:20,945 - root - INFO - iter=1/30
+2023-07-09 10:56:20,945 - root - INFO - iter=1/30
+2023-07-09 10:56:22,309 - root - INFO - loss after updating Electric Field = 212.98495823855518, error_E=0.2950326369523774
+2023-07-09 10:56:22,309 - root - INFO - loss after updating Electric Field = 212.98495823855518, error_E=0.2950326369523774
+2023-07-09 10:58:57,023 - root - INFO - Starting image generator
+2023-07-09 10:58:57,023 - root - INFO - Starting image generator
+2023-07-09 10:58:57,024 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 10:58:57,024 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 10:58:57,024 - root - INFO - Generating image no. 1/1
+2023-07-09 10:58:57,024 - root - INFO - Generating image no. 1/1
+2023-07-09 10:58:57,024 - root - INFO - The image will have 3 circles
+2023-07-09 10:58:57,024 - root - INFO - The image will have 3 circles
+2023-07-09 10:58:57,069 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 10:58:57,069 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 10:58:57,607 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 10:58:57,607 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 10:58:57,932 - root - INFO - Starting MWT solver
+2023-07-09 10:58:57,932 - root - INFO - Starting MWT solver
+2023-07-09 10:58:59,210 - root - INFO - iter=1/30
+2023-07-09 10:58:59,210 - root - INFO - iter=1/30
+2023-07-09 10:59:00,596 - root - INFO - loss after updating Electric Field = 211.98772667971946, error_E=0.2943693913115465
+2023-07-09 10:59:00,596 - root - INFO - loss after updating Electric Field = 211.98772667971946, error_E=0.2943693913115465
+2023-07-09 10:59:38,809 - root - INFO - Starting image generator
+2023-07-09 10:59:38,809 - root - INFO - Starting image generator
+2023-07-09 10:59:38,809 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 10:59:38,809 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 10:59:38,810 - root - INFO - Generating image no. 1/1
+2023-07-09 10:59:38,810 - root - INFO - Generating image no. 1/1
+2023-07-09 10:59:38,810 - root - INFO - The image will have 3 circles
+2023-07-09 10:59:38,810 - root - INFO - The image will have 3 circles
+2023-07-09 10:59:38,854 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 10:59:38,854 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 10:59:39,405 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 10:59:39,405 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 10:59:39,730 - root - INFO - Starting MWT solver
+2023-07-09 10:59:39,730 - root - INFO - Starting MWT solver
+2023-07-09 10:59:41,003 - root - INFO - iter=1/30
+2023-07-09 10:59:41,003 - root - INFO - iter=1/30
+2023-07-09 10:59:42,304 - root - INFO - loss after updating Electric Field = 210.00610558707066, error_E=0.29286335201162667
+2023-07-09 10:59:42,304 - root - INFO - loss after updating Electric Field = 210.00610558707066, error_E=0.29286335201162667
+2023-07-09 11:04:38,512 - root - INFO - Starting image generator
+2023-07-09 11:04:38,512 - root - INFO - Starting image generator
+2023-07-09 11:04:38,513 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 11:04:38,513 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 11:04:38,513 - root - INFO - Generating image no. 1/1
+2023-07-09 11:04:38,513 - root - INFO - Generating image no. 1/1
+2023-07-09 11:04:38,514 - root - INFO - The image will have 3 circles
+2023-07-09 11:04:38,514 - root - INFO - The image will have 3 circles
+2023-07-09 11:04:38,560 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 11:04:38,560 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 11:04:39,133 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 11:04:39,133 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 11:04:39,467 - root - INFO - Starting MWT solver
+2023-07-09 11:04:39,467 - root - INFO - Starting MWT solver
+2023-07-09 11:04:40,856 - root - INFO - iter=1/30
+2023-07-09 11:04:40,856 - root - INFO - iter=1/30
+2023-07-09 11:04:42,115 - root - INFO - loss after updating Electric Field = 216.1704390780975, error_E=0.2976919966951449
+2023-07-09 11:04:42,115 - root - INFO - loss after updating Electric Field = 216.1704390780975, error_E=0.2976919966951449
+2023-07-09 19:17:29,542 - root - INFO - Starting image generator
+2023-07-09 19:17:29,542 - root - INFO - Starting image generator
+2023-07-09 19:17:29,543 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 19:17:29,543 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 19:17:29,543 - root - INFO - Generating image no. 1/1
+2023-07-09 19:17:29,543 - root - INFO - Generating image no. 1/1
+2023-07-09 19:17:29,544 - root - INFO - The image will have 3 circles
+2023-07-09 19:17:29,544 - root - INFO - The image will have 3 circles
+2023-07-09 19:17:29,589 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 19:17:29,589 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 19:17:30,134 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 19:17:30,134 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 19:17:30,506 - root - INFO - Starting MWT solver
+2023-07-09 19:17:30,506 - root - INFO - Starting MWT solver
+2023-07-09 19:17:31,940 - root - INFO - iter=1/30
+2023-07-09 19:17:31,940 - root - INFO - iter=1/30
+2023-07-09 19:17:33,189 - root - INFO - loss after updating Electric Field = 208.71708439498838, error_E=0.2930849912112696
+2023-07-09 19:17:33,189 - root - INFO - loss after updating Electric Field = 208.71708439498838, error_E=0.2930849912112696
+2023-07-09 19:17:50,883 - root - INFO - Starting image generator
+2023-07-09 19:17:50,883 - root - INFO - Starting image generator
+2023-07-09 19:17:50,884 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 19:17:50,884 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 19:17:50,884 - root - INFO - Generating image no. 1/1
+2023-07-09 19:17:50,884 - root - INFO - Generating image no. 1/1
+2023-07-09 19:17:50,885 - root - INFO - The image will have 3 circles
+2023-07-09 19:17:50,885 - root - INFO - The image will have 3 circles
+2023-07-09 19:17:50,932 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 19:17:50,932 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 19:17:51,485 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 19:17:51,485 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 19:17:51,849 - root - INFO - Starting MWT solver
+2023-07-09 19:17:51,849 - root - INFO - Starting MWT solver
+2023-07-09 19:17:53,124 - root - INFO - iter=1/30
+2023-07-09 19:17:53,124 - root - INFO - iter=1/30
+2023-07-09 19:17:54,611 - root - INFO - loss after updating Electric Field = 208.48729448461637, error_E=0.29385463595371214
+2023-07-09 19:17:54,611 - root - INFO - loss after updating Electric Field = 208.48729448461637, error_E=0.29385463595371214
+2023-07-09 19:28:59,840 - root - INFO - Starting image generator
+2023-07-09 19:28:59,840 - root - INFO - Starting image generator
+2023-07-09 19:28:59,841 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 19:28:59,841 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 19:28:59,841 - root - INFO - Generating image no. 1/1
+2023-07-09 19:28:59,841 - root - INFO - Generating image no. 1/1
+2023-07-09 19:28:59,842 - root - INFO - The image will have 3 circles
+2023-07-09 19:28:59,842 - root - INFO - The image will have 3 circles
+2023-07-09 19:28:59,887 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 19:28:59,887 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 19:29:00,439 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 19:29:00,439 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 19:29:00,806 - root - INFO - Starting MWT solver
+2023-07-09 19:29:00,806 - root - INFO - Starting MWT solver
+2023-07-09 19:29:02,097 - root - INFO - iter=1/30
+2023-07-09 19:29:02,097 - root - INFO - iter=1/30
+2023-07-09 19:29:03,418 - root - INFO - loss after updating Electric Field = 205.72536487151098, error_E=0.28985991005317785
+2023-07-09 19:29:03,418 - root - INFO - loss after updating Electric Field = 205.72536487151098, error_E=0.28985991005317785
+2023-07-09 19:29:45,531 - root - INFO - Starting image generator
+2023-07-09 19:29:45,531 - root - INFO - Starting image generator
+2023-07-09 19:29:45,532 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 19:29:45,532 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 19:29:45,533 - root - INFO - Generating image no. 1/1
+2023-07-09 19:29:45,533 - root - INFO - Generating image no. 1/1
+2023-07-09 19:29:45,533 - root - INFO - The image will have 3 circles
+2023-07-09 19:29:45,533 - root - INFO - The image will have 3 circles
+2023-07-09 19:29:45,577 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 19:29:45,577 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 19:29:46,129 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 19:29:46,129 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 19:29:46,487 - root - INFO - Starting MWT solver
+2023-07-09 19:29:46,487 - root - INFO - Starting MWT solver
+2023-07-09 19:29:47,767 - root - INFO - iter=1/30
+2023-07-09 19:29:47,767 - root - INFO - iter=1/30
+2023-07-09 19:29:49,163 - root - INFO - loss after updating Electric Field = 220.57726802785817, error_E=0.3006432301851522
+2023-07-09 19:29:49,163 - root - INFO - loss after updating Electric Field = 220.57726802785817, error_E=0.3006432301851522
+2023-07-09 19:37:19,785 - root - INFO - Starting image generator
+2023-07-09 19:37:19,785 - root - INFO - Starting image generator
+2023-07-09 19:37:19,786 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 19:37:19,786 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 19:37:19,786 - root - INFO - Generating image no. 1/1
+2023-07-09 19:37:19,786 - root - INFO - Generating image no. 1/1
+2023-07-09 19:37:19,787 - root - INFO - The image will have 3 circles
+2023-07-09 19:37:19,787 - root - INFO - The image will have 3 circles
+2023-07-09 19:37:19,841 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 19:37:19,841 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 19:37:20,411 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 19:37:20,411 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 19:37:20,753 - root - INFO - Starting MWT solver
+2023-07-09 19:37:20,753 - root - INFO - Starting MWT solver
+2023-07-09 19:37:22,123 - root - INFO - iter=1/30
+2023-07-09 19:37:22,123 - root - INFO - iter=1/30
+2023-07-09 19:37:23,466 - root - INFO - loss after updating Electric Field = 204.1027192623099, error_E=0.2901314813698231
+2023-07-09 19:37:23,466 - root - INFO - loss after updating Electric Field = 204.1027192623099, error_E=0.2901314813698231
+2023-07-09 19:37:39,781 - root - INFO - Starting image generator
+2023-07-09 19:37:39,781 - root - INFO - Starting image generator
+2023-07-09 19:37:39,782 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 19:37:39,782 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 19:37:39,782 - root - INFO - Generating image no. 1/1
+2023-07-09 19:37:39,782 - root - INFO - Generating image no. 1/1
+2023-07-09 19:37:39,783 - root - INFO - The image will have 3 circles
+2023-07-09 19:37:39,783 - root - INFO - The image will have 3 circles
+2023-07-09 19:37:39,833 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 19:37:39,833 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 19:37:40,391 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 19:37:40,391 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 19:37:40,722 - root - INFO - Starting MWT solver
+2023-07-09 19:37:40,722 - root - INFO - Starting MWT solver
+2023-07-09 19:37:42,049 - root - INFO - iter=1/30
+2023-07-09 19:37:42,049 - root - INFO - iter=1/30
+2023-07-09 19:37:43,289 - root - INFO - loss after updating Electric Field = 205.73600219839548, error_E=0.2896665029348922
+2023-07-09 19:37:43,289 - root - INFO - loss after updating Electric Field = 205.73600219839548, error_E=0.2896665029348922
+2023-07-09 19:38:01,726 - root - INFO - Starting image generator
+2023-07-09 19:38:01,726 - root - INFO - Starting image generator
+2023-07-09 19:38:01,726 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 19:38:01,726 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 19:38:01,727 - root - INFO - Generating image no. 1/1
+2023-07-09 19:38:01,727 - root - INFO - Generating image no. 1/1
+2023-07-09 19:38:01,727 - root - INFO - The image will have 3 circles
+2023-07-09 19:38:01,727 - root - INFO - The image will have 3 circles
+2023-07-09 19:38:01,772 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 19:38:01,772 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 19:38:02,333 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 19:38:02,333 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 19:38:02,651 - root - INFO - Starting MWT solver
+2023-07-09 19:38:02,651 - root - INFO - Starting MWT solver
+2023-07-09 19:38:04,122 - root - INFO - iter=1/30
+2023-07-09 19:38:04,122 - root - INFO - iter=1/30
+2023-07-09 19:38:05,362 - root - INFO - loss after updating Electric Field = 220.19232462408775, error_E=0.3005060649248481
+2023-07-09 19:38:05,362 - root - INFO - loss after updating Electric Field = 220.19232462408775, error_E=0.3005060649248481
+2023-07-09 19:39:22,074 - root - INFO - Starting image generator
+2023-07-09 19:39:22,074 - root - INFO - Starting image generator
+2023-07-09 19:39:22,075 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 19:39:22,075 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 19:39:22,075 - root - INFO - Generating image no. 1/1
+2023-07-09 19:39:22,075 - root - INFO - Generating image no. 1/1
+2023-07-09 19:39:22,075 - root - INFO - The image will have 3 circles
+2023-07-09 19:39:22,075 - root - INFO - The image will have 3 circles
+2023-07-09 19:39:22,126 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 19:39:22,126 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 19:39:22,680 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 19:39:22,680 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 19:39:23,013 - root - INFO - Starting MWT solver
+2023-07-09 19:39:23,013 - root - INFO - Starting MWT solver
+2023-07-09 19:39:24,480 - root - INFO - iter=1/30
+2023-07-09 19:39:24,480 - root - INFO - iter=1/30
+2023-07-09 19:39:25,887 - root - INFO - loss after updating Electric Field = 209.33933839974003, error_E=0.29295569233812935
+2023-07-09 19:39:25,887 - root - INFO - loss after updating Electric Field = 209.33933839974003, error_E=0.29295569233812935
+2023-07-09 19:40:03,683 - root - INFO - Starting image generator
+2023-07-09 19:40:03,683 - root - INFO - Starting image generator
+2023-07-09 19:40:03,684 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 19:40:03,684 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 19:40:03,684 - root - INFO - Generating image no. 1/1
+2023-07-09 19:40:03,684 - root - INFO - Generating image no. 1/1
+2023-07-09 19:40:03,685 - root - INFO - The image will have 3 circles
+2023-07-09 19:40:03,685 - root - INFO - The image will have 3 circles
+2023-07-09 19:40:03,737 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 19:40:03,737 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 19:40:04,279 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 19:40:04,279 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 19:40:04,601 - root - INFO - Starting MWT solver
+2023-07-09 19:40:04,601 - root - INFO - Starting MWT solver
+2023-07-09 19:40:05,961 - root - INFO - iter=1/30
+2023-07-09 19:40:05,961 - root - INFO - iter=1/30
+2023-07-09 19:40:07,251 - root - INFO - loss after updating Electric Field = 216.12982076639327, error_E=0.29765501411994816
+2023-07-09 19:40:07,251 - root - INFO - loss after updating Electric Field = 216.12982076639327, error_E=0.29765501411994816
+2023-07-09 19:41:35,472 - root - INFO - Starting image generator
+2023-07-09 19:41:35,472 - root - INFO - Starting image generator
+2023-07-09 19:41:35,473 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 19:41:35,473 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 19:41:35,473 - root - INFO - Generating image no. 1/1
+2023-07-09 19:41:35,473 - root - INFO - Generating image no. 1/1
+2023-07-09 19:41:35,473 - root - INFO - The image will have 3 circles
+2023-07-09 19:41:35,473 - root - INFO - The image will have 3 circles
+2023-07-09 19:41:35,520 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 19:41:35,520 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 19:41:36,063 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 19:41:36,063 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 19:41:36,382 - root - INFO - Starting MWT solver
+2023-07-09 19:41:36,382 - root - INFO - Starting MWT solver
+2023-07-09 19:41:37,660 - root - INFO - iter=1/30
+2023-07-09 19:41:37,660 - root - INFO - iter=1/30
+2023-07-09 19:41:39,074 - root - INFO - loss after updating Electric Field = 206.5411361189048, error_E=0.2919270521020128
+2023-07-09 19:41:39,074 - root - INFO - loss after updating Electric Field = 206.5411361189048, error_E=0.2919270521020128
+2023-07-09 19:42:17,004 - root - INFO - Starting image generator
+2023-07-09 19:42:17,004 - root - INFO - Starting image generator
+2023-07-09 19:42:17,005 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 19:42:17,005 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 19:42:17,005 - root - INFO - Generating image no. 1/1
+2023-07-09 19:42:17,005 - root - INFO - Generating image no. 1/1
+2023-07-09 19:42:17,006 - root - INFO - The image will have 3 circles
+2023-07-09 19:42:17,006 - root - INFO - The image will have 3 circles
+2023-07-09 19:42:17,054 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 19:42:17,054 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 19:42:17,599 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 19:42:17,599 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 19:42:17,923 - root - INFO - Starting MWT solver
+2023-07-09 19:42:17,923 - root - INFO - Starting MWT solver
+2023-07-09 19:42:19,203 - root - INFO - iter=1/30
+2023-07-09 19:42:19,203 - root - INFO - iter=1/30
+2023-07-09 19:42:20,504 - root - INFO - loss after updating Electric Field = 206.87516668177014, error_E=0.29134821337799105
+2023-07-09 19:42:20,504 - root - INFO - loss after updating Electric Field = 206.87516668177014, error_E=0.29134821337799105
+2023-07-09 19:43:32,760 - root - INFO - Starting image generator
+2023-07-09 19:43:32,760 - root - INFO - Starting image generator
+2023-07-09 19:43:32,761 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 19:43:32,761 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 19:43:32,761 - root - INFO - Generating image no. 1/1
+2023-07-09 19:43:32,761 - root - INFO - Generating image no. 1/1
+2023-07-09 19:43:32,762 - root - INFO - The image will have 3 circles
+2023-07-09 19:43:32,762 - root - INFO - The image will have 3 circles
+2023-07-09 19:43:32,807 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 19:43:32,807 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 19:43:33,352 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 19:43:33,352 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 19:43:33,677 - root - INFO - Starting MWT solver
+2023-07-09 19:43:33,677 - root - INFO - Starting MWT solver
+2023-07-09 19:43:34,970 - root - INFO - iter=1/30
+2023-07-09 19:43:34,970 - root - INFO - iter=1/30
+2023-07-09 19:43:36,289 - root - INFO - loss after updating Electric Field = 213.40310450710254, error_E=0.2959068147217303
+2023-07-09 19:43:36,289 - root - INFO - loss after updating Electric Field = 213.40310450710254, error_E=0.2959068147217303
+2023-07-09 19:46:56,420 - root - INFO - Starting image generator
+2023-07-09 19:46:56,420 - root - INFO - Starting image generator
+2023-07-09 19:46:56,421 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 19:46:56,421 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 19:46:56,421 - root - INFO - Generating image no. 1/1
+2023-07-09 19:46:56,421 - root - INFO - Generating image no. 1/1
+2023-07-09 19:46:56,422 - root - INFO - The image will have 3 circles
+2023-07-09 19:46:56,422 - root - INFO - The image will have 3 circles
+2023-07-09 19:46:56,470 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 19:46:56,470 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 19:46:57,024 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 19:46:57,024 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 19:46:57,359 - root - INFO - Starting MWT solver
+2023-07-09 19:46:57,359 - root - INFO - Starting MWT solver
+2023-07-09 19:46:58,759 - root - INFO - iter=1/30
+2023-07-09 19:46:58,759 - root - INFO - iter=1/30
+2023-07-09 19:47:00,067 - root - INFO - loss after updating Electric Field = 213.92914750699194, error_E=0.29766958491559087
+2023-07-09 19:47:00,067 - root - INFO - loss after updating Electric Field = 213.92914750699194, error_E=0.29766958491559087
+2023-07-09 19:48:08,261 - root - INFO - Starting image generator
+2023-07-09 19:48:08,261 - root - INFO - Starting image generator
+2023-07-09 19:48:08,262 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 19:48:08,262 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 19:48:08,262 - root - INFO - Generating image no. 1/1
+2023-07-09 19:48:08,262 - root - INFO - Generating image no. 1/1
+2023-07-09 19:48:08,262 - root - INFO - The image will have 3 circles
+2023-07-09 19:48:08,262 - root - INFO - The image will have 3 circles
+2023-07-09 19:48:08,309 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 19:48:08,309 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 19:48:08,886 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 19:48:08,886 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 19:48:09,222 - root - INFO - Starting MWT solver
+2023-07-09 19:48:09,222 - root - INFO - Starting MWT solver
+2023-07-09 19:48:10,720 - root - INFO - iter=1/30
+2023-07-09 19:48:10,720 - root - INFO - iter=1/30
+2023-07-09 19:48:12,084 - root - INFO - loss after updating Electric Field = 204.0420437574592, error_E=0.28978985991065903
+2023-07-09 19:48:12,084 - root - INFO - loss after updating Electric Field = 204.0420437574592, error_E=0.28978985991065903
+2023-07-09 19:49:31,953 - root - INFO - Starting image generator
+2023-07-09 19:49:31,953 - root - INFO - Starting image generator
+2023-07-09 19:49:31,954 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 19:49:31,954 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 19:49:31,955 - root - INFO - Generating image no. 1/1
+2023-07-09 19:49:31,955 - root - INFO - Generating image no. 1/1
+2023-07-09 19:49:31,955 - root - INFO - The image will have 3 circles
+2023-07-09 19:49:31,955 - root - INFO - The image will have 3 circles
+2023-07-09 19:49:32,001 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 19:49:32,001 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 19:49:32,551 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 19:49:32,551 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 19:49:32,874 - root - INFO - Starting MWT solver
+2023-07-09 19:49:32,874 - root - INFO - Starting MWT solver
+2023-07-09 19:49:34,162 - root - INFO - iter=1/30
+2023-07-09 19:49:34,162 - root - INFO - iter=1/30
+2023-07-09 19:49:35,645 - root - INFO - loss after updating Electric Field = 215.4708100922383, error_E=0.29661132228715004
+2023-07-09 19:49:35,645 - root - INFO - loss after updating Electric Field = 215.4708100922383, error_E=0.29661132228715004
+2023-07-09 19:50:42,382 - root - INFO - Starting image generator
+2023-07-09 19:50:42,382 - root - INFO - Starting image generator
+2023-07-09 19:50:42,383 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 19:50:42,383 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 19:50:42,383 - root - INFO - Generating image no. 1/1
+2023-07-09 19:50:42,383 - root - INFO - Generating image no. 1/1
+2023-07-09 19:50:42,383 - root - INFO - The image will have 3 circles
+2023-07-09 19:50:42,383 - root - INFO - The image will have 3 circles
+2023-07-09 19:50:42,469 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 19:50:42,469 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 19:50:43,024 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 19:50:43,024 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 19:50:43,354 - root - INFO - Starting MWT solver
+2023-07-09 19:50:43,354 - root - INFO - Starting MWT solver
+2023-07-09 19:50:44,759 - root - INFO - iter=1/30
+2023-07-09 19:50:44,759 - root - INFO - iter=1/30
+2023-07-09 19:50:46,067 - root - INFO - loss after updating Electric Field = 206.68455063991743, error_E=0.29284827927043966
+2023-07-09 19:50:46,067 - root - INFO - loss after updating Electric Field = 206.68455063991743, error_E=0.29284827927043966
+2023-07-09 19:53:10,373 - root - INFO - Starting image generator
+2023-07-09 19:53:10,373 - root - INFO - Starting image generator
+2023-07-09 19:53:10,374 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 19:53:10,374 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 19:53:10,374 - root - INFO - Generating image no. 1/1
+2023-07-09 19:53:10,374 - root - INFO - Generating image no. 1/1
+2023-07-09 19:53:10,374 - root - INFO - The image will have 3 circles
+2023-07-09 19:53:10,374 - root - INFO - The image will have 3 circles
+2023-07-09 19:53:10,443 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 19:53:10,443 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 19:53:10,990 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 19:53:10,990 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 19:53:11,319 - root - INFO - Starting MWT solver
+2023-07-09 19:53:11,319 - root - INFO - Starting MWT solver
+2023-07-09 19:53:12,597 - root - INFO - iter=1/30
+2023-07-09 19:53:12,597 - root - INFO - iter=1/30
+2023-07-09 19:53:13,841 - root - INFO - loss after updating Electric Field = 207.8314770477095, error_E=0.29385603664796817
+2023-07-09 19:53:13,841 - root - INFO - loss after updating Electric Field = 207.8314770477095, error_E=0.29385603664796817
+2023-07-09 19:55:00,593 - root - INFO - Starting image generator
+2023-07-09 19:55:00,593 - root - INFO - Starting image generator
+2023-07-09 19:55:00,594 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 19:55:00,594 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 19:55:00,594 - root - INFO - Generating image no. 1/1
+2023-07-09 19:55:00,594 - root - INFO - Generating image no. 1/1
+2023-07-09 19:55:00,594 - root - INFO - The image will have 3 circles
+2023-07-09 19:55:00,594 - root - INFO - The image will have 3 circles
+2023-07-09 19:55:00,640 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 19:55:00,640 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 19:55:01,180 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 19:55:01,180 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 19:55:01,498 - root - INFO - Starting MWT solver
+2023-07-09 19:55:01,498 - root - INFO - Starting MWT solver
+2023-07-09 19:55:02,805 - root - INFO - iter=1/30
+2023-07-09 19:55:02,805 - root - INFO - iter=1/30
+2023-07-09 19:55:04,283 - root - INFO - loss after updating Electric Field = 203.85086282732982, error_E=0.2904016820398825
+2023-07-09 19:55:04,283 - root - INFO - loss after updating Electric Field = 203.85086282732982, error_E=0.2904016820398825
+2023-07-09 20:07:51,990 - root - INFO - Starting image generator
+2023-07-09 20:07:51,990 - root - INFO - Starting image generator
+2023-07-09 20:07:51,990 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 20:07:51,990 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 20:07:51,991 - root - INFO - Generating image no. 1/1
+2023-07-09 20:07:51,991 - root - INFO - Generating image no. 1/1
+2023-07-09 20:07:51,991 - root - INFO - The image will have 3 circles
+2023-07-09 20:07:51,991 - root - INFO - The image will have 3 circles
+2023-07-09 20:07:52,115 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 20:07:52,115 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 20:07:52,661 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 20:07:52,661 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 20:07:52,983 - root - INFO - Starting MWT solver
+2023-07-09 20:07:52,983 - root - INFO - Starting MWT solver
+2023-07-09 20:07:54,307 - root - INFO - iter=1/30
+2023-07-09 20:07:54,307 - root - INFO - iter=1/30
+2023-07-09 20:07:55,548 - root - INFO - loss after updating Electric Field = 209.48202032535193, error_E=0.29375267860097026
+2023-07-09 20:07:55,548 - root - INFO - loss after updating Electric Field = 209.48202032535193, error_E=0.29375267860097026
+2023-07-09 20:09:03,223 - root - INFO - Starting image generator
+2023-07-09 20:09:03,223 - root - INFO - Starting image generator
+2023-07-09 20:09:03,223 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 20:09:03,223 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 20:09:03,224 - root - INFO - Generating image no. 1/1
+2023-07-09 20:09:03,224 - root - INFO - Generating image no. 1/1
+2023-07-09 20:09:03,224 - root - INFO - The image will have 3 circles
+2023-07-09 20:09:03,224 - root - INFO - The image will have 3 circles
+2023-07-09 20:09:03,272 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 20:09:03,272 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 20:09:03,818 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 20:09:03,818 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 20:09:04,137 - root - INFO - Starting MWT solver
+2023-07-09 20:09:04,137 - root - INFO - Starting MWT solver
+2023-07-09 20:09:05,460 - root - INFO - iter=1/30
+2023-07-09 20:09:05,460 - root - INFO - iter=1/30
+2023-07-09 20:09:06,740 - root - INFO - loss after updating Electric Field = 211.27457167719538, error_E=0.29415797010731426
+2023-07-09 20:09:06,740 - root - INFO - loss after updating Electric Field = 211.27457167719538, error_E=0.29415797010731426
+2023-07-09 20:09:42,628 - root - INFO - Starting image generator
+2023-07-09 20:09:42,628 - root - INFO - Starting image generator
+2023-07-09 20:09:42,629 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 20:09:42,629 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 20:09:42,629 - root - INFO - Generating image no. 1/1
+2023-07-09 20:09:42,629 - root - INFO - Generating image no. 1/1
+2023-07-09 20:09:42,630 - root - INFO - The image will have 3 circles
+2023-07-09 20:09:42,630 - root - INFO - The image will have 3 circles
+2023-07-09 20:09:42,764 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 20:09:42,764 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 20:09:43,307 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 20:09:43,307 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 20:09:43,633 - root - INFO - Starting MWT solver
+2023-07-09 20:09:43,633 - root - INFO - Starting MWT solver
+2023-07-09 20:09:45,823 - root - INFO - iter=1/30
+2023-07-09 20:09:45,823 - root - INFO - iter=1/30
+2023-07-09 20:09:47,854 - root - INFO - loss after updating Electric Field = 211.2332161892322, error_E=0.2952565718532434
+2023-07-09 20:09:47,854 - root - INFO - loss after updating Electric Field = 211.2332161892322, error_E=0.2952565718532434
+2023-07-09 20:10:13,190 - root - INFO - Starting image generator
+2023-07-09 20:10:13,190 - root - INFO - Starting image generator
+2023-07-09 20:10:13,191 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 20:10:13,191 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 20:10:13,191 - root - INFO - Generating image no. 1/1
+2023-07-09 20:10:13,191 - root - INFO - Generating image no. 1/1
+2023-07-09 20:10:13,191 - root - INFO - The image will have 3 circles
+2023-07-09 20:10:13,191 - root - INFO - The image will have 3 circles
+2023-07-09 20:10:13,245 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 20:10:13,245 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 20:10:13,799 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 20:10:13,799 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 20:10:14,147 - root - INFO - Starting MWT solver
+2023-07-09 20:10:14,147 - root - INFO - Starting MWT solver
+2023-07-09 20:10:15,442 - root - INFO - iter=1/30
+2023-07-09 20:10:15,442 - root - INFO - iter=1/30
+2023-07-09 20:10:16,687 - root - INFO - loss after updating Electric Field = 219.54454925318882, error_E=0.30124763637999585
+2023-07-09 20:10:16,687 - root - INFO - loss after updating Electric Field = 219.54454925318882, error_E=0.30124763637999585
+2023-07-09 20:11:10,725 - root - INFO - Starting image generator
+2023-07-09 20:11:10,725 - root - INFO - Starting image generator
+2023-07-09 20:11:10,726 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 20:11:10,726 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 20:11:10,727 - root - INFO - Generating image no. 1/1
+2023-07-09 20:11:10,727 - root - INFO - Generating image no. 1/1
+2023-07-09 20:11:10,727 - root - INFO - The image will have 3 circles
+2023-07-09 20:11:10,727 - root - INFO - The image will have 3 circles
+2023-07-09 20:11:10,772 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 20:11:10,772 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 20:11:11,328 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 20:11:11,328 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 20:11:11,669 - root - INFO - Starting MWT solver
+2023-07-09 20:11:11,669 - root - INFO - Starting MWT solver
+2023-07-09 20:11:12,951 - root - INFO - iter=1/30
+2023-07-09 20:11:12,951 - root - INFO - iter=1/30
+2023-07-09 20:11:14,362 - root - INFO - loss after updating Electric Field = 214.4108387832972, error_E=0.2954652605853755
+2023-07-09 20:11:14,362 - root - INFO - loss after updating Electric Field = 214.4108387832972, error_E=0.2954652605853755
+2023-07-09 20:12:42,551 - root - INFO - Starting image generator
+2023-07-09 20:12:42,551 - root - INFO - Starting image generator
+2023-07-09 20:12:42,552 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 20:12:42,552 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 20:12:42,552 - root - INFO - Generating image no. 1/1
+2023-07-09 20:12:42,552 - root - INFO - Generating image no. 1/1
+2023-07-09 20:12:42,552 - root - INFO - The image will have 3 circles
+2023-07-09 20:12:42,552 - root - INFO - The image will have 3 circles
+2023-07-09 20:12:42,597 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 20:12:42,597 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 20:12:43,151 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 20:12:43,151 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 20:12:43,487 - root - INFO - Starting MWT solver
+2023-07-09 20:12:43,487 - root - INFO - Starting MWT solver
+2023-07-09 20:12:44,773 - root - INFO - iter=1/30
+2023-07-09 20:12:44,773 - root - INFO - iter=1/30
+2023-07-09 20:12:46,017 - root - INFO - loss after updating Electric Field = 207.66184255072184, error_E=0.2934663753014567
+2023-07-09 20:12:46,017 - root - INFO - loss after updating Electric Field = 207.66184255072184, error_E=0.2934663753014567
+2023-07-09 20:13:50,247 - root - INFO - Starting image generator
+2023-07-09 20:13:50,247 - root - INFO - Starting image generator
+2023-07-09 20:13:50,248 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 20:13:50,248 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 20:13:50,248 - root - INFO - Generating image no. 1/1
+2023-07-09 20:13:50,248 - root - INFO - Generating image no. 1/1
+2023-07-09 20:13:50,249 - root - INFO - The image will have 3 circles
+2023-07-09 20:13:50,249 - root - INFO - The image will have 3 circles
+2023-07-09 20:13:50,294 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 20:13:50,294 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 20:13:50,840 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 20:13:50,840 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 20:13:51,168 - root - INFO - Starting MWT solver
+2023-07-09 20:13:51,168 - root - INFO - Starting MWT solver
+2023-07-09 20:13:52,446 - root - INFO - iter=1/30
+2023-07-09 20:13:52,446 - root - INFO - iter=1/30
+2023-07-09 20:13:53,635 - root - INFO - loss after updating Electric Field = 214.14377127835465, error_E=0.29618534880952363
+2023-07-09 20:13:53,635 - root - INFO - loss after updating Electric Field = 214.14377127835465, error_E=0.29618534880952363
+2023-07-09 20:21:04,524 - root - INFO - Starting image generator
+2023-07-09 20:21:04,524 - root - INFO - Starting image generator
+2023-07-09 20:21:04,525 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 20:21:04,525 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 20:21:04,525 - root - INFO - Generating image no. 1/1
+2023-07-09 20:21:04,525 - root - INFO - Generating image no. 1/1
+2023-07-09 20:21:04,526 - root - INFO - The image will have 3 circles
+2023-07-09 20:21:04,526 - root - INFO - The image will have 3 circles
+2023-07-09 20:21:04,571 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 20:21:04,571 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 20:21:05,116 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 20:21:05,116 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 20:21:05,436 - root - INFO - Starting MWT solver
+2023-07-09 20:21:05,436 - root - INFO - Starting MWT solver
+2023-07-09 20:21:06,730 - root - INFO - iter=1/30
+2023-07-09 20:21:06,730 - root - INFO - iter=1/30
+2023-07-09 20:21:07,966 - root - INFO - loss after updating Electric Field = 210.45834088477898, error_E=0.2941590185514198
+2023-07-09 20:21:07,966 - root - INFO - loss after updating Electric Field = 210.45834088477898, error_E=0.2941590185514198
+2023-07-09 20:24:51,179 - root - INFO - Starting image generator
+2023-07-09 20:24:51,179 - root - INFO - Starting image generator
+2023-07-09 20:24:51,181 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 20:24:51,181 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 20:24:51,181 - root - INFO - Generating image no. 1/1
+2023-07-09 20:24:51,181 - root - INFO - Generating image no. 1/1
+2023-07-09 20:24:51,181 - root - INFO - The image will have 3 circles
+2023-07-09 20:24:51,181 - root - INFO - The image will have 3 circles
+2023-07-09 20:24:51,227 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 20:24:51,227 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 20:24:51,774 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 20:24:51,774 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 20:24:52,102 - root - INFO - Starting MWT solver
+2023-07-09 20:24:52,102 - root - INFO - Starting MWT solver
+2023-07-09 20:24:53,384 - root - INFO - iter=1/30
+2023-07-09 20:24:53,384 - root - INFO - iter=1/30
+2023-07-09 20:24:54,756 - root - INFO - loss after updating Electric Field = 203.59071732418477, error_E=0.29196218235765364
+2023-07-09 20:24:54,756 - root - INFO - loss after updating Electric Field = 203.59071732418477, error_E=0.29196218235765364
+2023-07-09 20:31:26,986 - root - INFO - Starting image generator
+2023-07-09 20:31:26,986 - root - INFO - Starting image generator
+2023-07-09 20:31:26,987 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 20:31:26,987 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 20:31:26,987 - root - INFO - Generating image no. 1/1
+2023-07-09 20:31:26,987 - root - INFO - Generating image no. 1/1
+2023-07-09 20:31:26,988 - root - INFO - The image will have 3 circles
+2023-07-09 20:31:26,988 - root - INFO - The image will have 3 circles
+2023-07-09 20:31:27,033 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 20:31:27,033 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 20:31:27,585 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 20:31:27,585 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 20:31:27,920 - root - INFO - Starting MWT solver
+2023-07-09 20:31:27,920 - root - INFO - Starting MWT solver
+2023-07-09 20:31:29,245 - root - INFO - iter=1/30
+2023-07-09 20:31:29,245 - root - INFO - iter=1/30
+2023-07-09 20:31:30,604 - root - INFO - loss after updating Electric Field = 219.4081605393514, error_E=0.3011420144026797
+2023-07-09 20:31:30,604 - root - INFO - loss after updating Electric Field = 219.4081605393514, error_E=0.3011420144026797
+2023-07-09 20:34:27,986 - root - INFO - Starting image generator
+2023-07-09 20:34:27,986 - root - INFO - Starting image generator
+2023-07-09 20:34:27,987 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 20:34:27,987 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 20:34:27,987 - root - INFO - Generating image no. 1/1
+2023-07-09 20:34:27,987 - root - INFO - Generating image no. 1/1
+2023-07-09 20:34:27,988 - root - INFO - The image will have 3 circles
+2023-07-09 20:34:27,988 - root - INFO - The image will have 3 circles
+2023-07-09 20:34:28,034 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 20:34:28,034 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 20:34:28,585 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 20:34:28,585 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 20:34:28,914 - root - INFO - Starting MWT solver
+2023-07-09 20:34:28,914 - root - INFO - Starting MWT solver
+2023-07-09 20:34:30,199 - root - INFO - iter=1/30
+2023-07-09 20:34:30,199 - root - INFO - iter=1/30
+2023-07-09 20:34:31,384 - root - INFO - loss after updating Electric Field = 208.1475126824874, error_E=0.29110063035826095
+2023-07-09 20:34:31,384 - root - INFO - loss after updating Electric Field = 208.1475126824874, error_E=0.29110063035826095
+2023-07-09 20:38:26,067 - root - INFO - Starting image generator
+2023-07-09 20:38:26,067 - root - INFO - Starting image generator
+2023-07-09 20:38:26,068 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 20:38:26,068 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 20:38:26,068 - root - INFO - Generating image no. 1/1
+2023-07-09 20:38:26,068 - root - INFO - Generating image no. 1/1
+2023-07-09 20:38:26,068 - root - INFO - The image will have 3 circles
+2023-07-09 20:38:26,068 - root - INFO - The image will have 3 circles
+2023-07-09 20:38:26,114 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 20:38:26,114 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 20:38:26,668 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 20:38:26,668 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 20:38:26,998 - root - INFO - Starting MWT solver
+2023-07-09 20:38:26,998 - root - INFO - Starting MWT solver
+2023-07-09 20:38:28,265 - root - INFO - iter=1/30
+2023-07-09 20:38:28,265 - root - INFO - iter=1/30
+2023-07-09 20:38:29,521 - root - INFO - loss after updating Electric Field = 210.83186735081182, error_E=0.2943967740123892
+2023-07-09 20:38:29,521 - root - INFO - loss after updating Electric Field = 210.83186735081182, error_E=0.2943967740123892
+2023-07-09 20:39:52,016 - root - INFO - Starting image generator
+2023-07-09 20:39:52,016 - root - INFO - Starting image generator
+2023-07-09 20:39:52,017 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 20:39:52,017 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 20:39:52,018 - root - INFO - Generating image no. 1/1
+2023-07-09 20:39:52,018 - root - INFO - Generating image no. 1/1
+2023-07-09 20:39:52,018 - root - INFO - The image will have 3 circles
+2023-07-09 20:39:52,018 - root - INFO - The image will have 3 circles
+2023-07-09 20:39:52,065 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 20:39:52,065 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 20:39:52,633 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 20:39:52,633 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 20:39:52,966 - root - INFO - Starting MWT solver
+2023-07-09 20:39:52,966 - root - INFO - Starting MWT solver
+2023-07-09 20:39:54,249 - root - INFO - iter=1/30
+2023-07-09 20:39:54,249 - root - INFO - iter=1/30
+2023-07-09 20:39:55,491 - root - INFO - loss after updating Electric Field = 217.49808693257953, error_E=0.2985172620729428
+2023-07-09 20:39:55,491 - root - INFO - loss after updating Electric Field = 217.49808693257953, error_E=0.2985172620729428
+2023-07-09 20:48:04,691 - root - INFO - Starting image generator
+2023-07-09 20:48:04,691 - root - INFO - Starting image generator
+2023-07-09 20:48:04,692 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 20:48:04,692 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 20:48:04,692 - root - INFO - Generating image no. 1/1
+2023-07-09 20:48:04,692 - root - INFO - Generating image no. 1/1
+2023-07-09 20:48:04,693 - root - INFO - The image will have 3 circles
+2023-07-09 20:48:04,693 - root - INFO - The image will have 3 circles
+2023-07-09 20:48:04,741 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 20:48:04,741 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 20:48:05,286 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 20:48:05,286 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 20:48:05,605 - root - INFO - Starting MWT solver
+2023-07-09 20:48:05,605 - root - INFO - Starting MWT solver
+2023-07-09 20:48:06,898 - root - INFO - iter=1/30
+2023-07-09 20:48:06,898 - root - INFO - iter=1/30
+2023-07-09 20:48:08,204 - root - INFO - loss after updating Electric Field = 219.95547341776006, error_E=0.3011005504272002
+2023-07-09 20:48:08,204 - root - INFO - loss after updating Electric Field = 219.95547341776006, error_E=0.3011005504272002
+2023-07-09 21:30:29,623 - root - INFO - Starting image generator
+2023-07-09 21:30:29,623 - root - INFO - Starting image generator
+2023-07-09 21:30:29,624 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 21:30:29,624 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 21:30:29,625 - root - INFO - Generating image no. 1/1
+2023-07-09 21:30:29,625 - root - INFO - Generating image no. 1/1
+2023-07-09 21:30:29,625 - root - INFO - The image will have 3 circles
+2023-07-09 21:30:29,625 - root - INFO - The image will have 3 circles
+2023-07-09 21:30:29,671 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 21:30:29,671 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 21:30:30,221 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 21:30:30,221 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 21:30:30,554 - root - INFO - Starting MWT solver
+2023-07-09 21:30:30,554 - root - INFO - Starting MWT solver
+2023-07-09 21:30:31,827 - root - INFO - iter=1/30
+2023-07-09 21:30:31,827 - root - INFO - iter=1/30
+2023-07-09 21:30:33,276 - root - INFO - loss after updating Electric Field = 219.59576243285835, error_E=0.29860861648109677
+2023-07-09 21:30:33,276 - root - INFO - loss after updating Electric Field = 219.59576243285835, error_E=0.29860861648109677
+2023-07-09 21:32:17,635 - root - INFO - Starting image generator
+2023-07-09 21:32:17,635 - root - INFO - Starting image generator
+2023-07-09 21:32:17,636 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 21:32:17,636 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 21:32:17,636 - root - INFO - Generating image no. 1/1
+2023-07-09 21:32:17,636 - root - INFO - Generating image no. 1/1
+2023-07-09 21:32:17,637 - root - INFO - The image will have 3 circles
+2023-07-09 21:32:17,637 - root - INFO - The image will have 3 circles
+2023-07-09 21:32:17,683 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 21:32:17,683 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 21:32:18,227 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 21:32:18,227 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 21:32:18,549 - root - INFO - Starting MWT solver
+2023-07-09 21:32:18,549 - root - INFO - Starting MWT solver
+2023-07-09 21:32:19,836 - root - INFO - iter=1/30
+2023-07-09 21:32:19,836 - root - INFO - iter=1/30
+2023-07-09 21:32:21,112 - root - INFO - loss after updating Electric Field = 209.6700286299079, error_E=0.29273622055551657
+2023-07-09 21:32:21,112 - root - INFO - loss after updating Electric Field = 209.6700286299079, error_E=0.29273622055551657
+2023-07-09 21:32:57,695 - root - INFO - Starting image generator
+2023-07-09 21:32:57,695 - root - INFO - Starting image generator
+2023-07-09 21:32:57,696 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 21:32:57,696 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 21:32:57,696 - root - INFO - Generating image no. 1/1
+2023-07-09 21:32:57,696 - root - INFO - Generating image no. 1/1
+2023-07-09 21:32:57,696 - root - INFO - The image will have 3 circles
+2023-07-09 21:32:57,696 - root - INFO - The image will have 3 circles
+2023-07-09 21:32:57,742 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 21:32:57,742 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 21:32:58,287 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 21:32:58,287 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 21:32:58,608 - root - INFO - Starting MWT solver
+2023-07-09 21:32:58,608 - root - INFO - Starting MWT solver
+2023-07-09 21:32:59,879 - root - INFO - iter=1/30
+2023-07-09 21:32:59,879 - root - INFO - iter=1/30
+2023-07-09 21:33:01,227 - root - INFO - loss after updating Electric Field = 205.36377725987825, error_E=0.29022182014822095
+2023-07-09 21:33:01,227 - root - INFO - loss after updating Electric Field = 205.36377725987825, error_E=0.29022182014822095
+2023-07-09 21:37:51,986 - root - INFO - Starting image generator
+2023-07-09 21:37:51,986 - root - INFO - Starting image generator
+2023-07-09 21:37:51,987 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 21:37:51,987 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 21:37:51,987 - root - INFO - Generating image no. 1/1
+2023-07-09 21:37:51,987 - root - INFO - Generating image no. 1/1
+2023-07-09 21:37:51,988 - root - INFO - The image will have 3 circles
+2023-07-09 21:37:51,988 - root - INFO - The image will have 3 circles
+2023-07-09 21:37:52,032 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 21:37:52,032 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 21:37:52,578 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 21:37:52,578 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 21:37:52,897 - root - INFO - Starting MWT solver
+2023-07-09 21:37:52,897 - root - INFO - Starting MWT solver
+2023-07-09 21:37:54,180 - root - INFO - iter=1/30
+2023-07-09 21:37:54,180 - root - INFO - iter=1/30
+2023-07-09 21:37:55,436 - root - INFO - loss after updating Electric Field = 207.6095322526413, error_E=0.2925545843866879
+2023-07-09 21:37:55,436 - root - INFO - loss after updating Electric Field = 207.6095322526413, error_E=0.2925545843866879
+2023-07-09 21:38:44,774 - root - INFO - Starting image generator
+2023-07-09 21:38:44,774 - root - INFO - Starting image generator
+2023-07-09 21:38:44,775 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 21:38:44,775 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 21:38:44,775 - root - INFO - Generating image no. 1/1
+2023-07-09 21:38:44,775 - root - INFO - Generating image no. 1/1
+2023-07-09 21:38:44,776 - root - INFO - The image will have 3 circles
+2023-07-09 21:38:44,776 - root - INFO - The image will have 3 circles
+2023-07-09 21:38:44,820 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 21:38:44,820 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 21:38:45,369 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 21:38:45,369 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 21:38:45,722 - root - INFO - Starting MWT solver
+2023-07-09 21:38:45,722 - root - INFO - Starting MWT solver
+2023-07-09 21:38:47,166 - root - INFO - iter=1/30
+2023-07-09 21:38:47,166 - root - INFO - iter=1/30
+2023-07-09 21:38:48,455 - root - INFO - loss after updating Electric Field = 208.28897532897952, error_E=0.29263634273968037
+2023-07-09 21:38:48,455 - root - INFO - loss after updating Electric Field = 208.28897532897952, error_E=0.29263634273968037
+2023-07-09 21:40:01,164 - root - INFO - Starting image generator
+2023-07-09 21:40:01,164 - root - INFO - Starting image generator
+2023-07-09 21:40:01,165 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 21:40:01,165 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 21:40:01,165 - root - INFO - Generating image no. 1/1
+2023-07-09 21:40:01,165 - root - INFO - Generating image no. 1/1
+2023-07-09 21:40:01,165 - root - INFO - The image will have 3 circles
+2023-07-09 21:40:01,165 - root - INFO - The image will have 3 circles
+2023-07-09 21:40:01,211 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 21:40:01,211 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 21:40:01,753 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 21:40:01,753 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 21:40:02,074 - root - INFO - Starting MWT solver
+2023-07-09 21:40:02,074 - root - INFO - Starting MWT solver
+2023-07-09 21:40:03,346 - root - INFO - iter=1/30
+2023-07-09 21:40:03,346 - root - INFO - iter=1/30
+2023-07-09 21:40:04,747 - root - INFO - loss after updating Electric Field = 210.31075738104084, error_E=0.29422443272823345
+2023-07-09 21:40:04,747 - root - INFO - loss after updating Electric Field = 210.31075738104084, error_E=0.29422443272823345
+2023-07-09 21:41:05,239 - root - INFO - Starting image generator
+2023-07-09 21:41:05,239 - root - INFO - Starting image generator
+2023-07-09 21:41:05,240 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 21:41:05,240 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 21:41:05,240 - root - INFO - Generating image no. 1/1
+2023-07-09 21:41:05,240 - root - INFO - Generating image no. 1/1
+2023-07-09 21:41:05,240 - root - INFO - The image will have 3 circles
+2023-07-09 21:41:05,240 - root - INFO - The image will have 3 circles
+2023-07-09 21:41:05,313 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 21:41:05,313 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 21:41:05,856 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 21:41:05,856 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 21:41:06,182 - root - INFO - Starting MWT solver
+2023-07-09 21:41:06,182 - root - INFO - Starting MWT solver
+2023-07-09 21:41:07,482 - root - INFO - iter=1/30
+2023-07-09 21:41:07,482 - root - INFO - iter=1/30
+2023-07-09 21:41:08,772 - root - INFO - loss after updating Electric Field = 210.26493515243092, error_E=0.29365990489524
+2023-07-09 21:41:08,772 - root - INFO - loss after updating Electric Field = 210.26493515243092, error_E=0.29365990489524
+2023-07-09 21:52:22,686 - root - INFO - Starting image generator
+2023-07-09 21:52:22,686 - root - INFO - Starting image generator
+2023-07-09 21:52:22,687 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 21:52:22,687 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 21:52:22,687 - root - INFO - Generating image no. 1/1
+2023-07-09 21:52:22,687 - root - INFO - Generating image no. 1/1
+2023-07-09 21:52:22,688 - root - INFO - The image will have 3 circles
+2023-07-09 21:52:22,688 - root - INFO - The image will have 3 circles
+2023-07-09 21:52:22,734 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 21:52:22,734 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 21:52:23,279 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 21:52:23,279 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 21:52:23,606 - root - INFO - Starting MWT solver
+2023-07-09 21:52:23,606 - root - INFO - Starting MWT solver
+2023-07-09 21:52:24,898 - root - INFO - iter=1/30
+2023-07-09 21:52:24,898 - root - INFO - iter=1/30
+2023-07-09 21:52:26,144 - root - INFO - loss after updating Electric Field = 207.44512248474743, error_E=0.2905442234862499
+2023-07-09 21:52:26,144 - root - INFO - loss after updating Electric Field = 207.44512248474743, error_E=0.2905442234862499
+2023-07-09 21:55:00,312 - root - INFO - Starting image generator
+2023-07-09 21:55:00,312 - root - INFO - Starting image generator
+2023-07-09 21:55:00,313 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 21:55:00,313 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-07-09 21:55:00,313 - root - INFO - Generating image no. 1/1
+2023-07-09 21:55:00,313 - root - INFO - Generating image no. 1/1
+2023-07-09 21:55:00,314 - root - INFO - The image will have 3 circles
+2023-07-09 21:55:00,314 - root - INFO - The image will have 3 circles
+2023-07-09 21:55:00,359 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 21:55:00,359 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-07-09 21:55:00,916 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 21:55:00,916 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-07-09 21:55:01,252 - root - INFO - Starting MWT solver
+2023-07-09 21:55:01,252 - root - INFO - Starting MWT solver
+2023-07-09 21:55:02,612 - root - INFO - iter=1/30
+2023-07-09 21:55:02,612 - root - INFO - iter=1/30
+2023-07-09 21:55:03,889 - root - INFO - loss after updating Electric Field = 216.33421041844582, error_E=0.29841024868607197
+2023-07-09 21:55:03,889 - root - INFO - loss after updating Electric Field = 216.33421041844582, error_E=0.29841024868607197
+2023-07-09 21:56:37,035 - root - INFO - loss after updating Relative Permittivities = 113.27568854867354, error_rel_perm=0.6015624708063723
+2023-07-09 21:56:37,035 - root - INFO - loss after updating Relative Permittivities = 113.27568854867354, error_rel_perm=0.6015624708063723
+2023-07-09 21:56:42,107 - root - INFO - iter=2/30
+2023-07-09 21:56:42,107 - root - INFO - iter=2/30
+2023-07-09 21:56:51,874 - root - INFO - loss after updating Electric Field = 45.61408093737966, error_E=0.14793174274448395
+2023-07-09 21:56:51,874 - root - INFO - loss after updating Electric Field = 45.61408093737966, error_E=0.14793174274448395
+2023-07-09 21:58:18,029 - root - INFO - loss after updating Relative Permittivities = 28.783408191113878, error_rel_perm=0.4870028843113096
+2023-07-09 21:58:18,029 - root - INFO - loss after updating Relative Permittivities = 28.783408191113878, error_rel_perm=0.4870028843113096
+2023-07-09 21:58:18,029 - root - INFO - iter=3/30
+2023-07-09 21:58:18,029 - root - INFO - iter=3/30
+2023-07-09 21:58:19,398 - root - INFO - loss after updating Electric Field = 18.792890180978652, error_E=0.09861986675077175
+2023-07-09 21:58:19,398 - root - INFO - loss after updating Electric Field = 18.792890180978652, error_E=0.09861986675077175
+2023-07-09 21:59:40,059 - root - INFO - loss after updating Relative Permittivities = 13.219106857801666, error_rel_perm=0.42112256655290303
+2023-07-09 21:59:40,059 - root - INFO - loss after updating Relative Permittivities = 13.219106857801666, error_rel_perm=0.42112256655290303
+2023-07-09 21:59:40,059 - root - INFO - iter=4/30
+2023-07-09 21:59:40,059 - root - INFO - iter=4/30
+2023-07-09 21:59:41,368 - root - INFO - loss after updating Electric Field = 9.652567194413958, error_E=0.0719750199025771
+2023-07-09 21:59:41,368 - root - INFO - loss after updating Electric Field = 9.652567194413958, error_E=0.0719750199025771
+2023-07-09 22:01:02,892 - root - INFO - loss after updating Relative Permittivities = 7.1650496440739735, error_rel_perm=0.36885889626520435
+2023-07-09 22:01:02,892 - root - INFO - loss after updating Relative Permittivities = 7.1650496440739735, error_rel_perm=0.36885889626520435
+2023-07-09 22:01:02,892 - root - INFO - iter=5/30
+2023-07-09 22:01:02,892 - root - INFO - iter=5/30
+2023-07-09 22:01:04,179 - root - INFO - loss after updating Electric Field = 5.461352745726086, error_E=0.05472386967148957
+2023-07-09 22:01:04,179 - root - INFO - loss after updating Electric Field = 5.461352745726086, error_E=0.05472386967148957
+2023-07-09 22:02:25,433 - root - INFO - loss after updating Relative Permittivities = 4.180953867929233, error_rel_perm=0.3402346207739817
+2023-07-09 22:02:25,433 - root - INFO - loss after updating Relative Permittivities = 4.180953867929233, error_rel_perm=0.3402346207739817
+2023-07-09 22:02:25,433 - root - INFO - iter=6/30
+2023-07-09 22:02:25,433 - root - INFO - iter=6/30
+2023-07-09 22:02:26,804 - root - INFO - loss after updating Electric Field = 3.2758130437998254, error_E=0.04280505209635684
+2023-07-09 22:02:26,804 - root - INFO - loss after updating Electric Field = 3.2758130437998254, error_E=0.04280505209635684

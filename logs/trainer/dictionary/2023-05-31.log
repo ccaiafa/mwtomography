@@ -1,0 +1,117 @@
+2023-05-31 13:19:04,736 - root - INFO - Starting trainer in standard mode
+2023-05-31 13:19:04,737 - root - INFO - Loading images from file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/images.pkl
+2023-05-31 13:19:04,798 - root - INFO - 2500 images loaded
+2023-05-31 13:19:35,416 - root - INFO - Starting trainer in standard mode
+2023-05-31 13:19:35,417 - root - INFO - Loading images from file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/images.pkl
+2023-05-31 13:19:35,458 - root - INFO - 2500 images loaded
+2023-05-31 14:34:45,554 - root - INFO - Starting trainer in standard mode
+2023-05-31 14:34:45,555 - root - INFO - Loading images from file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/images.pkl
+2023-05-31 14:34:47,762 - root - INFO - 100000 images loaded
+2023-05-31 15:16:38,441 - root - INFO - Starting trainer in standard mode
+2023-05-31 15:16:38,442 - root - INFO - Loading images from file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/images.pkl
+2023-05-31 15:16:40,561 - root - INFO - 100000 images loaded
+2023-05-31 15:17:44,964 - root - INFO - Starting trainer in standard mode
+2023-05-31 15:17:44,965 - root - INFO - Loading images from file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/images.pkl
+2023-05-31 15:17:47,047 - root - INFO - 100000 images loaded
+2023-05-31 15:19:18,316 - root - INFO - Starting trainer in standard mode
+2023-05-31 15:19:18,317 - root - INFO - Loading images from file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/images.pkl
+2023-05-31 15:19:20,349 - root - INFO - 100000 images loaded
+2023-05-31 15:20:03,668 - root - INFO - Starting trainer in standard mode
+2023-05-31 15:20:04,979 - root - INFO - Loading images from file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/images.pkl
+2023-05-31 15:20:07,021 - root - INFO - 100000 images loaded
+2023-05-31 15:21:09,676 - root - INFO - Starting trainer in standard mode
+2023-05-31 15:25:58,487 - root - INFO - Starting trainer in standard mode
+2023-05-31 15:26:07,504 - root - INFO - Loading images from file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/images.pkl
+2023-05-31 15:26:14,580 - root - INFO - 100000 images loaded
+2023-05-31 15:27:30,254 - root - INFO - Starting trainer in standard mode
+2023-05-31 15:27:30,256 - root - INFO - Loading images from file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/images.pkl
+2023-05-31 15:27:32,343 - root - INFO - 100000 images loaded
+2023-05-31 15:29:11,090 - root - INFO - Starting trainer in standard mode
+2023-05-31 15:29:11,091 - root - INFO - Loading images from file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/images.pkl
+2023-05-31 15:29:13,199 - root - INFO - 100000 images loaded
+2023-05-31 15:30:03,753 - root - INFO - Starting trainer in standard mode
+2023-05-31 15:30:03,754 - root - INFO - Loading images from file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/images.pkl
+2023-05-31 15:30:05,812 - root - INFO - 100000 images loaded
+2023-05-31 15:30:13,223 - root - INFO - Train set has 80000 images
+2023-05-31 15:30:14,746 - root - INFO - Validation set has 20000 images
+2023-05-31 15:34:01,473 - root - INFO - Starting trainer in standard mode
+2023-05-31 15:34:01,474 - root - INFO - Loading images from file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/images.pkl
+2023-05-31 15:34:03,518 - root - INFO - 100000 images loaded
+2023-05-31 15:34:05,345 - root - INFO - Train set has 80000 images
+2023-05-31 15:34:05,345 - root - INFO - Validation set has 20000 images
+2023-05-31 15:43:43,732 - root - INFO - Starting training dictionary:
+                            N components:           None
+                            Alpha:                  1.0
+                            Max iter:               1000
+                            Tol:                    0.001
+                            Fit algorithm:          lars
+                            Transform algorithm:    omp
+                            Transform n nonzero:    None
+                            Transform alpha:        None  
+                            Code init:              None
+                            Dict Init:              None
+                            Verbose:                False
+                            Num epochs:             50                                                            
+                            Random state:           None
+                            Transf Max iter:        1000
+                            Batch size:             3
+                            Shuffle:                True
+                            Training size:   80000
+                            Validation size: 20000
+                            Time elapsed:    0:00:00      
+                        
+2023-05-31 15:44:35,929 - root - INFO - Starting trainer in standard mode
+2023-05-31 15:44:35,930 - root - INFO - Loading images from file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/images.pkl
+2023-05-31 15:44:38,073 - root - INFO - 100000 images loaded
+2023-05-31 15:44:40,291 - root - INFO - Train set has 80000 images
+2023-05-31 15:44:40,291 - root - INFO - Validation set has 20000 images
+2023-05-31 15:44:44,663 - root - INFO - Starting training dictionary:
+                            N components:           None
+                            Alpha:                  1.0
+                            Max iter:               1000
+                            Tol:                    0.001
+                            Fit algorithm:          lars
+                            Transform algorithm:    omp
+                            Transform n nonzero:    None
+                            Transform alpha:        None  
+                            Code init:              None
+                            Dict Init:              None
+                            Verbose:                False
+                            Num epochs:             50                                                            
+                            Random state:           None
+                            Transf Max iter:        1000
+                            Batch size:             3
+                            Shuffle:                True
+                            Training size:   80000
+                            Validation size: 20000
+                            Time elapsed:    0:00:00      
+                        
+2023-05-31 15:47:41,793 - root - INFO - Starting trainer in standard mode
+2023-05-31 15:47:41,794 - root - INFO - Loading images from file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/images.pkl
+2023-05-31 15:47:43,853 - root - INFO - 100000 images loaded
+2023-05-31 15:56:12,465 - root - INFO - Starting trainer in standard mode
+2023-05-31 15:56:12,467 - root - INFO - Loading images from file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/images.pkl
+2023-05-31 15:56:14,572 - root - INFO - 100000 images loaded
+2023-05-31 15:56:16,557 - root - INFO - Train set has 80000 images
+2023-05-31 15:56:16,558 - root - INFO - Validation set has 20000 images
+2023-05-31 15:56:20,168 - root - INFO - Starting training dictionary:
+                            N components:           None
+                            Alpha:                  1.0
+                            Max iter:               1000
+                            Tol:                    0.001
+                            Fit algorithm:          lars
+                            Transform algorithm:    omp
+                            Transform n nonzero:    None
+                            Transform alpha:        None  
+                            Code init:              None
+                            Dict Init:              None
+                            Verbose:                False
+                            Num epochs:             50                                                            
+                            Random state:           None
+                            Transf Max iter:        1000
+                            Batch size:             3
+                            Shuffle:                True
+                            Training size:   80000
+                            Validation size: 20000
+                            Time elapsed:    0:00:00      
+                        

@@ -1,0 +1,26 @@
+2023-06-01 14:50:00,241 - root - INFO - Starting trainer in standard mode
+2023-06-01 14:50:00,243 - root - INFO - Loading images from file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/images.pkl
+2023-06-01 14:50:02,623 - root - INFO - 100000 images loaded
+2023-06-01 14:51:48,374 - root - INFO - Train set has 80000 images
+2023-06-01 14:51:48,375 - root - INFO - Validation set has 20000 images
+2023-06-01 14:51:52,396 - root - INFO - Starting training dictionary:
+                            N components:           None
+                            Alpha:                  1.0
+                            Max iter:               1000
+                            Tol:                    0.001
+                            Fit algorithm:          lars
+                            Transform algorithm:    omp
+                            Transform n nonzero:    None
+                            Transform alpha:        None  
+                            Code init:              None
+                            Dict Init:              None
+                            Verbose:                False
+                            Num epochs:             50                                                            
+                            Random state:           None
+                            Transf Max iter:        1000
+                            Batch size:             3
+                            Shuffle:                True
+                            Training size:   80000
+                            Validation size: 20000
+                            Time elapsed:    0:00:00      
+                        

@@ -1,0 +1,318 @@
+2023-05-25 11:21:13,813 - root - INFO - Starting image generator
+2023-05-25 11:21:26,795 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-05-25 11:21:27,932 - root - INFO - Generating image no. 1/1
+2023-05-25 11:21:37,998 - root - INFO - The image will have 3 circles
+2023-05-25 11:29:07,181 - root - INFO - Starting image generator
+2023-05-25 11:29:07,182 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-05-25 11:29:07,182 - root - INFO - Generating image no. 1/1
+2023-05-25 11:29:07,182 - root - INFO - The image will have 3 circles
+2023-05-25 11:29:07,327 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-05-25 11:29:07,623 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-05-25 11:29:49,317 - root - INFO - Starting MWT solver
+2023-05-25 11:30:13,642 - root - INFO - Starting image generator
+2023-05-25 11:30:13,642 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-05-25 11:30:13,643 - root - INFO - Generating image no. 1/1
+2023-05-25 11:30:13,643 - root - INFO - The image will have 3 circles
+2023-05-25 11:30:13,779 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-05-25 11:30:14,078 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-05-25 11:30:55,391 - root - INFO - Starting MWT solver
+2023-05-25 11:30:56,910 - root - INFO - iter=1/50
+2023-05-25 11:30:58,148 - root - INFO - loss after updating Electric Field = 211.8162663900606, error_E=0.29635493796237117
+2023-05-25 11:32:17,631 - root - INFO - loss after updating Relative Permittivities = 111.96186337687087, error_rel_perm=0.580425976368478
+2023-05-25 11:32:17,631 - root - INFO - iter=2/50
+2023-05-25 11:32:19,012 - root - INFO - loss after updating Electric Field = 45.24753314112335, error_E=0.14571988156707674
+2023-05-25 11:33:38,034 - root - INFO - loss after updating Relative Permittivities = 27.891154258613135, error_rel_perm=0.4609312925395278
+2023-05-25 11:33:38,034 - root - INFO - iter=3/50
+2023-05-25 11:33:39,308 - root - INFO - loss after updating Electric Field = 18.472735346791918, error_E=0.09711719109660162
+2023-05-25 11:35:02,009 - root - INFO - loss after updating Relative Permittivities = 12.828697037717244, error_rel_perm=0.3954402986255631
+2023-05-25 11:35:02,010 - root - INFO - iter=4/50
+2023-05-25 11:35:03,314 - root - INFO - loss after updating Electric Field = 9.369816930821997, error_E=0.0705741051800368
+2023-05-25 11:54:46,373 - root - INFO - Starting image generator
+2023-05-25 11:54:46,377 - root - INFO - 1 images with random number of circles (between 1 and 3) will be generated
+2023-05-25 11:54:46,378 - root - INFO - Generating image no. 1/1
+2023-05-25 11:54:46,380 - root - INFO - The image will have 3 circles
+2023-05-25 11:54:46,433 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-05-25 11:54:46,999 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-05-25 11:55:28,805 - root - INFO - Starting MWT solver
+2023-05-25 11:55:30,126 - root - INFO - iter=1/5
+2023-05-25 11:55:31,393 - root - INFO - loss after updating Electric Field = 205.46775516933087, error_E=0.29286796410086796
+2023-05-25 11:57:03,782 - root - INFO - loss after updating Relative Permittivities = 108.23799862186982, error_rel_perm=0.5915126962071339
+2023-05-25 11:57:03,783 - root - INFO - iter=2/5
+2023-05-25 11:57:05,226 - root - INFO - loss after updating Electric Field = 41.695449097498525, error_E=0.13925632759717144
+2023-05-25 11:58:31,771 - root - INFO - loss after updating Relative Permittivities = 25.554135298335936, error_rel_perm=0.4724239663176811
+2023-05-25 11:58:31,771 - root - INFO - iter=3/5
+2023-05-25 11:58:33,499 - root - INFO - loss after updating Electric Field = 17.008280279879546, error_E=0.09343164204177155
+2023-05-25 12:00:00,346 - root - INFO - loss after updating Relative Permittivities = 12.070354306868897, error_rel_perm=0.4106375589449359
+2023-05-25 12:00:00,347 - root - INFO - iter=4/5
+2023-05-25 12:00:02,256 - root - INFO - loss after updating Electric Field = 9.056665596524862, error_E=0.06959255608893238
+2023-05-25 12:01:28,772 - root - INFO - loss after updating Relative Permittivities = 6.858428645544512, error_rel_perm=0.3677683157545757
+2023-05-25 12:01:28,772 - root - INFO - iter=5/5
+2023-05-25 12:01:30,301 - root - INFO - loss after updating Electric Field = 5.38413303734985, error_E=0.054250652270018594
+2023-05-25 12:02:54,724 - root - INFO - loss after updating Relative Permittivities = 4.218360008700828, error_rel_perm=0.3365824785905639
+2023-05-25 12:47:09,393 - root - INFO - Starting image generator
+2023-05-25 12:47:09,394 - root - INFO - 1 images with random number of circles (between 1 and 3) will be generated
+2023-05-25 12:47:09,394 - root - INFO - Generating image no. 1/1
+2023-05-25 12:47:09,395 - root - INFO - The image will have 1 circles
+2023-05-25 12:47:09,400 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-05-25 12:47:09,959 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-05-25 12:47:29,141 - root - INFO - Starting image generator
+2023-05-25 12:47:29,141 - root - INFO - 1 images with random number of circles (between 1 and 3) will be generated
+2023-05-25 12:47:29,142 - root - INFO - Generating image no. 1/1
+2023-05-25 12:47:29,142 - root - INFO - The image will have 3 circles
+2023-05-25 12:47:29,162 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-05-25 12:47:29,725 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-05-25 12:48:11,637 - root - INFO - Starting MWT solver
+2023-05-25 12:48:12,927 - root - INFO - iter=1/20
+2023-05-25 12:48:14,435 - root - INFO - loss after updating Electric Field = 203.34959242896835, error_E=0.2925238544310142
+2023-05-25 12:49:42,133 - root - INFO - loss after updating Relative Permittivities = 106.61057105368538, error_rel_perm=0.6112793152393622
+2023-05-25 12:49:42,133 - root - INFO - iter=2/20
+2023-05-25 12:49:43,677 - root - INFO - loss after updating Electric Field = 39.3942682876789, error_E=0.13489804265466035
+2023-05-25 12:51:12,218 - root - INFO - loss after updating Relative Permittivities = 23.775291663380965, error_rel_perm=0.4788076513768057
+2023-05-25 12:51:12,218 - root - INFO - iter=3/20
+2023-05-25 12:51:14,216 - root - INFO - loss after updating Electric Field = 15.510020285648565, error_E=0.08866203201984832
+2023-05-25 12:52:42,115 - root - INFO - loss after updating Relative Permittivities = 10.960693429402237, error_rel_perm=0.41813002616556
+2023-05-25 12:52:42,115 - root - INFO - iter=4/20
+2023-05-25 12:52:43,493 - root - INFO - loss after updating Electric Field = 8.242122065872836, error_E=0.06591108732830399
+2023-05-25 12:54:13,017 - root - INFO - loss after updating Relative Permittivities = 6.277264260750904, error_rel_perm=0.38094810762762205
+2023-05-25 12:54:13,018 - root - INFO - iter=5/20
+2023-05-25 12:54:14,409 - root - INFO - loss after updating Electric Field = 4.988597772837166, error_E=0.05176010057009859
+2023-05-25 12:55:45,442 - root - INFO - loss after updating Relative Permittivities = 3.9453594153251306, error_rel_perm=0.356526610961735
+2023-05-25 12:55:45,442 - root - INFO - iter=6/20
+2023-05-25 12:55:46,967 - root - INFO - loss after updating Electric Field = 3.227549181024484, error_E=0.041867591879018125
+2023-05-25 12:57:16,113 - root - INFO - loss after updating Relative Permittivities = 2.6099101786272936, error_rel_perm=0.3395854083353579
+2023-05-25 12:57:16,113 - root - INFO - iter=7/20
+2023-05-25 12:57:17,571 - root - INFO - loss after updating Electric Field = 2.174758382122914, error_E=0.034519138182515015
+2023-05-25 12:58:44,488 - root - INFO - loss after updating Relative Permittivities = 1.7825791722263344, error_rel_perm=0.3283680285102865
+2023-05-25 12:58:44,488 - root - INFO - iter=8/20
+2023-05-25 12:58:45,938 - root - INFO - loss after updating Electric Field = 1.5120196428410335, error_E=0.02890997429222149
+2023-05-25 13:00:13,175 - root - INFO - loss after updating Relative Permittivities = 1.2555969127778588, error_rel_perm=0.3194264159128966
+2023-05-25 13:00:13,175 - root - INFO - iter=9/20
+2023-05-25 13:00:15,368 - root - INFO - loss after updating Electric Field = 1.0860769020783023, error_E=0.02460883818198947
+2023-05-25 13:01:47,459 - root - INFO - loss after updating Relative Permittivities = 0.9139910343509721, error_rel_perm=0.313749078603759
+2023-05-25 13:01:47,460 - root - INFO - iter=10/20
+2023-05-25 13:01:49,039 - root - INFO - loss after updating Electric Field = 0.8002380262216557, error_E=0.021199631577829104
+2023-05-25 13:03:25,922 - root - INFO - loss after updating Relative Permittivities = 0.6816129741722452, error_rel_perm=0.30946826903685093
+2023-05-25 13:03:25,923 - root - INFO - iter=11/20
+2023-05-25 13:03:27,862 - root - INFO - loss after updating Electric Field = 0.6077246843723704, error_E=0.018545738164795964
+2023-05-25 13:04:58,358 - root - INFO - loss after updating Relative Permittivities = 0.522705562739488, error_rel_perm=0.3067865591553267
+2023-05-25 13:04:58,358 - root - INFO - iter=12/20
+2023-05-25 13:05:03,069 - root - INFO - loss after updating Electric Field = 0.472029299815756, error_E=0.016434641750931865
+2023-05-25 13:06:31,255 - root - INFO - loss after updating Relative Permittivities = 0.4094711712625495, error_rel_perm=0.3043703312451722
+2023-05-25 13:06:31,256 - root - INFO - iter=13/20
+2023-05-25 13:06:32,873 - root - INFO - loss after updating Electric Field = 0.374170065710698, error_E=0.014712237272827855
+2023-05-25 13:08:01,300 - root - INFO - loss after updating Relative Permittivities = 0.3308104500092203, error_rel_perm=0.30252473953588255
+2023-05-25 13:08:01,300 - root - INFO - iter=14/20
+2023-05-25 13:08:03,080 - root - INFO - loss after updating Electric Field = 0.3056654511043595, error_E=0.013312924634218586
+2023-05-25 13:09:32,032 - root - INFO - loss after updating Relative Permittivities = 0.2714260623733819, error_rel_perm=0.3009016967318013
+2023-05-25 13:09:32,033 - root - INFO - iter=15/20
+2023-05-25 13:09:33,560 - root - INFO - loss after updating Electric Field = 0.25345359588102845, error_E=0.01214675774082675
+2023-05-25 13:11:03,168 - root - INFO - loss after updating Relative Permittivities = 0.22898305216083675, error_rel_perm=0.30016141511600364
+2023-05-25 13:11:03,168 - root - INFO - iter=16/20
+2023-05-25 13:11:04,645 - root - INFO - loss after updating Electric Field = 0.21576651367956623, error_E=0.011219727647876074
+2023-05-25 13:12:30,934 - root - INFO - loss after updating Relative Permittivities = 0.1986625049362809, error_rel_perm=0.29971775661167216
+2023-05-25 13:12:30,935 - root - INFO - iter=17/20
+2023-05-25 13:12:32,503 - root - INFO - loss after updating Electric Field = 0.19067955376299056, error_E=0.010545659202183002
+2023-05-25 13:13:59,238 - root - INFO - loss after updating Relative Permittivities = 0.1782302907798189, error_rel_perm=0.29926200471210795
+2023-05-25 13:13:59,239 - root - INFO - iter=18/20
+2023-05-25 13:14:00,747 - root - INFO - loss after updating Electric Field = 0.17238192542567732, error_E=0.010009301518248652
+2023-05-25 13:15:27,209 - root - INFO - loss after updating Relative Permittivities = 0.16132899568647666, error_rel_perm=0.2988950536374706
+2023-05-25 13:15:27,209 - root - INFO - iter=19/20
+2023-05-25 13:15:28,705 - root - INFO - loss after updating Electric Field = 0.15696383920751267, error_E=0.009561843082680925
+2023-05-25 13:16:56,002 - root - INFO - loss after updating Relative Permittivities = 0.1460649065672801, error_rel_perm=0.2988826830610599
+2023-05-25 13:16:56,003 - root - INFO - iter=20/20
+2023-05-25 13:16:58,280 - root - INFO - loss after updating Electric Field = 0.14212510173356388, error_E=0.009099397491520788
+2023-05-25 13:18:33,684 - root - INFO - loss after updating Relative Permittivities = 0.13483353876836512, error_rel_perm=0.298589252087716
+2023-05-25 14:50:56,310 - root - INFO - Starting image generator
+2023-05-25 14:50:56,311 - root - INFO - 1 images with random number of circles (between 1 and 3) will be generated
+2023-05-25 14:50:56,311 - root - INFO - Generating image no. 1/1
+2023-05-25 14:50:56,312 - root - INFO - The image will have 2 circles
+2023-05-25 14:50:56,332 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-05-25 14:50:56,888 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-05-25 15:02:08,648 - root - INFO - Starting image generator
+2023-05-25 15:02:08,649 - root - INFO - 1 images with random number of circles (between 1 and 3) will be generated
+2023-05-25 15:02:08,649 - root - INFO - Generating image no. 1/1
+2023-05-25 15:02:08,650 - root - INFO - The image will have 2 circles
+2023-05-25 15:02:08,666 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-05-25 15:02:09,210 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-05-25 15:12:56,337 - root - INFO - Starting image generator
+2023-05-25 15:12:56,338 - root - INFO - 1 images with random number of circles (between 1 and 3) will be generated
+2023-05-25 15:12:56,338 - root - INFO - Generating image no. 1/1
+2023-05-25 15:12:56,338 - root - INFO - The image will have 3 circles
+2023-05-25 15:12:56,350 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-05-25 15:12:56,887 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-05-25 15:19:17,833 - root - INFO - Starting image generator
+2023-05-25 15:19:17,834 - root - INFO - 1 images with random number of circles (between 1 and 3) will be generated
+2023-05-25 15:19:17,834 - root - INFO - Generating image no. 1/1
+2023-05-25 15:19:17,834 - root - INFO - The image will have 3 circles
+2023-05-25 15:19:17,851 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-05-25 15:19:18,416 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-05-25 15:21:37,044 - root - INFO - Starting image generator
+2023-05-25 15:21:37,045 - root - INFO - 1 images with random number of circles (between 1 and 3) will be generated
+2023-05-25 15:21:37,045 - root - INFO - Generating image no. 1/1
+2023-05-25 15:21:37,046 - root - INFO - The image will have 1 circles
+2023-05-25 15:21:37,057 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-05-25 15:21:37,589 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-05-25 15:22:29,802 - root - INFO - Starting image generator
+2023-05-25 15:22:29,803 - root - INFO - 1 images with random number of circles (between 1 and 3) will be generated
+2023-05-25 15:22:29,803 - root - INFO - Generating image no. 1/1
+2023-05-25 15:22:29,803 - root - INFO - The image will have 3 circles
+2023-05-25 15:22:29,835 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-05-25 15:22:30,381 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-05-25 15:22:44,099 - root - INFO - Starting MWT solver
+2023-05-25 15:22:47,538 - root - INFO - iter=1/20
+2023-05-25 15:22:48,858 - root - INFO - loss after updating Electric Field = 217.66061355649146, error_E=0.3046574346170547
+2023-05-25 15:24:40,636 - root - INFO - Starting image generator
+2023-05-25 15:24:40,637 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-05-25 15:24:40,637 - root - INFO - Generating image no. 1/1
+2023-05-25 15:24:40,638 - root - INFO - The image will have 3 circles
+2023-05-25 15:24:40,683 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-05-25 15:24:41,236 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-05-25 15:24:41,237 - root - INFO - Starting MWT solver
+2023-05-25 15:24:42,722 - root - INFO - iter=1/20
+2023-05-25 15:24:44,182 - root - INFO - loss after updating Electric Field = 204.9446176563925, error_E=0.2886790181634577
+2023-05-25 15:25:14,736 - root - INFO - loss after updating Relative Permittivities = 82.04124643169092, error_rel_perm=6.448944619010917
+2023-05-25 15:25:14,736 - root - INFO - iter=2/20
+2023-05-25 15:25:16,027 - root - INFO - loss after updating Electric Field = 7.203404815567568, error_E=0.16485393323928155
+2023-05-25 15:25:44,386 - root - INFO - loss after updating Relative Permittivities = 7.295744497881763, error_rel_perm=6.3677323097304015
+2023-05-25 15:25:44,387 - root - INFO - iter=3/20
+2023-05-25 15:25:45,701 - root - INFO - loss after updating Electric Field = 6.151768346398032, error_E=0.14873793535251237
+2023-05-25 15:26:14,730 - root - INFO - loss after updating Relative Permittivities = 6.117019906679106, error_rel_perm=6.3512385143773855
+2023-05-25 15:26:14,731 - root - INFO - iter=4/20
+2023-05-25 15:26:16,089 - root - INFO - loss after updating Electric Field = 5.471633386744781, error_E=0.13777353065119533
+2023-05-25 15:26:44,102 - root - INFO - loss after updating Relative Permittivities = 5.407116958409328, error_rel_perm=6.28684690760406
+2023-05-25 15:26:44,102 - root - INFO - iter=5/20
+2023-05-25 15:26:45,378 - root - INFO - loss after updating Electric Field = 4.990043399464646, error_E=0.12941028207611868
+2023-05-25 15:27:12,697 - root - INFO - loss after updating Relative Permittivities = 4.91834317601925, error_rel_perm=6.195422730808385
+2023-05-25 15:27:12,698 - root - INFO - iter=6/20
+2023-05-25 15:27:13,988 - root - INFO - loss after updating Electric Field = 4.597082135186814, error_E=0.12249255243336228
+2023-05-25 15:27:41,427 - root - INFO - loss after updating Relative Permittivities = 4.524459201408251, error_rel_perm=6.108505787202806
+2023-05-25 15:27:41,428 - root - INFO - iter=7/20
+2023-05-25 15:27:42,723 - root - INFO - loss after updating Electric Field = 4.252163214091979, error_E=0.11705001639249708
+2023-05-25 15:28:09,811 - root - INFO - loss after updating Relative Permittivities = 4.168075897099041, error_rel_perm=6.046462943694805
+2023-05-25 15:28:09,812 - root - INFO - iter=8/20
+2023-05-25 15:28:11,099 - root - INFO - loss after updating Electric Field = 3.9405310247338394, error_E=0.11254925342120023
+2023-05-25 15:28:38,297 - root - INFO - loss after updating Relative Permittivities = 3.84365628062352, error_rel_perm=6.006683562881036
+2023-05-25 15:28:38,297 - root - INFO - iter=9/20
+2023-05-25 15:28:39,588 - root - INFO - loss after updating Electric Field = 3.6460948859725946, error_E=0.10870084610544298
+2023-05-25 15:29:07,545 - root - INFO - loss after updating Relative Permittivities = 3.551182859699679, error_rel_perm=5.9851987495274175
+2023-05-25 15:29:07,546 - root - INFO - iter=10/20
+2023-05-25 15:29:08,825 - root - INFO - loss after updating Electric Field = 3.375139264209706, error_E=0.10542927742699153
+2023-05-25 15:29:36,392 - root - INFO - loss after updating Relative Permittivities = 3.2867630927996174, error_rel_perm=5.985492739068811
+2023-05-25 15:29:36,392 - root - INFO - iter=11/20
+2023-05-25 15:29:37,693 - root - INFO - loss after updating Electric Field = 3.131211166731689, error_E=0.10268937504421366
+2023-05-25 15:30:05,279 - root - INFO - loss after updating Relative Permittivities = 3.043672689307514, error_rel_perm=5.992522441411639
+2023-05-25 15:30:05,280 - root - INFO - iter=12/20
+2023-05-25 15:30:06,697 - root - INFO - loss after updating Electric Field = 2.909381820298684, error_E=0.10037648285341103
+2023-05-25 15:30:34,434 - root - INFO - loss after updating Relative Permittivities = 2.825198393634635, error_rel_perm=6.010427038817216
+2023-05-25 15:30:34,434 - root - INFO - iter=13/20
+2023-05-25 15:30:35,849 - root - INFO - loss after updating Electric Field = 2.701117227788267, error_E=0.09824551046499987
+2023-05-25 15:31:03,288 - root - INFO - loss after updating Relative Permittivities = 2.6234057169541045, error_rel_perm=6.040517885988086
+2023-05-25 15:31:03,288 - root - INFO - iter=14/20
+2023-05-25 15:31:04,581 - root - INFO - loss after updating Electric Field = 2.509383470405025, error_E=0.09634980006861482
+2023-05-25 15:31:32,124 - root - INFO - loss after updating Relative Permittivities = 2.4395497244478164, error_rel_perm=6.079315826035485
+2023-05-25 15:31:32,124 - root - INFO - iter=15/20
+2023-05-25 15:31:33,385 - root - INFO - loss after updating Electric Field = 2.341508967671178, error_E=0.09473388295278866
+2023-05-25 15:32:00,709 - root - INFO - loss after updating Relative Permittivities = 2.2790596440124187, error_rel_perm=6.124666821652644
+2023-05-25 15:32:00,709 - root - INFO - iter=16/20
+2023-05-25 15:32:01,981 - root - INFO - loss after updating Electric Field = 2.1895551571139396, error_E=0.0933048369194447
+2023-05-25 15:32:29,363 - root - INFO - loss after updating Relative Permittivities = 2.1344050992904045, error_rel_perm=6.176663977903745
+2023-05-25 15:32:29,363 - root - INFO - iter=17/20
+2023-05-25 15:32:30,609 - root - INFO - loss after updating Electric Field = 2.0516785056372844, error_E=0.09202780198261845
+2023-05-25 15:32:57,676 - root - INFO - loss after updating Relative Permittivities = 2.0032077804618518, error_rel_perm=6.234296699750335
+2023-05-25 15:32:57,676 - root - INFO - iter=18/20
+2023-05-25 15:32:59,472 - root - INFO - loss after updating Electric Field = 1.925126497819733, error_E=0.09086804486866147
+2023-05-25 15:33:27,289 - root - INFO - loss after updating Relative Permittivities = 1.8818865742068216, error_rel_perm=6.297609361821239
+2023-05-25 15:33:27,289 - root - INFO - iter=19/20
+2023-05-25 15:33:28,965 - root - INFO - loss after updating Electric Field = 1.8085940125529847, error_E=0.08981231967072528
+2023-05-25 15:33:56,296 - root - INFO - loss after updating Relative Permittivities = 1.7690777563751863, error_rel_perm=6.364450294982367
+2023-05-25 15:33:56,296 - root - INFO - iter=20/20
+2023-05-25 15:33:57,967 - root - INFO - loss after updating Electric Field = 1.7013291135426356, error_E=0.08889537369248669
+2023-05-25 15:34:25,434 - root - INFO - loss after updating Relative Permittivities = 1.6658020886201974, error_rel_perm=6.431262759207457
+2023-05-25 15:56:13,594 - root - INFO - Starting image generator
+2023-05-25 15:56:13,595 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-05-25 15:56:13,595 - root - INFO - Generating image no. 1/1
+2023-05-25 15:56:13,595 - root - INFO - The image will have 3 circles
+2023-05-25 15:56:13,639 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-05-25 15:56:14,184 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-05-25 15:56:14,193 - root - INFO - Starting MWT solver
+2023-05-25 15:56:15,496 - root - INFO - iter=1/20
+2023-05-25 15:56:16,896 - root - INFO - loss after updating Electric Field = 212.93862371629652, error_E=0.2970916344089248
+2023-05-25 15:57:36,697 - root - INFO - loss after updating Relative Permittivities = 112.35733962988856, error_rel_perm=0.5804506609985867
+2023-05-25 15:57:36,698 - root - INFO - iter=2/20
+2023-05-25 15:57:37,989 - root - INFO - loss after updating Electric Field = 46.23907294991739, error_E=0.14728012102744298
+2023-05-25 15:58:57,272 - root - INFO - loss after updating Relative Permittivities = 28.490279062015066, error_rel_perm=0.4585182742229243
+2023-05-25 15:58:57,273 - root - INFO - iter=3/20
+2023-05-25 15:58:58,525 - root - INFO - loss after updating Electric Field = 18.788726552739867, error_E=0.09790293569261782
+2023-05-25 16:00:17,783 - root - INFO - loss after updating Relative Permittivities = 13.030056850267952, error_rel_perm=0.39592380644312225
+2023-05-25 16:00:17,785 - root - INFO - iter=4/20
+2023-05-25 16:00:19,062 - root - INFO - loss after updating Electric Field = 9.507282742010535, error_E=0.07107553827379648
+2023-05-25 16:01:39,604 - root - INFO - loss after updating Relative Permittivities = 6.985412133737109, error_rel_perm=0.356430132075867
+2023-05-25 16:01:39,604 - root - INFO - iter=5/20
+2023-05-25 16:01:41,358 - root - INFO - loss after updating Electric Field = 5.33449649236365, error_E=0.053903403533731686
+2023-05-25 16:03:02,081 - root - INFO - loss after updating Relative Permittivities = 4.054324814515667, error_rel_perm=0.3305979902586331
+2023-05-25 16:03:02,081 - root - INFO - iter=6/20
+2023-05-25 16:03:03,804 - root - INFO - loss after updating Electric Field = 3.167894786677274, error_E=0.04192960865646425
+2023-05-25 16:04:25,451 - root - INFO - loss after updating Relative Permittivities = 2.463703703440873, error_rel_perm=0.3131921129031265
+2023-05-25 16:04:25,451 - root - INFO - iter=7/20
+2023-05-25 16:04:27,094 - root - INFO - loss after updating Electric Field = 1.9690878215988823, error_E=0.03333480656437562
+2023-05-25 16:05:49,379 - root - INFO - loss after updating Relative Permittivities = 1.5601936177993965, error_rel_perm=0.30137978440369856
+2023-05-25 16:05:49,379 - root - INFO - iter=8/20
+2023-05-25 16:05:51,069 - root - INFO - loss after updating Electric Field = 1.2675012225948634, error_E=0.02696329314340668
+2023-05-25 16:07:12,305 - root - INFO - loss after updating Relative Permittivities = 1.020525697420339, error_rel_perm=0.29273844701924
+2023-05-25 16:07:12,306 - root - INFO - iter=9/20
+2023-05-25 16:07:14,006 - root - INFO - loss after updating Electric Field = 0.8418544640403154, error_E=0.02215880878181557
+2023-05-25 16:08:34,138 - root - INFO - loss after updating Relative Permittivities = 0.6868136078410907, error_rel_perm=0.28676611677033864
+2023-05-25 16:08:34,138 - root - INFO - iter=10/20
+2023-05-25 16:08:35,786 - root - INFO - loss after updating Electric Field = 0.577060596010511, error_E=0.018502014904389547
+2023-05-25 16:09:55,435 - root - INFO - loss after updating Relative Permittivities = 0.4774059433500638, error_rel_perm=0.2822129270705934
+2023-05-25 16:09:55,436 - root - INFO - iter=11/20
+2023-05-25 16:09:57,028 - root - INFO - loss after updating Electric Field = 0.40822952507666593, error_E=0.015717953091835442
+2023-05-25 16:11:16,828 - root - INFO - loss after updating Relative Permittivities = 0.34536867168050556, error_rel_perm=0.27920174138017395
+2023-05-25 16:11:16,828 - root - INFO - iter=12/20
+2023-05-25 16:11:18,351 - root - INFO - loss after updating Electric Field = 0.3021078859979692, error_E=0.013660221510667871
+2023-05-25 16:12:40,456 - root - INFO - loss after updating Relative Permittivities = 0.2596148940948607, error_rel_perm=0.276963939570902
+2023-05-25 16:12:40,456 - root - INFO - iter=13/20
+2023-05-25 16:12:42,083 - root - INFO - loss after updating Electric Field = 0.23165606192886007, error_E=0.012087422879218922
+2023-05-25 16:14:04,282 - root - INFO - loss after updating Relative Permittivities = 0.20321661279215036, error_rel_perm=0.27549906374698707
+2023-05-25 16:14:04,283 - root - INFO - iter=14/20
+2023-05-25 16:14:05,884 - root - INFO - loss after updating Electric Field = 0.1850475833696027, error_E=0.010917345134295093
+2023-05-25 16:15:26,254 - root - INFO - loss after updating Relative Permittivities = 0.16580403364858032, error_rel_perm=0.27427985972961444
+2023-05-25 16:15:26,255 - root - INFO - iter=15/20
+2023-05-25 16:15:27,865 - root - INFO - loss after updating Electric Field = 0.15454072468834423, error_E=0.010062173792835232
+2023-05-25 16:16:49,268 - root - INFO - loss after updating Relative Permittivities = 0.14218792001495778, error_rel_perm=0.27353091446377653
+2023-05-25 16:16:49,268 - root - INFO - iter=16/20
+2023-05-25 16:16:50,932 - root - INFO - loss after updating Electric Field = 0.134283838353613, error_E=0.009438553292103491
+2023-05-25 16:18:12,898 - root - INFO - loss after updating Relative Permittivities = 0.12453613757049622, error_rel_perm=0.2730901414672773
+2023-05-25 16:18:12,898 - root - INFO - iter=17/20
+2023-05-25 16:18:14,489 - root - INFO - loss after updating Electric Field = 0.11952648990298109, error_E=0.008947639366633155
+2023-05-25 16:19:37,572 - root - INFO - loss after updating Relative Permittivities = 0.11277566870269183, error_rel_perm=0.27263747695526813
+2023-05-25 16:19:37,573 - root - INFO - iter=18/20
+2023-05-25 16:19:38,842 - root - INFO - loss after updating Electric Field = 0.1092033366776596, error_E=0.008577225490338958
+2023-05-25 16:21:02,755 - root - INFO - loss after updating Relative Permittivities = 0.1048903808416301, error_rel_perm=0.2722525398419932
+2023-05-25 16:21:02,755 - root - INFO - iter=19/20
+2023-05-25 16:21:04,273 - root - INFO - loss after updating Electric Field = 0.10240772992697962, error_E=0.008321403174801595
+2023-05-25 16:22:26,028 - root - INFO - loss after updating Relative Permittivities = 0.09908258055889885, error_rel_perm=0.2720273634214284
+2023-05-25 16:22:26,029 - root - INFO - iter=20/20
+2023-05-25 16:22:27,261 - root - INFO - loss after updating Electric Field = 0.09728124595975472, error_E=0.008125001058839823
+2023-05-25 16:23:48,753 - root - INFO - loss after updating Relative Permittivities = 0.09505803398682248, error_rel_perm=0.27183510807003664
+2023-05-25 16:41:15,208 - root - INFO - Starting image generator
+2023-05-25 16:42:16,931 - root - INFO - Starting image generator
+2023-05-25 16:43:36,944 - root - INFO - Starting image generator
+2023-05-25 16:45:06,957 - root - INFO - Starting image generator
+2023-05-25 16:49:40,583 - root - INFO - Starting image generator
+2023-05-25 16:49:40,584 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-05-25 16:49:40,584 - root - INFO - Generating image no. 1/1
+2023-05-25 16:49:40,584 - root - INFO - The image will have 3 circles
+2023-05-25 16:50:16,910 - root - INFO - Starting image generator
+2023-05-25 16:50:28,511 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-05-25 16:50:29,638 - root - INFO - Generating image no. 1/1
+2023-05-25 16:50:33,130 - root - INFO - The image will have 3 circles
+2023-05-25 16:51:09,561 - root - INFO - Starting image generator
+2023-05-25 16:51:09,564 - root - INFO -  A fixed pattern with 3 circles will be generated
+2023-05-25 16:51:09,564 - root - INFO - Generating image no. 1/1
+2023-05-25 16:51:09,564 - root - INFO - The image will have 3 circles
+2023-05-25 16:51:09,621 - root - INFO - Saving generated image plot to path /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/logs/image_generator/images/test/image_1.png
+2023-05-25 16:51:10,183 - root - INFO - Saving 1 images to file /Users/ccaiafa/Library/CloudStorage/GoogleDrive-ccaiafa@gmail.com/My Drive/Research/Microondas_Ramiro/code/CS_tomography/data/image_generator/test/images.pkl
+2023-05-25 16:51:10,196 - root - INFO - Starting MWT solver
+2023-05-25 16:51:11,505 - root - INFO - iter=1/20
+2023-05-25 16:51:12,890 - root - INFO - loss after updating Electric Field = 209.88164047146662, error_E=0.29306227764479764
