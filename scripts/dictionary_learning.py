@@ -3,9 +3,10 @@
 import argparse
 import os
 import sys
-from configs.constants import Constants
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from configs.constants import Constants
 
 from executor.dictionary_trainer import Dictionary_Trainer
 
