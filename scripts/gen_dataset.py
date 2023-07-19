@@ -11,7 +11,7 @@ from dataloader.image.image_generator import ImageGenerator
 
 if __name__ == "__main__":
     # Test images generator
-    image_generator = ImageGenerator(no_of_images=2500, shape='circle')
+    image_generator = ImageGenerator(no_of_images=250000, shape='circle')
     images = image_generator.generate_images(test=False, nshapes='random')  # 'random', no of shapes, 'fixed_pattern'
 
 

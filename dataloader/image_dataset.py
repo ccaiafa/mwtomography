@@ -17,5 +17,5 @@ class ImageDataset(Dataset):
         relperm_minus_one = current_image.get_relative_permittivities() - 1.0
         if self.transform:
             relperm_minus_one = self.transform(relperm_minus_one)
-        return relperm_minus_one
+        return idx, relperm_minus_one
 
