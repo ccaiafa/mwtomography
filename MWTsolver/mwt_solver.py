@@ -8,6 +8,9 @@ from datetime import datetime
 import hdf5storage
 from os.path import join as pjoin
 
+ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '../'))
+sys.path.insert(0, ROOT_PATH + "/MWTsolver")
+
 from configs.constants import Constants
 from configs.logger import Logger
 from dataloader.electric_field.electric_field_generator import ElectricFieldGenerator
@@ -17,8 +20,7 @@ from scipy import linalg
 import pylops
 import pyproximal
 
-ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '../'))
-sys.path.insert(0, ROOT_PATH + "/MWTsolver")
+
 from csoperator import CSoperator
 
 LOG = Logger.get_root_logger(
