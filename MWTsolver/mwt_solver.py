@@ -18,7 +18,7 @@ from dataloader.electric_field.electric_field_generator import ElectricFieldGene
 import numpy as np
 from scipy import linalg
 import pylops
-import pyproximal
+
 
 
 from csoperator import CSoperator
