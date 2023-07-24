@@ -109,22 +109,19 @@ class Dictionary_Trainer:
 
 
                     # Compute code (sparse representation using Kronecker dictionary)
+                    sparse_coeffs = np.zeros([self.no_of_pixels * self.no_of_pixels, Y.shape[1]])
                     for i in range(Y.shape[1]):
-                        print(str(i))
-                        code, niterf, costf = pylops.optimization.sparsity.fista(Aop, Y[:, i],
+                        sparse_coeffs[:, i], niterf, costf = pylops.optimization.sparsity.fista(Aop, Y[:, i],
                                                                                     niter=self.params['max_iter'],
                                                                                     eps=self.params['lambda'],
                                                                                     tol=self.params['threshold'],
                                                                                     show=self.params['verbose'])
 
                     # Update Kronecker dictionaries (D1 and D2) using linalg package
-                    self.total_electric_field = np.linalg.lstsq(phi, q, rcond=None)[0]
+                    #self.total_electric_field = np.linalg.lstsq(phi, q, rcond=None)[0]
 
-
-
-                    code = dict_learner.fit_transform(X)
-                    sq_error = np.mean(np.sum((X - code @ dict_learner.components_) ** 2, axis=1) / np.sum(X ** 2, axis=1))  # np.linalg.norm(X - Xap, 'fro')
-                    dict_learner.set_params(dict_init=dict_learner.components_, code_init=code)
+                    sq_error = np.mean(np.sum((Y - Aop._matvec(sparse_coeffs)) ** 2, axis=1) / np.sum(Y ** 2, axis=1))  # np.linalg.norm(X - Xap, 'fro')
+                    #dict_learner.set_params(dict_init=dict_learner.components_, code_init=code)
 
                     training_loss += sq_error
 
@@ -132,7 +129,7 @@ class Dictionary_Trainer:
                     pbar.set_postfix(**{'squared error (batch)': sq_error})
 
                     filename_dict = os.path.join(ROOT_PATH + "/dictionary/trained_dict_epoch_" + str(epoch) + "_kron.pkl")
-                    FileManager.save(dict_learner, filename_dict)
+                    #FileManager.save(dict_learner, filename_dict)
 
                     time_elapsed += (datetime.now() - start_batch_time)
                     print("Batch elapsed time=" + str(time_elapsed) + "s")
@@ -176,12 +173,12 @@ class Dictionary_Trainer:
         LOG.info("Loading images from file %s", images_path)
         images = ImageDataset(FileManager.load(images_path))
         LOG.info("%d images loaded", len(images))
-        n_val = int(len(images) * self.params["validation_proportion"])
-        n_train = len(images) - n_val
-        train_set, val_set, _ = random_split(images, [n_train, n_val, 0],
+        self.n_val = int(len(images) * self.params["validation_proportion"])
+        self.n_train = len(images) - self.n_val
+        train_set, val_set, _ = random_split(images, [self.n_train, self.n_val, 0],
                                              generator=torch.Generator().manual_seed(self.params["manual_seed"]))
-        LOG.info("Train set has %d images", n_train)
-        LOG.info("Validation set has %d images", n_val)
+        LOG.info("Train set has %d images", self.n_train)
+        LOG.info("Validation set has %d images", self.n_val)
 
         # loader_args = dict(batch_size=self.batch_size, num_workers=self.num_workers, pin_memory=True)
         self.train_loader = DataLoader(train_set, shuffle=False, batch_size=self.params["batch_size"])

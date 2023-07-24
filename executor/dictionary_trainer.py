@@ -38,6 +38,7 @@ class Dictionary_Trainer:
         self.params = dict_learn_parameters
         self.load_datasets(images_path)
         self.plotter = Plotter()
+        self.no_of_pixels = no_of_pixels
 
     def dict_train(self, load, plot_interval, training_logs_plots_path_prefix, validation_logs_plots_path_prefix,
                    error_logs_plots_path_prefix):
@@ -103,7 +104,7 @@ class Dictionary_Trainer:
                     pbar.update()
                     pbar.set_postfix(**{'squared error (batch)': sq_error})
 
-                    filename_dict = os.path.join(ROOT_PATH + "/dictionary/trained_dict_epoch_" + str(epoch) + ".pkl")
+                    filename_dict = os.path.join(ROOT_PATH + "/dictionary/trained_dict_epoch_" + "_" + str(self.no_of_pixels) + "x" + str(self.no_of_pixels) + str(epoch) + ".pkl")
                     FileManager.save(dict_learner, filename_dict)
 
                     time_elapsed += (datetime.now() - start_batch_time)
@@ -148,12 +149,12 @@ class Dictionary_Trainer:
         LOG.info("Loading images from file %s", images_path)
         images = ImageDataset(FileManager.load(images_path))
         LOG.info("%d images loaded", len(images))
-        n_val = int(len(images) * self.params["validation_proportion"])
-        n_train = len(images) - n_val
-        train_set, val_set, _ = random_split(images, [n_train, n_val, 0],
+        self.n_val = int(len(images) * self.params["validation_proportion"])
+        self.n_train = len(images) - self.n_val
+        train_set, val_set, _ = random_split(images, [self.n_train, self.n_val, 0],
                                              generator=torch.Generator().manual_seed(self.params["manual_seed"]))
-        LOG.info("Train set has %d images", n_train)
-        LOG.info("Validation set has %d images", n_val)
+        LOG.info("Train set has %d images", self.n_train)
+        LOG.info("Validation set has %d images", self.n_val)
 
         # loader_args = dict(batch_size=self.batch_size, num_workers=self.num_workers, pin_memory=True)
         self.train_loader = DataLoader(train_set, shuffle=False, batch_size=self.params["batch_size"])

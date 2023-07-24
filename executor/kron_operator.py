@@ -31,10 +31,10 @@ class Kron_operator(LinearOperator):
         self.I2 = D2.shape[0]
         self.J1 = D1.shape[1]
         self.J2 = D2.shape[1]
-        self.no_of_pixels = D1.shape[0] * D2.shape[0]
+        self.no_total_pixels = D1.shape[0] * D2.shape[0]
         self.Nat = D1.shape[1] * D2.shape[1]
 
-        super().__init__(dtype=np.dtype(dtype), shape=(self.no_of_pixels, self.Nat))
+        super().__init__(dtype=np.dtype(dtype), shape=(self.no_total_pixels, self.Nat))
 
     def _matvec(self, x):
         x = np.matmul(self.D1, np.reshape(x, [self.I1, self.I2]))

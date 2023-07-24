@@ -111,7 +111,7 @@
             "n_components": 4096,
             "lambda": 0.05,
             "max_iter": 50,
-            "threshold": 1e-4,
+            "threshold": 1e-6,
             "verbose": false,
             "num_epochs": 50,
             "random_state": 42,

@@ -70,7 +70,7 @@ if __name__ == "__main__":
         dictionary_file = ROOT_PATH + "/data/trainer/dictionary/dct/1024x1024.pkl"
         D = FileManager.load(dictionary_file)
     elif dictionary_type == "sklearn":
-        dictionary_file = ROOT_PATH + "/data/trainer/dictionary/sklearn/trained_dict_epoch_1.pkl"
+        dictionary_file = ROOT_PATH + "/data/trainer/dictionary/sklearn/trained_dict_64x64_epoch_1.pkl"
         dict_trainer = FileManager.load(dictionary_file)
         D = dict_trainer.components_.transpose()
 
