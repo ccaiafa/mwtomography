@@ -1,3 +1,4 @@
+*.pyc
 *.pt
 *.tar.gz
 *.log
