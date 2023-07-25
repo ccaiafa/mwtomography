@@ -93,9 +93,11 @@ class Dictionary_Trainer:
             training_loss = 0.0
             with tqdm(total=len(self.train_loader), desc=f'Epoch {epoch}/{self.params["num_epochs"]}',
                       unit='img') as pbar:
-                for ix, rel_perm_minus_one in enumerate(self.train_loader):
+                for ix, rel_perm_minus_one in self.train_loader:
+                #for ix, rel_perm_minus_one in enumerate(self.train_loader):
                     start_batch_time = datetime.now()
-                    X = rel_perm_minus_one.reshape((rel_perm_minus_one.shape[0], -1)).numpy()
+                    #X = rel_perm_minus_one.reshape((rel_perm_minus_one.shape[0], -1)).numpy()
+                    X = rel_perm_minus_one.reshape((rel_perm_minus_one.shape[0], -1))
                     code = dict_learner.fit_transform(X)
                     sq_error = np.mean(np.sum((X - code @ dict_learner.components_) ** 2, axis=1) / np.sum(X ** 2, axis=1))  # np.linalg.norm(X - Xap, 'fro')
                     dict_learner.set_params(dict_init=dict_learner.components_, code_init=code)

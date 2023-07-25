@@ -100,7 +100,7 @@
             "num_epochs": 50,
             "random_state": 42,
             "transform_max_iter": 25,
-            "batch_size": 8192,
+            "batch_size": 125000,
             "mini_batch_size": 3,
             "shuffle": true,
             "validation_proportion": 0.5,
