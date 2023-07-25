@@ -16,8 +16,7 @@ import numpy as np
 from utils.file_manager import FileManager
 
 
-
-def plot_results(solver):
+def plot_results(solver, path):
     N = solver.images_parameters['no_of_pixels']
     plt.figure(figsize=(5, 5), layout='constrained')
     plt.subplot(211)  # Error vs iter
@@ -55,6 +54,9 @@ def plot_results(solver):
                                                                                                                   N)))
     plt.show()
 
+    plt.savefig(path)
+    plt.close("all")
+
 
 if __name__ == "__main__":
     # Test images generator
@@ -79,14 +81,15 @@ if __name__ == "__main__":
     # Solve using sparse representation first
     solverCS = MWTsolver(image, D)
     solverCS.inverse_problem_solver()
-
-    plot_results(solverCS)
+    file_name = ROOT_PATH + "/data/reconstruction/CS_64x64.png"
+    plot_results(solverCS, file_name)
 
     # Refine solution using Total VAriation
     solver = MWTsolverTV(image, solverCS.complex_rel_perm)
     solver.inverse_problem_solver()
 
-    plot_results(solver)
+    file_name = ROOT_PATH + "/data/reconstruction/CSTV_64x64.png"
+    plot_results(solver, file_name)
 
 
 
