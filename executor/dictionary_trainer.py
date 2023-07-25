@@ -33,9 +33,10 @@ class Dictionary_Trainer:
         basic_parameters = Constants.get_basic_parameters()
         dict_learn_parameters = basic_parameters["dict_learn"]
         LOG.info("Starting trainer in standard mode")
-        images_path = ROOT_PATH + images_path_prefix + "images" + "_" + str(no_of_pixels) + "x" + str(no_of_pixels) + ".pkl"
         self.checkpoint_path = ROOT_PATH + checkpoint_path_prefix + "trained_dict.pt"
         self.params = dict_learn_parameters
+        images_path = ROOT_PATH + images_path_prefix + "images" + "_" + str(no_of_pixels) + "x" + str(
+            no_of_pixels) + ".pkl"
         self.load_datasets(images_path)
         self.plotter = Plotter()
         self.no_of_pixels = no_of_pixels
@@ -104,7 +105,7 @@ class Dictionary_Trainer:
                     pbar.update()
                     pbar.set_postfix(**{'squared error (batch)': sq_error})
 
-                    filename_dict = os.path.join(ROOT_PATH + "/dictionary/trained_dict_epoch_" + "_" + str(self.no_of_pixels) + "x" + str(self.no_of_pixels) + str(epoch) + ".pkl")
+                    filename_dict = os.path.join(ROOT_PATH + "/dictionary/trained_dict_epoch_" + "_" + str(self.no_of_pixels) + "x" + str(self.no_of_pixels) + str(epoch) + str(self.params["batch_size"]) + ".pkl")
                     FileManager.save(dict_learner, filename_dict)
 
                     time_elapsed += (datetime.now() - start_batch_time)

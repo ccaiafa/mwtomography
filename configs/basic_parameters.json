@@ -115,7 +115,7 @@
             "verbose": false,
             "num_epochs": 50,
             "random_state": 42,
-            "batch_size": 8192,
+            "batch_size": 125000,
             "shuffle": true,
             "validation_proportion": 0.5,
             "manual_seed": 253
