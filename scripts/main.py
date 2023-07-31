@@ -66,7 +66,8 @@ if __name__ == "__main__":
     # Apply CS reconstruction algorithm
     image = images[0]
     # Load a precomputed dictionary
-    dictionary_type = 'sklearn'
+    #dictionary_type = 'sklearn'
+    dictionary_type = 'kronecker'
     if dictionary_type == 'ODL':
         dictionary_file = ROOT_PATH + "/data/trainer/dictionary/ODL/1024x4096.pkl"
         D = FileManager.load(dictionary_file)
@@ -77,6 +78,10 @@ if __name__ == "__main__":
         dictionary_file = ROOT_PATH + "/data/trainer/dictionary/sklearn/trained_dict_64x64_epoch_1.pkl"
         dict_trainer = FileManager.load(dictionary_file)
         D = dict_trainer.components_.transpose()
+    elif dictionary_type == "kronecker":
+        dictionary_file = ROOT_PATH + "/data/trainer/dictionary/kronecker/trained_dict_epoch_4_kron.pkl"
+        aux = FileManager.load(dictionary_file)
+        D = np.kron(aux[0], aux[1])
 
     # Solve using sparse representation first
     solverCS = MWTsolver(image, D)

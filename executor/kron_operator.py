@@ -37,9 +37,9 @@ class Kron_operator(LinearOperator):
         super().__init__(dtype=np.dtype(dtype), shape=(self.no_total_pixels, self.Nat))
 
     def _matvec(self, x):
-        x = np.matmul(self.D1, np.reshape(x, [self.I1, self.I2]))
+        x = np.matmul(self.D1, np.reshape(x, [self.J1, self.J2]))
         return np.matmul(x, np.transpose(self.D2)).reshape(-1)
 
     def _rmatvec(self, y):
-        y = np.matmul(np.transpose(self.D1), np.reshape(y, [self.J1, self.J2]))
+        y = np.matmul(np.transpose(self.D1), np.reshape(y, [self.I1, self.I2]))
         return np.matmul(y, self.D2).reshape(-1)

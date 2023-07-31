@@ -30,8 +30,8 @@
         },
         "CS_optimizer":
         {
-            "init": "random",
-            "verbose": false,
+            "init": "ground_truth",
+            "verbose": true,
             "alpha": 0.1,
             "main_loop":
                 {
@@ -115,7 +115,7 @@
             "verbose": false,
             "num_epochs": 50,
             "random_state": 42,
-            "batch_size": 125000,
+            "batch_size": 8192,
             "shuffle": true,
             "validation_proportion": 0.5,
             "manual_seed": 253

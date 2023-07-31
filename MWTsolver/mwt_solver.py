@@ -158,7 +158,7 @@ class MWTsolver:
 
         self.sparse_coeffs = self.sparse_coeffs / Aopn.norm2col
 
-        self.complex_rel_perm = -1j * self.electric_field_generator.angular_frequency * self.electric_field_generator.vacuum_permittivity * self.electric_field_generator.pixel_area * np.matmul(self.dictionary, self.sparse_coeffs)
+        self.complex_rel_perm = -1j * self.electric_field_generator.angular_frequency * self.electric_field_generator.vacuum_permittivity * self.electric_field_generator.pixel_area * (np.matmul(self.dictionary, self.sparse_coeffs) + 1.0)
 
         error_rel_perm = np.linalg.norm(self.groundtruth_complex_rel_perm.flatten() - self.complex_rel_perm)/np.linalg.norm(self.groundtruth_complex_rel_perm.flatten())
         loss = self.solver_parameters["alpha"] * self.loss1() + (1.0 - self.solver_parameters["alpha"] ) * self.loss2()

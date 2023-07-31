@@ -48,6 +48,7 @@ class Dictionary_Trainer:
         self.load_datasets(images_path)
         self.plotter = Plotter()
         self.no_of_pixels = no_of_pixels
+        self.J = int(np.sqrt(self.params['n_components']))
 
     def dict_train(self, load, plot_interval, training_logs_plots_path_prefix, validation_logs_plots_path_prefix,
                    error_logs_plots_path_prefix):
@@ -109,18 +110,36 @@ class Dictionary_Trainer:
 
 
                     # Compute code (sparse representation using Kronecker dictionary)
-                    sparse_coeffs = np.zeros([self.no_of_pixels * self.no_of_pixels, Y.shape[1]])
+                    sparse_coeffs = np.zeros([self.params['n_components'], Y.shape[1]])
+                    A1 = np.zeros([self.no_of_pixels * Y.shape[1], self.J])
+                    B1 = np.zeros([self.no_of_pixels * Y.shape[1], self.no_of_pixels])
+                    A2 = np.zeros([self.no_of_pixels * Y.shape[1], self.J])
+                    B2 = np.zeros([self.no_of_pixels * Y.shape[1], self.no_of_pixels])
                     for i in range(Y.shape[1]):
                         sparse_coeffs[:, i], niterf, costf = pylops.optimization.sparsity.fista(Aop, Y[:, i],
                                                                                     niter=self.params['max_iter'],
                                                                                     eps=self.params['lambda'],
                                                                                     tol=self.params['threshold'],
                                                                                     show=self.params['verbose'])
+                        A1[i*self.no_of_pixels: (i+1)*self.no_of_pixels, :] = np.matmul(self.D2, np.transpose(sparse_coeffs[:, i].reshape(self.J, self.J)))
+                        B1[i*self.no_of_pixels: (i+1)*self.no_of_pixels, :] = np.transpose(Y[:, i].reshape(self.no_of_pixels, self.no_of_pixels))
+
+                        A2[i*self.no_of_pixels: (i+1)*self.no_of_pixels, :] = np.matmul(self.D1, sparse_coeffs[:, i].reshape(self.J, self.J))
+                        B2[i*self.no_of_pixels: (i+1)*self.no_of_pixels, :] = Y[:, i].reshape(self.no_of_pixels, self.no_of_pixels)
+                        #print(i)
 
                     # Update Kronecker dictionaries (D1 and D2) using linalg package
                     #self.total_electric_field = np.linalg.lstsq(phi, q, rcond=None)[0]
+                    self.D1 = np.transpose(np.linalg.lstsq(A1, B1, rcond=None)[0])
+                    self.D2 = np.transpose(np.linalg.lstsq(A2, B2, rcond=None)[0])
+                    Aop = Kron_operator(self.D1, self.D2)
+                    Aop.explicit = False  # temporary solution whilst PyLops gets updated
 
-                    sq_error = np.mean(np.sum((Y - Aop._matvec(sparse_coeffs)) ** 2, axis=1) / np.sum(Y ** 2, axis=1))  # np.linalg.norm(X - Xap, 'fro')
+                    Yap = np.zeros_like(Y)
+                    for i in range(Y.shape[1]):
+                        Yap[:, i] = Aop._matvec(sparse_coeffs[:, i])
+
+                    sq_error = np.mean(np.sum((Y - Yap) ** 2, axis=0) / np.sum(Y ** 2, axis=0))  # np.linalg.norm(X - Xap, 'fro')
                     #dict_learner.set_params(dict_init=dict_learner.components_, code_init=code)
 
                     training_loss += sq_error
@@ -129,7 +148,7 @@ class Dictionary_Trainer:
                     pbar.set_postfix(**{'squared error (batch)': sq_error})
 
                     filename_dict = os.path.join(ROOT_PATH + "/dictionary/trained_dict_epoch_" + str(epoch) + "_kron.pkl")
-                    #FileManager.save(dict_learner, filename_dict)
+                    FileManager.save([self.D1, self.D2], filename_dict)
 
                     time_elapsed += (datetime.now() - start_batch_time)
                     print("Batch elapsed time=" + str(time_elapsed) + "s")
