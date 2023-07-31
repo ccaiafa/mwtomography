@@ -109,7 +109,7 @@
     "kron_dict_learn":
         {
             "n_components": 4096,
-            "lambda": 0.05,
+            "lambda": 0.5,
             "max_iter": 50,
             "threshold": 1e-6,
             "verbose": false,
