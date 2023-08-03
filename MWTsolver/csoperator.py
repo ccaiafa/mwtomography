@@ -47,6 +47,15 @@ class CSoperator(LinearOperator):
         Ax = np.array(np.matmul(self.G, aux))
         return np.concatenate((np.imag(Ax), np.real(Ax)), axis=0).reshape(-1)
 
+    def q_times_one(self):
+        x = np.ones((self.ET.shape[0]))
+        #x = x / self.norm2col
+        #x = np.matmul(self.D, x)
+        aux = np.multiply(np.matrix(self.ET), np.matrix(x).T)
+        Ax = np.array(np.matmul(self.G, aux))
+        return np.concatenate((np.imag(Ax), np.real(Ax)), axis=0).reshape(-1)
+
+
     def _rmatvec(self, y):
         y = y.reshape(2, -1).T
         y = np.matrix(y[:, 1] + 1j * y[:, 0])

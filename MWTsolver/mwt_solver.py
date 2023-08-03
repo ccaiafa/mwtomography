@@ -152,13 +152,17 @@ class MWTsolver:
         # Precompute matrix G and norm of columns
         Aopn.norm2col_op()
 
+        # correct independent term Ax - b = A(Ds + constant) - b = ADs - (b-bp)
+        bp = self.electric_field_generator.angular_frequency * self.electric_field_generator.vacuum_permittivity * self.electric_field_generator.pixel_area * Aopn.q_times_one()
+        b = b - bp
+
 
         self.sparse_coeffs, niterf, costf = pylops.optimization.sparsity.fista(Aopn, b, x0=self.sparse_coeffs, niter=self.solver_parameters['sparse_solver']['max_iter'], eps=self.solver_parameters['sparse_solver']['lambda'],
                                                tol=self.solver_parameters['sparse_solver']['threshold'], show=self.solver_parameters['verbose'])
 
         self.sparse_coeffs = self.sparse_coeffs / Aopn.norm2col
 
-        self.complex_rel_perm = -1j * self.electric_field_generator.angular_frequency * self.electric_field_generator.vacuum_permittivity * self.electric_field_generator.pixel_area * (np.matmul(self.dictionary, self.sparse_coeffs) + 1.0)
+        self.complex_rel_perm = -1j * self.electric_field_generator.angular_frequency * self.electric_field_generator.vacuum_permittivity * self.electric_field_generator.pixel_area * (np.matmul(self.dictionary, self.sparse_coeffs))
 
         error_rel_perm = np.linalg.norm(self.groundtruth_complex_rel_perm.flatten() - self.complex_rel_perm)/np.linalg.norm(self.groundtruth_complex_rel_perm.flatten())
         loss = self.solver_parameters["alpha"] * self.loss1() + (1.0 - self.solver_parameters["alpha"] ) * self.loss2()

@@ -30,8 +30,8 @@
         },
         "CS_optimizer":
         {
-            "init": "ground_truth",
-            "verbose": true,
+            "init": "random",
+            "verbose": false,
             "alpha": 0.1,
             "main_loop":
                 {
@@ -89,8 +89,8 @@
         },
     "dict_learn":
         {
-            "n_components": 4096,
-            "alpha": 0.01,
+            "n_components": 16384,
+            "alpha": 0.05,
             "max_iter": 25,
             "tol": 1e-3,
             "fit_algorithm": "lars",

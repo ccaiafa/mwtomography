@@ -107,7 +107,7 @@ class Dictionary_Trainer:
                     pbar.update()
                     pbar.set_postfix(**{'squared error (batch)': sq_error})
 
-                    filename_dict = os.path.join(ROOT_PATH + "/dictionary/trained_dict_epoch_" + "_" + str(self.no_of_pixels) + "x" + str(self.no_of_pixels) + str(epoch) + str(self.params["batch_size"]) + ".pkl")
+                    filename_dict = os.path.join(ROOT_PATH + "/dictionary/trained_dict_epoch_" + "_" + str(self.no_of_pixels) + "x" + str(self.no_of_pixels) + str(epoch) + str(self.params["batch_size"]) + str(self.params["n_components"]) +".pkl")
                     FileManager.save(dict_learner, filename_dict)
 
                     time_elapsed += (datetime.now() - start_batch_time)
