@@ -8,9 +8,9 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')
 
 from configs.constants import Constants
 
-#from executor.dictionary_trainer import Dictionary_Trainer
+from executor.dictionary_trainer import Dictionary_Trainer
 
-from executor.kronecker_dictionary_trainer import Dictionary_Trainer
+#from executor.kronecker_dictionary_trainer import Dictionary_Trainer
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
