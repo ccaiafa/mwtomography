@@ -41,46 +41,57 @@ def plot_results(solver, path):
     plt.imshow(np.abs(solver.groundtruth_complex_rel_perm.reshape(N, N)))
     plt.subplot(232), plt.title("CS estimate")  # Estimated Rel Perm
     plt.imshow(np.abs(solver.complex_rel_perm.reshape(N, N)))
-    plt.subplot(233), plt.title("Abs error:"+"{:.4f}".format(solver.error_rel_perm[-1]))  # Rel Perm Error
+    plt.subplot(233), plt.title("Abs error:" + "{:.4f}".format(solver.error_rel_perm[-1]))  # Rel Perm Error
     plt.imshow(np.abs(solver.complex_rel_perm.reshape(N, N) - solver.groundtruth_complex_rel_perm.reshape(N, N)))
 
     plt.subplot(234), plt.title("Tot Elec Field")  # Ground Truth Total Electric Field
     plt.imshow(np.abs(solver.groundtruth_total_electric_field[:, 1].reshape(N, N)))
     plt.subplot(235), plt.title("Estimation")  # Estimated Rel Perm
     plt.imshow(np.abs(solver.total_electric_field[:, 1].reshape(N, N)))
-    plt.subplot(236), plt.title("Abs error"+"{:.4f}".format(solver.error_E[-1]))  # Rel Perm Error
+    plt.subplot(236), plt.title("Abs error" + "{:.4f}".format(solver.error_E[-1]))  # Rel Perm Error
     plt.imshow(np.abs(
         solver.groundtruth_total_electric_field[:, 1].reshape(N, N) - solver.total_electric_field[:, 1].reshape(N,
-                                                                                                                  N)))
+                                                                                                                N)))
     plt.show()
 
     plt.savefig(path)
     plt.close("all")
 
 
+def compute_D(Dpatch):
+
+    return #D
+
+
 if __name__ == "__main__":
     # Test images generator
     image_generator = ImageGenerator(no_of_images=1, shape='circle')
-    images = image_generator.generate_images(test=True, nshapes='fixed_pattern')  # 'random', no of shapes, 'fixed_pattern'
+    images = image_generator.generate_images(test=True,
+                                             nshapes='fixed_pattern')  # 'random', no of shapes, 'fixed_pattern'
 
     # Apply CS reconstruction algorithm
     image = images[0]
     # Load a precomputed dictionary
-    dictionary_type = 'sklearn'
-    #dictionary_type = 'kronecker'
+    dictionary_type = 'patch'
+    # dictionary_type = 'full'
+    # dictionary_type = 'kronecker'
     if dictionary_type == 'ODL':
         dictionary_file = ROOT_PATH + "/data/trainer/dictionary/ODL/1024x4096.pkl"
         D = FileManager.load(dictionary_file)
     elif dictionary_type == 'dct':
         dictionary_file = ROOT_PATH + "/data/trainer/dictionary/dct/1024x1024.pkl"
         D = FileManager.load(dictionary_file)
-    elif dictionary_type == "sklearn":
+    elif dictionary_type == "full":
         dictionary_file = ROOT_PATH + "/data/trainer/dictionary/sklearn/trained_dict_64x64_epoch_1.pkl"
-        #dictionary_file = ROOT_PATH + "/data/trainer/dictionary/sklearn/trained_dict_epoch_1.pkl"
+        # dictionary_file = ROOT_PATH + "/data/trainer/dictionary/sklearn/trained_dict_epoch_1.pkl"
         dict_trainer = FileManager.load(dictionary_file)
         D = dict_trainer.components_.transpose()
+    elif dictionary_type == "patch":
+        dictionary_file = ROOT_PATH + "/data/trainer/dictionary/patch/trained_dict_epoch__patch_64x6415121024.pkl"
+        dict_trainer = FileManager.load(dictionary_file)
+        D = compute_D(dict_trainer.components_.transpose())
     elif dictionary_type == "kronecker":
-        #dictionary_file = ROOT_PATH + "/data/trainer/dictionary/kronecker/trained_dict_epoch_4_kron.pkl"
+        # dictionary_file = ROOT_PATH + "/data/trainer/dictionary/kronecker/trained_dict_epoch_4_kron.pkl"
         dictionary_file = ROOT_PATH + "/data/trainer/dictionary/kronecker/trained_dict_epoch_9_kron_lambda05.pkl"
         aux = FileManager.load(dictionary_file)
         D = np.kron(aux[0], aux[1])
@@ -97,7 +108,3 @@ if __name__ == "__main__":
 
     file_name = ROOT_PATH + "/data/reconstruction/CSTV_64x64.png"
     plot_results(solver, file_name)
-
-
-
-
