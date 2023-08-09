@@ -106,6 +106,25 @@
             "validation_proportion": 0.5,
             "manual_seed": 253
         },
+    "patch_dict_learn":
+        {
+            "n_components": 1024,
+            "alpha": 0.05,
+            "max_iter": 25,
+            "tol": 1e-3,
+            "fit_algorithm": "lars",
+            "transform_algorithm": "lasso_lars",
+            "transform_alpha": 0.01,
+            "verbose": true,
+            "num_epochs": 50,
+            "random_state": 42,
+            "transform_max_iter": 25,
+            "batch_size": 512,
+            "mini_batch_size": 3,
+            "shuffle": true,
+            "validation_proportion": 0.5,
+            "manual_seed": 253
+        },
     "kron_dict_learn":
         {
             "n_components": 4096,
