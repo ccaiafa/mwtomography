@@ -18,6 +18,6 @@ if __name__ == "__main__":
 
     filename_dict = os.path.join(
         ROOT_PATH + "/dictionary/trained_dict_epoch__patch_64x64_epoch_4_batch_size_125000_ncomps_1024_dict.pkl")
-    FileManager.save(aux.components_, filename_dict)
+    FileManager.save(aux.components_.transpose(), filename_dict)
 
 

@@ -87,8 +87,8 @@ if __name__ == "__main__":
         dict_trainer = FileManager.load(dictionary_file)
         D = dict_trainer.components_.transpose()
     elif dictionary_type == "patch":
-        dictionary_file = ROOT_PATH + "/data/trainer/dictionary/patch/trained_dict_epoch__patch_64x6415121024.pkl"
-        dict_trainer = FileManager.load(dictionary_file)
+        dictionary_file = ROOT_PATH + "/data/trainer/dictionary/patch/trained_dict_epoch__patch_64x64_epoch_4_batch_size_125000_ncomps_1024_dict.pkl"
+        D = FileManager.load(dictionary_file)
         D = compute_D(dict_trainer.components_.transpose())
     elif dictionary_type == "kronecker":
         # dictionary_file = ROOT_PATH + "/data/trainer/dictionary/kronecker/trained_dict_epoch_4_kron.pkl"
