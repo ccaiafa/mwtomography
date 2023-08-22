@@ -41,7 +41,7 @@
                 },
             "sparse_solver":
                 {
-                    "lambda": 0.05,
+                    "lambda": 0.1,
                     "max_iter": 2000,
                     "threshold": 1e-6
                 }
