@@ -181,8 +181,8 @@ if __name__ == "__main__":
     plot_results(solverCS, file_name)
 
     # Refine solution using Total VAriation
-    solver = MWTsolverTV(image, solverCS.complex_rel_perm)
-    solver.inverse_problem_solver()
+    #solver = MWTsolverTV(image, solverCS.complex_rel_perm)
+    #solver.inverse_problem_solver()
 
-    file_name = ROOT_PATH + "/data/reconstruction/CSTV_64x64.png"
-    plot_results(solver, file_name)
+    #file_name = ROOT_PATH + "/data/reconstruction/CSTV_64x64.png"
+    #plot_results(solver, file_name)
