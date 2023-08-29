@@ -18,7 +18,6 @@ import numpy as np
 from utils.file_manager import FileManager
 from empatches import EMPatches
 from empatches import BatchPatching
-import imgviz # just for plotting
 
 
 def image2vectorized_patches(x):
