@@ -3,6 +3,8 @@
 import os
 import hdf5storage
 import sys
+import torch
+
 from os.path import join as pjoin
 
 ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '../'))
@@ -14,6 +16,9 @@ from MWTsolver.mwt_solver_TV import MWTsolverTV
 from matplotlib import pyplot as plt
 import numpy as np
 from utils.file_manager import FileManager
+from empatches import EMPatches
+from empatches import BatchPatching
+import imgviz # just for plotting
 
 
 def image2vectorized_patches(x):
@@ -66,6 +71,41 @@ def construct_full_dict(Dp, P=64, J=16):
     D = D.transpose()
 
     #D =  D / np.sqrt(np.sum(D * D, axis=0))
+
+    return D
+
+def construct_full_dict_overlap(Dp, n_patches=49, J=16, P=64):
+    print("constructing Full Dictionary for Overlapped patches ...")
+    bp = BatchPatching(patchsize=16, overlap=0.5, typ='torch')
+    # Extract indices for merging later
+    # Create artificial batch of images [B, C, H, W]
+    aux = torch.rand([n_patches * J * J, 3, P, P])
+    batch_patches, batch_indices = bp.patch_batch(aux)
+    del aux, batch_patches
+
+    # extracting batch patches from the identity matrix
+    identity = np.eye(n_patches * J * J) # not need to permute since it is diagonal
+    identity = identity.reshape(-1, J*J, n_patches, order="F")  # [16*16*49, 16*16, 49]
+    identity = identity.transpose(0, 2, 1)  # [16*16*49, 49, 16*16]
+    identity = identity.reshape(-1, n_patches, J, J)  # [16*16*49, 49, 16, 16] [nbaches, npatches, J, J]
+    identity = np.repeat(identity[..., np.newaxis], 3, axis=4)
+    id = []
+    for batch in range(identity.shape[0]):
+        id.append(list(identity[batch, :, :, :]))
+
+    del identity
+
+    merged_matrix = bp.merge_batch(id, batch_indices, mode='avg') # [16*16*49, 3, 64, 64]
+    merged_matrix = np.squeeze(merged_matrix[:, 0, :, :]) # [16*16*49, 64, 64]
+    merged_matrix = merged_matrix.reshape(n_patches * J * J, P * P, order="F") #[16*16*49, 64*64]
+    merged_matrix = merged_matrix.transpose()
+
+    del batch_indices, id
+
+    D = np.kron(np.eye(n_patches, dtype=int), Dp)  # [256*49, 1024*49]
+    D = np.matmul(merged_matrix, D)
+
+    D = D / np.sqrt(np.sum(D * D, axis=0))
 
     return D
 
@@ -140,10 +180,15 @@ if __name__ == "__main__":
     images = image_generator.generate_images(test=True,
                                              nshapes='fixed_pattern')  # 'random', no of shapes, 'fixed_pattern'
 
+    #A = np.stack((images[0].relative_permittivities, images[1].relative_permittivities))
+
+
+
     # Apply CS reconstruction algorithm
     image = images[0]
     # Load a precomputed dictionary
-    dictionary_type = 'patch'
+    dictionary_type = 'overlap_patch'
+    # dictionary_type = 'patch'
     # dictionary_type = 'full'
     # dictionary_type = 'kronecker'
     if dictionary_type == 'ODL':
@@ -163,6 +208,11 @@ if __name__ == "__main__":
         plot_dict(Dpatch)
         #D = np.random.rand(64*64, 4*64*64)
         D = construct_full_dict(Dpatch)
+    elif dictionary_type == "overlap_patch":
+        dictionary_file = ROOT_PATH + "/data/trainer/dictionary/patch/trained_dict_epoch__patch_64x64_epoch_4_batch_size_125000_ncomps_1024_dict.pkl"
+        Dpatch = FileManager.load(dictionary_file)
+        plot_dict(Dpatch)
+        D = construct_full_dict_overlap(Dpatch)
     elif dictionary_type == "kronecker":
         # dictionary_file = ROOT_PATH + "/data/trainer/dictionary/kronecker/trained_dict_epoch_4_kron.pkl"
         dictionary_file = ROOT_PATH + "/data/trainer/dictionary/kronecker/trained_dict_epoch_9_kron_lambda05.pkl"
