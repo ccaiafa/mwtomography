@@ -30,7 +30,7 @@
         },
         "CS_optimizer":
         {
-            "init": "random",
+            "init": "ground_truth",
             "verbose": false,
             "alpha": 0.1,
             "main_loop":
