@@ -4,9 +4,11 @@ import os
 import sys
 import time
 from datetime import datetime
+from matplotlib import pyplot as plt
 
 import hdf5storage
 from os.path import join as pjoin
+from utils.file_manager import FileManager
 
 ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '../'))
 sys.path.insert(0, ROOT_PATH + "/MWTsolver")
@@ -27,6 +29,49 @@ LOG = Logger.get_root_logger(
     os.environ.get('ROOT_LOGGER', 'root'),
     filename=os.path.join(ROOT_PATH + "/logs/mwt_solver/", '{:%Y-%m-%d}.log'.format(datetime.now()))
 )
+
+
+def plot_results(solver, path):
+    N = solver.images_parameters['no_of_pixels']
+    plt.figure(figsize=(5, 5), layout='constrained')
+    plt.subplot(211)  # Error vs iter
+    plt.plot(solver.error_E, label='error Total Electric Field')
+    plt.plot(solver.error_rel_perm, label='error Complex Relative Permittivity')
+    plt.xlabel('Iterations')
+    plt.ylabel('Error')
+    plt.title("Error vs iteration")
+    plt.legend()
+
+    plt.subplot(212)  # Loss vs iter
+    plt.plot(solver.loss, label='Loss')
+    plt.xlabel('Iterations')
+    plt.ylabel('Loss')
+    plt.title("Loss vs iteration")
+    plt.legend()
+    plt.show()
+
+    fig, axs = plt.subplots(nrows=2, ncols=3, figsize=(5, 5), layout='constrained',
+                            subplot_kw={'xticks': [], 'yticks': []})
+    plt.subplot(231), plt.title("Ground Truth")  # Ground Truth Rel Perm
+    plt.imshow(np.abs(solver.groundtruth_complex_rel_perm.reshape(N, N)))
+    plt.subplot(232), plt.title("CS estimate")  # Estimated Rel Perm
+    plt.imshow(np.abs(solver.complex_rel_perm.reshape(N, N)))
+    plt.subplot(233), plt.title("Abs error:" + "{:.4f}".format(solver.error_rel_perm[-1]))  # Rel Perm Error
+    plt.imshow(np.abs(solver.complex_rel_perm.reshape(N, N) - solver.groundtruth_complex_rel_perm.reshape(N, N)))
+
+    plt.subplot(234), plt.title("Tot Elec Field")  # Ground Truth Total Electric Field
+    plt.imshow(np.abs(solver.groundtruth_total_electric_field[:, 1].reshape(N, N)))
+    plt.subplot(235), plt.title("Estimation")  # Estimated Rel Perm
+    plt.imshow(np.abs(solver.total_electric_field[:, 1].reshape(N, N)))
+    plt.subplot(236), plt.title("Abs error" + "{:.4f}".format(solver.error_E[-1]))  # Rel Perm Error
+    plt.imshow(np.abs(
+        solver.groundtruth_total_electric_field[:, 1].reshape(N, N) - solver.total_electric_field[:, 1].reshape(N, N)))
+
+    fig1 = plt.gcf()
+    plt.show()
+    plt.draw()
+    fig1.savefig(path, dpi=100)
+    plt.close("all")
 
 
 class MWTsolver:
@@ -105,10 +150,15 @@ class MWTsolver:
             loss_variation = np.abs(loss - loss_previous)
             loss_previous = loss
 
-            n += 1
+
 
             elapsed = time.time() - t0
             print('time elapse per iteration:' + str(elapsed) + 's')
+            file_name = ROOT_PATH + "/data/reconstruction/CS_64x64_iter_"+str(n)+".png"
+            plot_results(self, file_name)
+
+            n += 1
+
 
     def update_total_electric_field(self):
         mat1 = np.identity(self.images_parameters["no_of_pixels"] ** 2) - np.matmul(self.green_function_D,

@@ -22,7 +22,7 @@
     "images":
         {
             "max_diameter": 1,
-            "no_of_pixels": 64,
+            "no_of_pixels": 32,
             "min_radius": 0.15,
             "max_radius": 0.4,
             "min_side": 0.15,
@@ -30,13 +30,13 @@
         },
         "CS_optimizer":
         {
-            "init": "ground_truth",
+            "init": "random",
             "verbose": false,
             "alpha": 0.1,
             "main_loop":
                 {
-                    "alpha": 0.1,
-                    "max_iter": 50,
+                    "alpha": 0.01,
+                    "max_iter": 25,
                     "threshold": 1e-6
                 },
             "sparse_solver":
@@ -89,7 +89,7 @@
         },
     "dict_learn":
         {
-            "n_components": 16384,
+            "n_components": 4096,
             "alpha": 0.05,
             "max_iter": 25,
             "tol": 1e-3,

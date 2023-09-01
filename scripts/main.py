@@ -4,6 +4,7 @@ import os
 import hdf5storage
 import sys
 import torch
+import pywt
 
 from os.path import join as pjoin
 
@@ -112,16 +113,14 @@ def plot_dict(D):
     plt.figure(figsize=(10, 10))
     M = D.shape[0] # number of pixels
     N = D.shape[1] # number of atoms
-    patch_size = (int(np.sqrt(M)), int(np.sqrt(M)))
-    ncols = int(np.sqrt(N))
     for i in range(N):
-        plt.subplot(ncols, ncols
+        plt.subplot(int(np.sqrt(N)), int(np.sqrt(N))
                     , i + 1)
-        plt.imshow(D[:, i].reshape(patch_size), cmap=plt.cm.gray_r, interpolation="nearest")
+        plt.imshow(D[:, i].reshape(int(np.sqrt(M)), int(np.sqrt(M)), order="F"), cmap=plt.cm.gray_r, interpolation="nearest")
         plt.xticks(())
         plt.yticks(())
     plt.suptitle(
-        "Dictionary learned from face patches\n",
+        "Wavelet Dictionary\n",
         fontsize=16,)
     plt.show()
 
@@ -168,9 +167,31 @@ def plot_results(solver, path):
     plt.close("all")
 
 
-def compute_D(Dpatch):
+def sparsify(image, p=0.01):
+    print("image was sparsified")
+    x = image.relative_permittivities
+    # compute the 2D DWT
+    type = "haar"
+    coeffs = pywt.wavedec2(x, type, mode='periodization', level=None)
+    arr, coeff_slices = pywt.coeffs_to_array(coeffs)
 
-    return #D
+    # keep largest coefficients
+    nz_coeffs = round(p * 64 * 64)
+    sorted_arr = np.sort(np.abs(arr.ravel()))
+    sorted_arr = sorted_arr[::-1]
+    threshold = sorted_arr[nz_coeffs - 1]
+
+    arr_new = np.copy(arr)
+    arr_new[np.abs(arr_new) < threshold] = 0
+
+    coeffs_new = pywt.array_to_coeffs(arr_new, coeff_slices, output_format='wavedec2')
+
+    # reconstruction
+    x_rec = pywt.waverec2(coeffs_new, type, mode='periodization')
+
+    image.relative_permittivities = x_rec
+
+    return image
 
 
 if __name__ == "__main__":
@@ -185,10 +206,12 @@ if __name__ == "__main__":
 
     # Apply CS reconstruction algorithm
     image = images[0]
+    #image = sparsify(image, 0.05)
     # Load a precomputed dictionary
-    dictionary_type = 'overlap_patch'
+    #dictionary_type = 'wavelet_db2'
+    #dictionary_type = 'overlap_patch'
     # dictionary_type = 'patch'
-    # dictionary_type = 'full'
+    dictionary_type = 'full'
     # dictionary_type = 'kronecker'
     if dictionary_type == 'ODL':
         dictionary_file = ROOT_PATH + "/data/trainer/dictionary/ODL/1024x4096.pkl"
@@ -197,7 +220,7 @@ if __name__ == "__main__":
         dictionary_file = ROOT_PATH + "/data/trainer/dictionary/dct/1024x1024.pkl"
         D = FileManager.load(dictionary_file)
     elif dictionary_type == "full":
-        dictionary_file = ROOT_PATH + "/data/trainer/dictionary/sklearn/trained_dict_64x64_epoch_1.pkl"
+        dictionary_file = ROOT_PATH + "/dictionary/trained_dict_32x32_epoch_1.pkl"
         # dictionary_file = ROOT_PATH + "/data/trainer/dictionary/sklearn/trained_dict_epoch_1.pkl"
         dict_trainer = FileManager.load(dictionary_file)
         D = dict_trainer.components_.transpose()
@@ -210,13 +233,21 @@ if __name__ == "__main__":
     elif dictionary_type == "overlap_patch":
         dictionary_file = ROOT_PATH + "/data/trainer/dictionary/patch/trained_dict_epoch__patch_64x64_epoch_4_batch_size_125000_ncomps_1024_dict.pkl"
         Dpatch = FileManager.load(dictionary_file)
-        plot_dict(Dpatch)
+        #plot_dict(Dpatch)
         D = construct_full_dict_overlap(Dpatch)
     elif dictionary_type == "kronecker":
         # dictionary_file = ROOT_PATH + "/data/trainer/dictionary/kronecker/trained_dict_epoch_4_kron.pkl"
         dictionary_file = ROOT_PATH + "/data/trainer/dictionary/kronecker/trained_dict_epoch_9_kron_lambda05.pkl"
         aux = FileManager.load(dictionary_file)
         D = np.kron(aux[0], aux[1])
+    elif dictionary_type == "wavelet_haar":
+        dictionary_file = ROOT_PATH + "/dictionary/wavelet_haar_dict.pkl"
+        D = FileManager.load(dictionary_file)
+    elif dictionary_type == "wavelet_db2":
+        dictionary_file = ROOT_PATH + "/dictionary/wavelet_db2_dict.pkl"
+        D = FileManager.load(dictionary_file)
+
+    #plot_dict(D)
 
     # Test
     #x = image.relative_permittivities
@@ -226,12 +257,12 @@ if __name__ == "__main__":
     # Solve using sparse representation first
     solverCS = MWTsolver(image, D)
     solverCS.inverse_problem_solver()
-    file_name = ROOT_PATH + "/data/reconstruction/CS_64x64.png"
-    plot_results(solverCS, file_name)
+    #file_name = ROOT_PATH + "/data/reconstruction/CS_64x64.png"
+    #plot_results(solverCS, file_name)
 
     # Refine solution using Total VAriation
-    #solver = MWTsolverTV(image, solverCS.complex_rel_perm)
-    #solver.inverse_problem_solver()
+    solver = MWTsolverTV(image, solverCS.complex_rel_perm)
+    solver.inverse_problem_solver()
 
     #file_name = ROOT_PATH + "/data/reconstruction/CSTV_64x64.png"
     #plot_results(solver, file_name)
