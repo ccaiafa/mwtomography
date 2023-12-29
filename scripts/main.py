@@ -198,7 +198,7 @@ if __name__ == "__main__":
     # Test images generator
     image_generator = ImageGenerator(no_of_images=1, shape='circle')
     images = image_generator.generate_images(test=True,
-                                             nshapes='fixed_pattern')  # 'random', no of shapes, 'fixed_pattern'
+                                             nshapes=3)  # 'random', no of shapes, 'fixed_pattern'
 
     #A = np.stack((images[0].relative_permittivities, images[1].relative_permittivities))
 

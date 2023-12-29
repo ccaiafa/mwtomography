@@ -116,6 +116,8 @@ class MWTsolver:
         elif self.solver_parameters["init"] == 'ground_truth':
             self.complex_rel_perm = -1j * self.electric_field_generator.angular_frequency * (
                     self.groundtruth_rel_perm - 1) * self.electric_field_generator.vacuum_permittivity * self.electric_field_generator.pixel_area
+        elif self.solver_parameters["init"] == 'zero':
+            self.complex_rel_perm = -1j * np.zeros(*self.groundtruth_rel_perm.shape)
 
         # Initialize Total Electric Field
         self.total_electric_field = None
@@ -169,7 +171,8 @@ class MWTsolver:
 
         q = np.concatenate((self.k1 * self.incident_electric_field, self.k2 * self.measured_electric_field), axis=0)
 
-        self.total_electric_field = np.linalg.lstsq(phi, q, rcond=None)[0]
+        #self.total_electric_field = np.linalg.lstsq(phi, q, rcond=None)[0]
+        self.total_electric_field = np.linalg.lstsq(mat1, self.incident_electric_field, rcond=None)[0]
 
         error_E = np.linalg.norm(self.groundtruth_total_electric_field - self.total_electric_field, 'fro')/np.linalg.norm(self.groundtruth_total_electric_field, 'fro')
         loss = self.solver_parameters["alpha"]  * self.loss1() + (1.0 - self.solver_parameters["alpha"] ) * self.loss2()
@@ -179,7 +182,8 @@ class MWTsolver:
     def update_relative_permittivities(self):
         mat_C = (self.total_electric_field - self.incident_electric_field).transpose()
         mat_B2 = self.measured_electric_field.transpose()
-        b = np.concatenate((self.k1 * mat_C.flatten("F"), self.k2 * mat_B2.flatten("F")), axis=0)
+        #b = np.concatenate((self.k1 * mat_C.flatten("F"), self.k2 * mat_B2.flatten("F")), axis=0)
+        b = mat_B2.flatten("F")
         b = np.concatenate((-b.real, b.imag), axis=0)
 
         #mat_Q1 = linalg.khatri_rao(self.green_function_D, self.total_electric_field.transpose())

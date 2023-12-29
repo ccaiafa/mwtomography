@@ -10,8 +10,8 @@
                     "plane_wave": 1
                 },
             "wave_type": 0,
-            "no_of_receivers": 64,
-            "no_of_transmitters": 16,
+            "no_of_receivers": 32,
+            "no_of_transmitters": 32,
             "noise_level": 0.00,
             "min_permittivity": 1.001,
             "max_permittivity": 1.5,
@@ -30,13 +30,13 @@
         },
         "CS_optimizer":
         {
-            "init": "random",
+            "init": "zero",
             "verbose": false,
             "alpha": 0.1,
             "main_loop":
                 {
-                    "alpha": 0.01,
-                    "max_iter": 25,
+                    "alpha": 0.05,
+                    "max_iter": 20,
                     "threshold": 1e-6
                 },
             "sparse_solver":
@@ -50,10 +50,10 @@
         {
             "init": "initial_guess",
             "alpha": 0.1,
-            "max_iter": 2,
+            "max_iter": 5,
             "threshold": 1e-6,
             "mu": 2.0,
-            "lambda": 0.1,
+            "lambda": 0.05,
             "niter_out": 20,
             "niter_in": 10,
             "tol": 1e-4,

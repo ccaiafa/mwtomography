@@ -38,7 +38,8 @@ class CSoperator(LinearOperator):
         self.Nrec = GS.shape[0]
         self.Ninc = self.ET.shape[1]
         self.Nat = self.D.shape[1]
-        super().__init__(dtype=np.dtype(dtype), shape=(2 * (self.N * self.Ninc + self.Nrec * self.Ninc), self.Nat))
+        #super().__init__(dtype=np.dtype(dtype), shape=(2 * (self.N * self.Ninc + self.Nrec * self.Ninc), self.Nat))
+        super().__init__(dtype=np.dtype(dtype), shape=(2 * (self.Nrec * self.Ninc), self.Nat))
 
     def _matvec(self, x):
         x = x / self.norm2col
@@ -68,7 +69,8 @@ class CSoperator(LinearOperator):
         return np.real(AHy)
 
     def norm2col_op(self):
-        G = np.matrix(self.coeff * np.concatenate((self.k1 * self.GD, self.k2 * self.GS), axis=0))
+        #G = np.matrix(self.coeff * np.concatenate((self.k1 * self.GD, self.k2 * self.GS), axis=0))
+        G = np.matrix(self.coeff * self.GS)
 
         # compute norm of columns
         R = np.multiply(np.matmul(G.H, G), np.matmul(self.ET, np.matrix(self.ET).H))
