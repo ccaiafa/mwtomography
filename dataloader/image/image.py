@@ -27,6 +27,9 @@ class Image:
     def set_measured_electric_field(self, electric_field):
         self.measured_electric_field = electric_field
 
+    def set_total_electric_field(self, total_electric_field):
+        self.total_electric_field = total_electric_field
+
     def get_electric_field(self):
         return self.electric_field
 

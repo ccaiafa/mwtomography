@@ -10,6 +10,7 @@ from os.path import join as pjoin
 
 from configs.constants import Constants
 from dataloader.electric_field.electric_field import ElectricField
+from dataloader.electric_field.total_electric_field import TotalElectricField
 from utils.coordinates_converter import CoordinatesConverter
 
 
@@ -40,8 +41,8 @@ class ElectricFieldGenerator:
 
     def generate_electric_field(self, image, x_domain, y_domain, full_pixel=False):
         relative_permittivities = image.get_relative_permittivities()
-        total_electric_field, __ = self.generate_total_electric_field(relative_permittivities, x_domain, y_domain, full_pixel)
-        return ElectricField(total_electric_field)
+        measured_electric_field, total_electric_field = self.generate_total_electric_field(relative_permittivities, x_domain, y_domain, full_pixel)
+        return ElectricField(measured_electric_field), TotalElectricField(total_electric_field)
 
     def generate_total_electric_field(self, relative_permittivities, x_domain, y_domain, full_pixel=False):
         complex_relative_permittivities = \

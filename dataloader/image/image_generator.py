@@ -67,8 +67,9 @@ class ImageGenerator:
             #shapes = self.shape_generator.generate_shapes(no_of_shapes, test, image_i)
             image = Image()
             image.generate_relative_permittivities(x_domain, y_domain, shapes)
-            measured_electric_field = self.electric_field_generator.generate_electric_field(image, x_domain, y_domain)
+            measured_electric_field, total_electric_field = self.electric_field_generator.generate_electric_field(image, x_domain, y_domain)
             image.set_measured_electric_field(measured_electric_field)
+            image.set_total_electric_field(total_electric_field)
             images.append(image)
             if image_i % 1000 == 0 and not test:
                 image_path = ROOT_PATH + f'''/logs/image_generator/images/image_{image_i}.png'''
