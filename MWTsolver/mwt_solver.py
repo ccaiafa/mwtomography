@@ -93,7 +93,7 @@ class MWTsolver:
                                    self.images_parameters["no_of_pixels"])
         x_domain, y_domain = np.meshgrid(image_domain, -image_domain)
 
-        self.measured_electric_field = self.electric_field_generator.generate_total_electric_field(self.groundtruth_rel_perm, x_domain, y_domain, full_pixel=True)
+        self.measured_electric_field, __ = self.electric_field_generator.generate_total_electric_field(self.groundtruth_rel_perm, x_domain, y_domain, full_pixel=True)
         self.incident_electric_field = self.electric_field_generator.generate_incident_electric_field(x_domain,
                                                                                                       y_domain)
         self.groundtruth_complex_rel_perm = -1j * self.electric_field_generator.angular_frequency * (

@@ -40,7 +40,7 @@ class ElectricFieldGenerator:
 
     def generate_electric_field(self, image, x_domain, y_domain, full_pixel=False):
         relative_permittivities = image.get_relative_permittivities()
-        total_electric_field = self.generate_total_electric_field(relative_permittivities, x_domain, y_domain, full_pixel)
+        total_electric_field, __ = self.generate_total_electric_field(relative_permittivities, x_domain, y_domain, full_pixel)
         return ElectricField(total_electric_field)
 
     def generate_total_electric_field(self, relative_permittivities, x_domain, y_domain, full_pixel=False):
@@ -72,7 +72,7 @@ class ElectricFieldGenerator:
         self.green_function_S = integral_receivers
         total_electric_field = np.matmul(np.matmul(integral_receivers, np.diag(complex_relative_permittivities)),
                                          total_electric_field_transmitters)
-        return total_electric_field
+        return total_electric_field, total_electric_field_transmitters  # Es, Et
 
     def generate_incident_electric_field(self, x_domain, y_domain):
         x_transmitters, y_transmitters, transmitter_angles = \

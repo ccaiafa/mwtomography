@@ -10,7 +10,7 @@
                     "plane_wave": 1
                 },
             "wave_type": 0,
-            "no_of_receivers": 32,
+            "no_of_receivers": 16,
             "no_of_transmitters": 32,
             "noise_level": 0.00,
             "min_permittivity": 1.001,
