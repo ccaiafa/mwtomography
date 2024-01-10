@@ -31,7 +31,7 @@ class Image:
         self.total_electric_field = total_electric_field
 
     def get_electric_field(self):
-        return self.electric_field
+        return self.measured_electric_field
 
     def plot(self, image_i, path):
         plot_title = "Generated image {}".format(image_i)

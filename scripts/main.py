@@ -196,7 +196,7 @@ def sparsify(image, p=0.01):
 
 if __name__ == "__main__":
     # Test images generator
-    image_generator = ImageGenerator(no_of_images=1, shape='circle')
+    image_generator = ImageGenerator(no_of_images=100, shape='circle')
     images = image_generator.generate_images(test=True,
                                              nshapes=3)  # 'random', no of shapes, 'fixed_pattern'
 
