@@ -4,9 +4,9 @@
 import os
 import numpy as np
 from scipy.fftpack import idct
-from mwtomography.configs.constants import Constants
-from mwtomography.utils.file_manager import FileManager
-ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../'))
+from configs.constants import Constants
+from utils.file_manager import FileManager
+ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '../'))
 
 
 if __name__ == "__main__":

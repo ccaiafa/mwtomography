@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 import numpy as np
 
-from mwtomography.configs.constants import Constants
-from mwtomography.dataloader.shapes.rectangle import Rectangle
-from mwtomography.dataloader.shape_generators.shape_generator import ShapeGenerator
+from configs.constants import Constants
+from dataloader.shapes.rectangle import Rectangle
+from dataloader.shape_generators.shape_generator import ShapeGenerator
 
 
 class RectangleGenerator(ShapeGenerator):

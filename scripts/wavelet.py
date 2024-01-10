@@ -6,11 +6,11 @@ from matplotlib import pyplot as plt
 
 import numpy as np
 import pywt
-from mwtomography.utils.file_manager import FileManager
+from utils.file_manager import FileManager
 
-ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../'))
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
-from mwtomography.dataloader.image import ImageGenerator
+ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '../'))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from dataloader.image import ImageGenerator
 
 
 def plot_dict(D):

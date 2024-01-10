@@ -1,24 +1,26 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import os
+import sys
 from collections import OrderedDict
 from datetime import datetime
 
 import numpy as np
+import pylops
 from tqdm import tqdm
 import torch
 
-from mwtomography.configs.constants import Constants
-from mwtomography.configs.logger import Logger
-from mwtomography.dataloader.image_dataset import ImageDataset
+from configs.constants import Constants
+from configs.logger import Logger
+from dataloader.image_dataset import ImageDataset
 from torch.utils.data import random_split, DataLoader
 
-from sklearn.decomposition import DictionaryLearning
+from utils.file_manager import FileManager
+from utils.plotter import Plotter
 
-from mwtomography.utils.file_manager import FileManager
-from mwtomography.utils.plotter import Plotter
-
-ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..'))
+ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+sys.path.insert(0, ROOT_PATH + "/executor")
+from kron_operator import Kron_operator
 
 LOG = Logger.get_root_logger(
     os.environ.get('ROOT_LOGGER', 'root'),
@@ -26,18 +28,23 @@ LOG = Logger.get_root_logger(
 )
 
 
+def normalize_columns(D):
+    col_norm = np.linalg.norm(D, axis=0)
+    return D / col_norm
+
+
 class Dictionary_Trainer:
     def __init__(self, images_path_prefix, no_of_pixels, checkpoint_path_prefix):
         basic_parameters = Constants.get_basic_parameters()
-        dict_learn_parameters = basic_parameters["patch_dict_learn"]
+        dict_learn_parameters = basic_parameters["kron_dict_learn"]
         LOG.info("Starting trainer in standard mode")
+        images_path = ROOT_PATH + images_path_prefix + "images" + "_" + str(no_of_pixels) + "x" + str(no_of_pixels) + ".pkl"
         self.checkpoint_path = ROOT_PATH + checkpoint_path_prefix + "trained_dict.pt"
         self.params = dict_learn_parameters
-        images_path = ROOT_PATH + images_path_prefix + "images" + "_" + str(no_of_pixels) + "x" + str(
-            no_of_pixels) + ".pkl"
         self.load_datasets(images_path)
         self.plotter = Plotter()
         self.no_of_pixels = no_of_pixels
+        self.J = int(np.sqrt(self.params['n_components']))
 
     def dict_train(self, load, plot_interval, training_logs_plots_path_prefix, validation_logs_plots_path_prefix,
                    error_logs_plots_path_prefix):
@@ -55,16 +62,12 @@ class Dictionary_Trainer:
 
         LOG.info(f'''Starting training dictionary:
                             N components:           {self.params["n_components"]}
-                            Alpha:                  {self.params["alpha"]}
+                            Lambda:                  {self.params["lambda"]}
                             Max iter:               {self.params["max_iter"]}
-                            Tol:                    {self.params["tol"]}
-                            Fit algorithm:          {self.params["fit_algorithm"]}
-                            Transform algorithm:    {self.params["transform_algorithm"]}
-                            Transform alpha:        {self.params["transform_alpha"]}  
+                            Threshold:              {self.params["threshold"]}
                             Verbose:                {self.params["verbose"]}
                             Num epochs:             {self.params["num_epochs"]}                                                            
                             Random state:           {self.params["random_state"]}
-                            Transf Max iter:        {self.params["transform_max_iter"]}
                             Batch size:             {self.params["batch_size"]}
                             Shuffle:                {self.params["shuffle"]}
                             Training size:   {len(self.train_loader.dataset)}
@@ -72,16 +75,7 @@ class Dictionary_Trainer:
                             Time elapsed:    {time_elapsed}      
                         ''')
 
-        dict_learner = DictionaryLearning(
-            n_components=self.params["n_components"],
-            alpha=self.params["alpha"],
-            max_iter=self.params["max_iter"],
-            fit_algorithm=self.params["fit_algorithm"],
-            transform_algorithm=self.params["transform_algorithm"],
-            transform_alpha=self.params["transform_alpha"],
-            transform_max_iter=self.params["transform_max_iter"],
-            random_state=self.params["random_state"],
-            verbose=self.params["verbose"])
+        self.D1, self.D2 = self.kron_dict_init(self.no_of_pixels, self.params["n_components"])
 
         #filename_dict = os.path.join(ROOT_PATH + "/dictionary/trained_dict_epoch_1")
         #aux = FileManager.load(filename_dict)
@@ -91,24 +85,66 @@ class Dictionary_Trainer:
             training_loss = 0.0
             with tqdm(total=len(self.train_loader), desc=f'Epoch {epoch}/{self.params["num_epochs"]}',
                       unit='img') as pbar:
-                for ix, rel_perm_minus_one in self.train_loader:
                 #for ix, rel_perm_minus_one in enumerate(self.train_loader):
-
-
+                for ix, rel_perm_minus_one in self.train_loader:
                     start_batch_time = datetime.now()
-                    X = self.extract_nonoverlapped_patches(rel_perm_minus_one)
-                    #X = rel_perm_minus_one.reshape((rel_perm_minus_one.shape[0], -1))
-                    code = dict_learner.fit_transform(X)
-                    sq_error = np.mean(np.sum((X.numpy() - code @ dict_learner.components_) ** 2, axis=1) / np.sum(X.numpy() ** 2, axis=1))  # np.linalg.norm(X - Xap, 'fro')
-                    dict_learner.set_params(dict_init=dict_learner.components_, code_init=code)
+                    Y = np.transpose(rel_perm_minus_one.reshape((rel_perm_minus_one.shape[0], -1)).numpy())
+
+                    # Normalize dictionary columns
+                    self.D1 = normalize_columns(self.D1)
+                    self.D2 = normalize_columns(self.D2)
+
+                    Aop = Kron_operator(self.D1, self.D2)
+                    Aop.explicit = False  # temporary solution whilst PyLops gets updated
+
+                    # Check operator Aop
+                    #u = np.random.rand(4096, 1)
+                    #v = np.random.rand(4096, 1)
+
+                    #res1 = np.matmul(Aop._matvec(u).transpose(), v)
+                    #res2 = np.matmul(u.transpose(), Aop._rmatvec(v))
+
+
+                    # Compute code (sparse representation using Kronecker dictionary)
+                    sparse_coeffs = np.zeros([self.params['n_components'], Y.shape[1]])
+                    A1 = np.zeros([self.no_of_pixels * Y.shape[1], self.J])
+                    B1 = np.zeros([self.no_of_pixels * Y.shape[1], self.no_of_pixels])
+                    A2 = np.zeros([self.no_of_pixels * Y.shape[1], self.J])
+                    B2 = np.zeros([self.no_of_pixels * Y.shape[1], self.no_of_pixels])
+                    for i in range(Y.shape[1]):
+                        sparse_coeffs[:, i], niterf, costf = pylops.optimization.sparsity.fista(Aop, Y[:, i],
+                                                                                    niter=self.params['max_iter'],
+                                                                                    eps=self.params['lambda'],
+                                                                                    tol=self.params['threshold'],
+                                                                                    show=self.params['verbose'])
+                        A1[i*self.no_of_pixels: (i+1)*self.no_of_pixels, :] = np.matmul(self.D2, np.transpose(sparse_coeffs[:, i].reshape(self.J, self.J)))
+                        B1[i*self.no_of_pixels: (i+1)*self.no_of_pixels, :] = np.transpose(Y[:, i].reshape(self.no_of_pixels, self.no_of_pixels))
+
+                        A2[i*self.no_of_pixels: (i+1)*self.no_of_pixels, :] = np.matmul(self.D1, sparse_coeffs[:, i].reshape(self.J, self.J))
+                        B2[i*self.no_of_pixels: (i+1)*self.no_of_pixels, :] = Y[:, i].reshape(self.no_of_pixels, self.no_of_pixels)
+                        #print(i)
+
+                    # Update Kronecker dictionaries (D1 and D2) using linalg package
+                    #self.total_electric_field = np.linalg.lstsq(phi, q, rcond=None)[0]
+                    self.D1 = np.transpose(np.linalg.lstsq(A1, B1, rcond=None)[0])
+                    self.D2 = np.transpose(np.linalg.lstsq(A2, B2, rcond=None)[0])
+                    Aop = Kron_operator(self.D1, self.D2)
+                    Aop.explicit = False  # temporary solution whilst PyLops gets updated
+
+                    Yap = np.zeros_like(Y)
+                    for i in range(Y.shape[1]):
+                        Yap[:, i] = Aop._matvec(sparse_coeffs[:, i])
+
+                    sq_error = np.mean(np.sum((Y - Yap) ** 2, axis=0) / np.sum(Y ** 2, axis=0))  # np.linalg.norm(X - Xap, 'fro')
+                    #dict_learner.set_params(dict_init=dict_learner.components_, code_init=code)
 
                     training_loss += sq_error
 
                     pbar.update()
                     pbar.set_postfix(**{'squared error (batch)': sq_error})
 
-                    filename_dict = os.path.join(ROOT_PATH + "/dictionary/trained_dict_epoch_" + "_patch_" + str(self.no_of_pixels) + "x" + str(self.no_of_pixels) + "_epoch_" + str(epoch) + "_batch_size_" + str(self.params["batch_size"]) + "_ncomps_" + str(self.params["n_components"]) +".pkl")
-                    FileManager.save(dict_learner, filename_dict)
+                    filename_dict = os.path.join(ROOT_PATH + "/dictionary/trained_dict_epoch_" + str(epoch) + "_kron.pkl")
+                    FileManager.save([self.D1, self.D2], filename_dict)
 
                     time_elapsed += (datetime.now() - start_batch_time)
                     print("Batch elapsed time=" + str(time_elapsed) + "s")
@@ -183,21 +219,12 @@ class Dictionary_Trainer:
                                                           images, prediction, loss.item())
         return validation_loss / len(self.val_loader.dataset)
 
-    def extract_nonoverlapped_patches(self, x):
-        # Input is [N, 64, 64]
-        N = x.shape[0]
-        P = x.shape[1] # 64
-        J = 16 # patch size = 16
-        n_blocks = P//J # n_blocs = 4
-        x = x.reshape(N, P, n_blocks, J) # [N, 64, 4, 16]
-        x = x.permute(0, 2, 3, 1) # [N, 4, 16, 64]
-        x = x.reshape(N, n_blocks, J, n_blocks, J) # [N, 4, 16, 4, 16]
-        x = x.permute(4, 2, 0, 3, 1) # [16, 16, N, 4, 4]
-        x = x.reshape(J, J, n_blocks*n_blocks*N) # [16, 16, 4*4*N]
-        x = x.permute(2, 0, 1) # [4*4*N, 16,16]
-        x = x.reshape(n_blocks*n_blocks*N, J*J) # [4*4*N, 16*16]
+    def kron_dict_init(self, no_of_pixels, n_components):
+        D1 = np.random.rand(no_of_pixels, int(np.sqrt(n_components)))
+        D1 = normalize_columns(D1)
 
-        # remove zero slices
-        idx = torch.nonzero(x.sum(dim=1))
-        x = x[idx]
-        return x.squeeze()
+        D2 = np.random.rand(no_of_pixels, int(np.sqrt(n_components)))
+        D2 = normalize_columns(D2)
+
+        return D1, D2
+

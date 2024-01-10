@@ -10,17 +10,17 @@ from torch import optim, nn
 from torchvision.transforms import transforms
 from tqdm import tqdm
 
-from mwtomography.configs.constants import Constants
-from mwtomography.configs.logger import Logger
-from mwtomography.dataloader.image_dataset import ImageDataset
+from configs.constants import Constants
+from configs.logger import Logger
+from dataloader.image_dataset import ImageDataset
 from model.unet import UNet
 from torch.utils.data import random_split, DataLoader
 
-from mwtomography.utils.checkpoint_manager import CheckpointManager
-from mwtomography.utils.file_manager import FileManager
-from mwtomography.utils.plotter import Plotter
+from utils.checkpoint_manager import CheckpointManager
+from utils.file_manager import FileManager
+from utils.plotter import Plotter
 
-ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..'))
+ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 
 LOG = Logger.get_root_logger(
     os.environ.get('ROOT_LOGGER', 'root'),

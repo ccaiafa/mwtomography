@@ -3,11 +3,11 @@
 import os
 import sys
 
-ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../'))
+ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '../'))
 
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from mwtomography.dataloader.image import ImageGenerator
+from dataloader.image import ImageGenerator
 
 if __name__ == "__main__":
     # Test images generator

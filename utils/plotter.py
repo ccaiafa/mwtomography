@@ -6,7 +6,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 import seaborn as sns
 
-from mwtomography.configs.constants import Constants
+from configs.constants import Constants
 
 
 class Plotter:

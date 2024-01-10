@@ -3,10 +3,10 @@
 import os
 import sys
 
-ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../'))
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
+ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '../'))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from mwtomography.utils.file_manager import FileManager
+from utils.file_manager import FileManager
 
 
 if __name__ == "__main__":

@@ -4,12 +4,12 @@ import argparse
 import os
 import sys
 
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from mwtomography.configs.constants import Constants
+from configs.constants import Constants
 
 #from executor.dictionary_trainer import Dictionary_Trainer
-from mwtomography.executor import Dictionary_Trainer
+from executor import Dictionary_Trainer
 
 #from executor.kronecker_dictionary_trainer import Dictionary_Trainer
 

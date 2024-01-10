@@ -5,15 +5,15 @@ import sys
 import torch
 import pywt
 
-ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../'))
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
-from mwtomography.dataloader.image import ImageGenerator
-from mwtomography.MWTsolver.mwt_solver import MWTsolver
+ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '../'))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from dataloader.image import ImageGenerator
+from MWTsolver.mwt_solver import MWTsolver
 
-from mwtomography.MWTsolver.mwt_solver_TV import MWTsolverTV
+from MWTsolver.mwt_solver_TV import MWTsolverTV
 from matplotlib import pyplot as plt
 import numpy as np
-from mwtomography.utils.file_manager import FileManager
+from utils.file_manager import FileManager
 from empatches import BatchPatching
 
 

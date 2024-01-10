@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import numpy as np
 
-from mwtomography.configs.constants import Constants
+from configs.constants import Constants
 
 
 class ShapeGenerator:

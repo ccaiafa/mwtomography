@@ -5,16 +5,16 @@ from datetime import datetime
 
 import numpy as np
 
-from mwtomography.configs.constants import Constants
-from mwtomography.configs.logger import Logger
-from mwtomography.dataloader.electric_field.electric_field_generator import ElectricFieldGenerator
-from mwtomography.dataloader.shape_generators.rectangle_generator import RectangleGenerator
-from mwtomography.dataloader.shape_generators.circle_generator import CircleGenerator
-from mwtomography.dataloader.image.image import Image
+from configs.constants import Constants
+from configs.logger import Logger
+from dataloader.electric_field.electric_field_generator import ElectricFieldGenerator
+from dataloader.shape_generators.rectangle_generator import RectangleGenerator
+from dataloader.shape_generators.circle_generator import CircleGenerator
+from dataloader.image.image import Image
 
-from mwtomography.utils.file_manager import FileManager
+from utils.file_manager import FileManager
 
-ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../..'))
+ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '../..'))
 
 LOG = Logger.get_root_logger(
     os.environ.get('ROOT_LOGGER', 'root'),

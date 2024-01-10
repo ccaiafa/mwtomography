@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import numpy as np
 
-from mwtomography.dataloader.shapes.shape import Shape
+from dataloader.shapes.shape import Shape
 
 
 class Circle(Shape):

@@ -5,10 +5,10 @@ from math import pi
 import numpy as np
 from scipy.special import hankel1
 
-from mwtomography.configs.constants import Constants
-from mwtomography.dataloader.electric_field.electric_field import ElectricField
-from mwtomography.dataloader.electric_field.total_electric_field import TotalElectricField
-from mwtomography.utils.coordinates_converter import CoordinatesConverter
+from configs.constants import Constants
+from dataloader.electric_field.electric_field import ElectricField
+from dataloader.electric_field.total_electric_field import TotalElectricField
+from utils.coordinates_converter import CoordinatesConverter
 
 
 class ElectricFieldGenerator:
