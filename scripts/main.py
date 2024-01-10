@@ -7,8 +7,8 @@ import pywt
 
 ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '../'))
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from dataloader.image import ImageGenerator
 from MWTsolver.mwt_solver import MWTsolver
+from dataloader.image import ImageGenerator
 
 from MWTsolver.mwt_solver_TV import MWTsolverTV
 from matplotlib import pyplot as plt
