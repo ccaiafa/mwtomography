@@ -8,6 +8,7 @@ import numpy as np
 from configs.constants import Constants
 from configs.logger import Logger
 from dataloader.electric_field.electric_field_generator import ElectricFieldGenerator
+from dataloader.image.image import Image
 from dataloader.shape_generators.rectangle_generator import RectangleGenerator
 from dataloader.shape_generators.circle_generator import CircleGenerator
 from dataloader.image.image import Image

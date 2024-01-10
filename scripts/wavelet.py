@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import os
+import hdf5storage
 import sys
 from matplotlib import pyplot as plt
 
@@ -10,7 +11,7 @@ from utils.file_manager import FileManager
 
 ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '../'))
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from dataloader.image import ImageGenerator
+from dataloader.image.image_generator import ImageGenerator
 
 
 def plot_dict(D):
