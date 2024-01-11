@@ -1,6 +1,6 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
-from mwtomography import __version__
+from __init__ import __version__
 
 setup(
     name='mwtomography',
@@ -10,5 +10,5 @@ setup(
     author='Cesar Caiafa',
     author_email='ccaiafa@gmail.com',
 
-    py_modules=['mwtomography'],
+    packages=find_packages(),
 )
