@@ -4,8 +4,8 @@
 import numpy as np
 
 from configs.constants import Constants
-from dataloader.shapes.circle import Circle
-from dataloader.shape_generators.shape_generator import ShapeGenerator
+from mwtomography.dataloader.shapes.circle import Circle
+from mwtomography.dataloader.shape_generators.shape_generator import ShapeGenerator
 
 
 class CircleGenerator(ShapeGenerator):

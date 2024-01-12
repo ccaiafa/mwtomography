@@ -4,7 +4,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from dataloader.shapes.shape import Shape
+from mwtomography.dataloader.shapes.shape import Shape
 
 
 class Rectangle(Shape):

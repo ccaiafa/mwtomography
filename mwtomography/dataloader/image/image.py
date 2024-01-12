@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import numpy as np
-from utils.plotter import Plotter
+from mwtomography.utils import Plotter
 
 
 class Image:

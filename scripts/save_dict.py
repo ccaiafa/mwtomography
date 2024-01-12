@@ -1,14 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import os
-import hdf5storage
 import sys
-from os.path import join as pjoin
 
 ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '../'))
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from utils.file_manager import FileManager
+from mwtomography.utils import FileManager
 
 
 if __name__ == "__main__":

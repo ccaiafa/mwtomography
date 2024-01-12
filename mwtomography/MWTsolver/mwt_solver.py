@@ -6,19 +6,14 @@ import time
 from datetime import datetime
 from matplotlib import pyplot as plt
 
-import hdf5storage
-from os.path import join as pjoin
-from utils.file_manager import FileManager
-
-ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '../'))
+ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../'))
 sys.path.insert(0, ROOT_PATH + "/MWTsolver")
 
 from configs.constants import Constants
 from configs.logger import Logger
-from dataloader.electric_field.electric_field_generator import ElectricFieldGenerator
+from mwtomography.dataloader.electric_field.electric_field_generator import ElectricFieldGenerator
 
 import numpy as np
-from scipy import linalg
 import pylops
 
 

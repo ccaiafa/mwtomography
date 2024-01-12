@@ -10,15 +10,13 @@ import torch
 
 from configs.constants import Constants
 from configs.logger import Logger
-from dataloader.image_dataset import ImageDataset
+from mwtomography.dataloader.image_dataset import ImageDataset
 from torch.utils.data import random_split, DataLoader
 
 from sklearn.decomposition import DictionaryLearning
-from sklearn.decomposition import MiniBatchDictionaryLearning
 
-from utils.checkpoint_manager import CheckpointManager
-from utils.file_manager import FileManager
-from utils.plotter import Plotter
+from mwtomography.utils import FileManager
+from mwtomography.utils import Plotter
 
 ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 

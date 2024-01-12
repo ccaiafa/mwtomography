@@ -1,23 +1,19 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import os
-import hdf5storage
 import sys
 import torch
 import pywt
 
-from os.path import join as pjoin
-
 ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '../'))
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from dataloader.image.image_generator import ImageGenerator
-from MWTsolver.mwt_solver import MWTsolver
+from mwtomography.dataloader.image.image_generator import ImageGenerator
+from mwtomography.MWTsolver.mwt_solver import MWTsolver
 
-from MWTsolver.mwt_solver_TV import MWTsolverTV
+from mwtomography.MWTsolver import MWTsolverTV
 from matplotlib import pyplot as plt
 import numpy as np
-from utils.file_manager import FileManager
-from empatches import EMPatches
+from mwtomography.utils import FileManager
 from empatches import BatchPatching
 
 
