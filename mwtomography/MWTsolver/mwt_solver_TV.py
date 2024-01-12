@@ -17,7 +17,7 @@ from matplotlib import pyplot as plt
 
 ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../'))
 sys.path.insert(0, ROOT_PATH + "/MWTsolver")
-from tvoperator import TVoperator
+from mwtomography.MWTsolver.tvoperator import TVoperator
 
 LOG = Logger.get_root_logger(
     os.environ.get('ROOT_LOGGER', 'root'),

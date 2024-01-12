@@ -12,7 +12,7 @@ from mwtomography.dataloader.shape_generators.rectangle_generator import Rectang
 from mwtomography.dataloader.shape_generators.circle_generator import CircleGenerator
 from mwtomography.dataloader.image.image import Image
 
-from mwtomography.utils import FileManager
+from mwtomography.utils.file_manager import FileManager
 
 ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../..'))
 

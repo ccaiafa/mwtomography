@@ -17,8 +17,8 @@ import numpy as np
 import pylops
 
 
-
-from csoperator import CSoperator
+from mwtomography.MWTsolver.csoperator import CSoperator
+#from csoperator import CSoperator
 
 LOG = Logger.get_root_logger(
     os.environ.get('ROOT_LOGGER', 'root'),

@@ -10,10 +10,10 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')
 from mwtomography.dataloader.image.image_generator import ImageGenerator
 from mwtomography.MWTsolver.mwt_solver import MWTsolver
 
-from mwtomography.MWTsolver import MWTsolverTV
+from mwtomography.MWTsolver.mwt_solver_TV import MWTsolverTV
 from matplotlib import pyplot as plt
 import numpy as np
-from mwtomography.utils import FileManager
+from mwtomography.utils.file_manager import FileManager
 from empatches import BatchPatching
 
 
