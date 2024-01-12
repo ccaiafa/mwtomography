@@ -26,4 +26,5 @@ setup(
         "Topic :: Utilities",
         "License :: OSI Approved :: MIT License",
     ],
+    zip_safe=False
 )
