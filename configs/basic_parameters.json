@@ -37,7 +37,7 @@
             "main_loop":
                 {
                     "alpha": 0.05,
-                    "max_iter": 2,
+                    "max_iter": 20,
                     "threshold": 1e-6
                 },
             "sparse_solver":
