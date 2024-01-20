@@ -13,39 +13,71 @@ from mwtomography.utils.coordinates_converter import CoordinatesConverter
 
 class ElectricFieldGenerator:
 
-    def __init__(self):
+    def __init__(self, no_of_pixels=None, no_of_receivers=None, no_of_transmitters=None, max_diameter=None,
+                 wavelength=None, receiver_radius=None, transmitter_radius=None, wave_incidence=None, wave_type=None):
         self.green_function_S = None
         self.green_function_D = None
         basic_parameters = Constants.get_basic_parameters()
         physics_parameters = basic_parameters["physics"]
         images_parameters = basic_parameters["images"]
-        self.no_of_pixels = images_parameters["no_of_pixels"]
-        self.no_of_receivers = physics_parameters["no_of_receivers"]
-        self.no_of_transmitters = physics_parameters["no_of_transmitters"]
-        self.max_diameter = images_parameters["max_diameter"]
-        self.wave_number = 2 * np.pi / physics_parameters["wavelength"]
-        self.angular_frequency = self.wave_number * physics_parameters["speed_of_light"]
-        self.vacuum_permittivity = physics_parameters["vacuum_permittivity"]
+        speed_of_light = 3e8
+        vacuum_permittivity = 8.85e-12
+        self.impedance_of_free_space = 376.99
+        if no_of_pixels is None:
+            self.no_of_pixels = images_parameters["no_of_pixels"]
+        else:
+            self.no_of_pixels == no_of_pixels
+        if no_of_receivers is None:
+            self.no_of_receivers = physics_parameters["no_of_receivers"]
+        else:
+            self.no_of_receivers = no_of_receivers
+        if no_of_transmitters is None:
+            self.no_of_transmitters = physics_parameters["no_of_transmitters"]
+        else:
+            self.no_of_transmitters = no_of_transmitters
+        if max_diameter is None:
+            self.max_diameter = images_parameters["max_diameter"]
+        else:
+            self.max_diameter = max_diameter
+        if wavelength is None:
+            self.wave_number = 2 * np.pi / physics_parameters["wavelength"]
+        else:
+            self.wave_number = 2 * np.pi / wavelength
+        self.angular_frequency = self.wave_number * speed_of_light
+        self.vacuum_permittivity = vacuum_permittivity
         self.pixel_length = 2 * self.max_diameter / (self.no_of_pixels - 1)
         self.pixel_area = self.pixel_length ** 2
-        self.receiver_radius = physics_parameters["receiver_radius"]
-        self.transmitter_radius = physics_parameters["transmitter_radius"]
-        self.wave_incidence = physics_parameters["wave_incidence"]
-        self.wave_type = physics_parameters["wave_type"]
-        self.impedance_of_free_space = physics_parameters["impedance_of_free_space"]
+        if receiver_radius is None:
+            self.receiver_radius = physics_parameters["receiver_radius"]
+        else:
+            self.receiver_radius = receiver_radius
+        if transmitter_radius is None:
+            self.transmitter_radius = physics_parameters["transmitter_radius"]
+        else:
+            self.transmitter_radius = transmitter_radius
+        if wave_incidence is None:
+            self.wave_incidence = physics_parameters["wave_incidence"]
+        else:
+            self.wave_incidence = wave_incidence
+        if wave_type is None:
+            self.wave_type = physics_parameters["wave_type"]
+        else:
+            self.wave_type = wave_type
         self.electric_field_coefficient = 1j * self.wave_number * self.impedance_of_free_space
         self.equivalent_radius = np.sqrt(self.pixel_area / pi)
 
     def generate_electric_field(self, image, x_domain, y_domain, full_pixel=False):
         relative_permittivities = image.get_relative_permittivities()
-        measured_electric_field, total_electric_field = self.generate_total_electric_field(relative_permittivities, x_domain, y_domain, full_pixel)
-        return ElectricField(measured_electric_field), TotalElectricField(total_electric_field)
+        measured_electric_field, total_electric_field = self.generate_total_electric_field(relative_permittivities,
+                                                                                           x_domain, y_domain,
+                                                                                           full_pixel)
+        return ElectricField(measured_electric_field), ElectricField(total_electric_field)
 
     def generate_total_electric_field(self, relative_permittivities, x_domain, y_domain, full_pixel=False):
         complex_relative_permittivities = \
             -1j * self.angular_frequency * (relative_permittivities - 1) * self.vacuum_permittivity * self.pixel_area
         pixels_with_circle = relative_permittivities != 1
-        if not(full_pixel):
+        if not (full_pixel):
             x_domain = x_domain[pixels_with_circle]
             y_domain = y_domain[pixels_with_circle]
         x_domain = np.atleast_2d(x_domain.flatten("F")).T
@@ -53,7 +85,6 @@ class ElectricFieldGenerator:
         if not (full_pixel):
             complex_relative_permittivities = complex_relative_permittivities[pixels_with_circle]
         complex_relative_permittivities = complex_relative_permittivities.flatten("F")
-
 
         x_receivers, y_receivers, _ = self.get_antennas_coordinates(self.no_of_receivers, self.receiver_radius)
         incident_electric_field = self.generate_incident_electric_field(x_domain, y_domain)

@@ -14,7 +14,7 @@ class Constants:
         dir_path = os.path.dirname(os.path.realpath(__file__))
         with open(os.path.join(dir_path, "basic_parameters.json"), "r") as f:
             basic_parameters = json.load(f)
-            basic_parameters["physics"]["impedance_of_free_space"] = 120 * pi  # eta_0
+            #basic_parameters["physics"]["impedance_of_free_space"] = 120 * pi  # eta_0
 
             #basic_parameters["physics"]["k_0"] = 2 * pi / basic_parameters["physics"]["wavelength"]
             #basic_parameters["physics"]["omega"] = basic_parameters["physics"]["k_0"] * basic_parameters["physics"]["speed_of_light"]

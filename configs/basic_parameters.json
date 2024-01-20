@@ -3,6 +3,7 @@
         {
             "speed_of_light": 3e8,
             "vacuum_permittivity": 8.85e-12,
+            "impedance_of_free_space": 376.99,
             "wavelength": 0.75,
             "wave_incidence":
                 {
