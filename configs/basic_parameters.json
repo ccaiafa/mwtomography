@@ -17,8 +17,7 @@
             "min_permittivity": 1.001,
             "max_permittivity": 1.5,
             "receiver_radius": 3,
-            "transmitter_radius": 3,
-            "permittivity_coefficient": 10
+            "transmitter_radius": 3
         },
     "images":
         {

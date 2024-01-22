@@ -14,7 +14,7 @@ from mwtomography.utils.coordinates_converter import CoordinatesConverter
 class ElectricFieldGenerator:
 
     def __init__(self, no_of_pixels=None, no_of_receivers=None, no_of_transmitters=None, max_diameter=None,
-                 wavelength=None, receiver_radius=None, transmitter_radius=None, wave_incidence=None, wave_type=None):
+                 wavelength=None, receiver_radius=None, transmitter_radius=None, wave_type=None):
         self.green_function_S = None
         self.green_function_D = None
         basic_parameters = Constants.get_basic_parameters()
@@ -55,10 +55,9 @@ class ElectricFieldGenerator:
             self.transmitter_radius = physics_parameters["transmitter_radius"]
         else:
             self.transmitter_radius = transmitter_radius
-        if wave_incidence is None:
-            self.wave_incidence = physics_parameters["wave_incidence"]
-        else:
-            self.wave_incidence = wave_incidence
+
+        self.wave_incidence = physics_parameters["wave_incidence"]
+
         if wave_type is None:
             self.wave_type = physics_parameters["wave_type"]
         else:
