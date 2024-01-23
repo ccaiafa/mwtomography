@@ -14,12 +14,18 @@ from mwtomography.dataloader.image.image import Image
 
 class ImageGenerator:
 
-    def __init__(self, no_of_images, shape):
+    def __init__(self, no_of_images, shape='circle', max_diameter=None, no_of_pixels=None):
         basic_parameters = Constants.get_basic_parameters()
         images_parameters = basic_parameters["images"]
         self.no_of_images = no_of_images
-        self.max_diameter = images_parameters["max_diameter"]
-        self.no_of_pixels = images_parameters["no_of_pixels"]
+        if max_diameter is None:
+            self.max_diameter = images_parameters["max_diameter"]
+        else:
+            self.max_diameter = max_diameter
+        if no_of_pixels is None:
+            self.no_of_pixels = images_parameters["no_of_pixels"]
+        else:
+            self.no_of_pixels = no_of_pixels
         if shape == 'rectangle':
             self.shape_generator = RectangleGenerator()
         elif shape == 'circle':
@@ -40,7 +46,7 @@ class ImageGenerator:
             elif type(nshapes) == int:
                 no_of_shapes = nshapes
                 shapes = self.shape_generator.generate_shapes(no_of_shapes)
-            else:
+            elif nshapes == 'fixed_pattern':
                 no_of_shapes = 3
                 shapes = self.shape_generator.generate_shapes_pattern()
 
