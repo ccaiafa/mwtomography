@@ -28,5 +28,5 @@ setup(
         "License :: OSI Approved :: MIT License",
     ],
     zip_safe=False,
-    data_files=glob.glob('mwtomography/configs/basic_parameters.json')
+    data_files=glob.glob('mwtomography/configs/**')
 )
