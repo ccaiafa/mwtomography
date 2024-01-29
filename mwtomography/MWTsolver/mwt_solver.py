@@ -9,8 +9,8 @@ from matplotlib import pyplot as plt
 ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../'))
 sys.path.insert(0, ROOT_PATH + "/MWTsolver")
 
-from configs.constants import Constants
-from configs.logger import Logger
+from mwtomography.configs.constants import Constants
+from mwtomography.configs.logger import Logger
 from mwtomography.dataloader.electric_field.electric_field_generator import ElectricFieldGenerator
 
 import numpy as np

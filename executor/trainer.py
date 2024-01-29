@@ -10,8 +10,8 @@ from torch import optim, nn
 from torchvision.transforms import transforms
 from tqdm import tqdm
 
-from configs.constants import Constants
-from configs.logger import Logger
+from mwtomography.configs.constants import Constants
+from mwtomography.configs import Logger
 from mwtomography.dataloader.image_dataset import ImageDataset
 from model.unet import UNet
 from torch.utils.data import random_split, DataLoader

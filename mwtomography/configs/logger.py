@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """ wrapper around logging module """
 import os
 import logging

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import numpy as np
 
-from configs.constants import Constants
+from mwtomography.configs.constants import Constants
 
 
 class WeightScaler:

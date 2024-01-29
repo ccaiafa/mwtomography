@@ -3,7 +3,7 @@
 
 import numpy as np
 
-from configs.constants import Constants
+from mwtomography.configs.constants import Constants
 from mwtomography.dataloader.shapes.circle import Circle
 from mwtomography.dataloader.shape_generators.shape_generator import ShapeGenerator
 

@@ -4,7 +4,7 @@
 import os
 import numpy as np
 from scipy.fftpack import idct
-from configs.constants import Constants
+from mwtomography.configs.constants import Constants
 from mwtomography.utils import FileManager
 ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '../'))
 

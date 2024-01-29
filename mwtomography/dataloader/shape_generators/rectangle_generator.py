@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import numpy as np
 
-from configs.constants import Constants
+from mwtomography.configs.constants import Constants
 from mwtomography.dataloader.shapes.rectangle import Rectangle
 from mwtomography.dataloader.shape_generators.shape_generator import ShapeGenerator
 

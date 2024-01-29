@@ -1,14 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import gc
 
 import numpy as np
-import matplotlib
 #matplotlib.use("Agg")
 from matplotlib import pyplot as plt
 import seaborn as sns
 
-from configs.constants import Constants
+from mwtomography.configs.constants import Constants
 
 
 class Plotter:

@@ -22,8 +22,9 @@ from deepinv.unfolded import unfolded_builder
 from deepinv.training_utils import train, test
 from torchvision import transforms
 #from deepinv.utils.phantoms import RandomPhantomDataset, SheppLoganDataset
+from deepinv.utils.MWTphantoms import RandomMWTPhantomDataset
 
-from mwtomography.dataloader.image.image_generator import ImageGenerator # for generating dataset on the fly
+#from mwtomography.dataloader.image.image_generator import ImageGenerator # for generating dataset on the fly
 from deepinv.physics.mwtom import MWTstepB
 
 from deepinv.optim.optim_iterators import CPIteration, fStep, gStep
@@ -52,6 +53,12 @@ device = dinv.utils.get_freer_gpu() if torch.cuda.is_available() else "cpu"
 # In this example, we use the CBSD500 dataset for training and the Set3C dataset for testing.
 
 img_size = 128 if torch.cuda.is_available() else 128
+shape = 'circle'
+nshapes = 3
+max_diameter = 1
+min_radius = 0.15
+max_radius = 0.4
+
 n_channels = 1  # 3 for color images, 1 for gray-scale images
 operation = "MWT"
 
@@ -233,9 +240,11 @@ losses = [dinv.loss.SupLoss(metric=dinv.metric.mse())]
 
 # Define the base train and test datasets of clean images.
 train_dataset_name = "random_phantom"
-train_dataset = RandomPhantomDataset(
-    size=img_size, n_data=1, length=n_iter_training // epochs
+train_dataset = RandomMWTPhantomDataset(
+    size=img_size, shape=shape, nshapes=nshapes, max_diameter=max_diameter,
+    min_radius=min_radius, max_radius=max_radius, n_data=1, length=n_iter_training // epochs
 )
+
 test_dataset = SheppLoganDataset(size=img_size, n_data=1)
 
 train_dataloader = DataLoader(

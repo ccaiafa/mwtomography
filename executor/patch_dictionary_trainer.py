@@ -8,8 +8,8 @@ import numpy as np
 from tqdm import tqdm
 import torch
 
-from configs.constants import Constants
-from configs.logger import Logger
+from mwtomography.configs.constants import Constants
+from mwtomography.configs import Logger
 from mwtomography.dataloader.image_dataset import ImageDataset
 from torch.utils.data import random_split, DataLoader
 

@@ -6,7 +6,7 @@ import sys
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-from configs.constants import Constants
+from mwtomography.configs.constants import Constants
 
 #from executor.dictionary_trainer import Dictionary_Trainer
 from executor.patch_dictionary_trainer import Dictionary_Trainer

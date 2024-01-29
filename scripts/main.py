@@ -6,7 +6,7 @@ import torch
 import pywt
 
 ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '../'))
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+#sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from mwtomography.dataloader.image.image_generator import ImageGenerator
 from mwtomography.MWTsolver.mwt_solver import MWTsolver
 
@@ -14,111 +14,6 @@ from mwtomography.MWTsolver.mwt_solver_TV import MWTsolverTV
 from matplotlib import pyplot as plt
 import numpy as np
 from mwtomography.utils.file_manager import FileManager
-from empatches import BatchPatching
-
-
-def image2vectorized_patches(x):
-    # Input is [64, 64]
-    P = x.shape[0]  # 64
-    J = 16  # patch size = 16
-    n_blocks = P // J  # n_blocs = 4
-    x = x.reshape(P, n_blocks, J)  # [64, 4, 16]
-    x = x.transpose(1, 2, 0)  # [4, 16, 64]
-    x = x.reshape(n_blocks, J, n_blocks, J)  # [4, 16, 4, 16]
-    x = x.transpose(3, 1, 2, 0)  # [16, 16, 4, 4]
-    x = x.reshape(J, J, n_blocks * n_blocks)  # [16, 16, 4*4]
-    x = x.transpose(2, 0, 1)  # [4*4, 16,16]
-    x = x.reshape(n_blocks * n_blocks, J * J)  # [4*4, 16*16]
-    x = x.transpose()  # [16*16, 4*4]
-    x = x.flatten("F")  # [16*16*4*4,]
-    return x
-
-def vectorized_patches2image(x, P=64, J=16):
-    # Input is [16*16*4*4,]
-    # P = 64 number of rows and columns
-    # J = 16 patch size
-    n_blocks = P // J  # n_blocs = 4
-
-    x = x.reshape(J * J, n_blocks * n_blocks, order="F")  # [16*16, 4*4]
-    x = x.transpose()  # [4*4, 16*16]
-    x = x.reshape(n_blocks * n_blocks, J, J)  # [4*4, 16, 16]
-    x = x.transpose(1, 2, 0)  # [16, 16, 4*4]
-    x = x.reshape(J, J, n_blocks, n_blocks)  # [16, 16, 4, 4]
-    x = x.transpose(3, 1, 2, 0)  # [4, 16, 4, 16]
-    x = x.reshape(n_blocks, J, P)  # [4, 16, 64]
-    x = x.transpose(2, 0, 1)  # [64, 4, 16]
-    x = x.reshape(P, P)  # [4, 16, 64]
-    return x
-
-def construct_full_dict(Dp, P=64, J=16):
-    n_blocks = P // J  # n_blocs = 4
-    D = np.kron(np.eye(n_blocks * n_blocks, dtype=int), Dp)  # [256*16, 16384]
-    D = D.transpose()  # [16384, 256*16]
-    D = D.reshape(-1, J*J, n_blocks * n_blocks, order="F")  # [16384, 16*16, 4*4]
-    D = D.transpose(0, 2, 1)  # [16384, 4*4, 16*16]
-    D = D.reshape(-1, n_blocks * n_blocks, J, J)  # [16384, 4*4, 16, 16]
-    D = D.transpose(0, 2, 3, 1)  # [16384, 16, 16, 4*4]
-    D = D.reshape(-1, J, J, n_blocks, n_blocks)  # [16384, 16, 16, 4, 4]
-    D = D.transpose(0, 4, 2, 3, 1)  # [16384, 4, 16, 4, 16]
-    D = D.reshape(-1, n_blocks, J, P)  # [16384, 4, 16, 64]
-    D = D.transpose(0, 3, 1, 2)  # [16384, 64, 4, 16]
-    D = D.reshape(-1, P, P)  # [16384, 64, 64]
-    D = D.reshape(-1, P*P, order="F") # [16384, 64*64]
-    D = D.transpose()
-
-    #D =  D / np.sqrt(np.sum(D * D, axis=0))
-
-    return D
-
-def construct_full_dict_overlap(Dp, n_patches=49, J=16, P=64):
-    print("constructing Full Dictionary for Overlapped patches ...")
-    bp = BatchPatching(patchsize=16, overlap=0.5, typ='torch')
-    # Extract indices for merging later
-    # Create artificial batch of images [B, C, H, W]
-    aux = torch.rand([n_patches * J * J, 3, P, P])
-    batch_patches, batch_indices = bp.patch_batch(aux)
-    del aux, batch_patches
-
-    # extracting batch patches from the identity matrix
-    identity = np.eye(n_patches * J * J) # not need to permute since it is diagonal
-    identity = identity.reshape(-1, J*J, n_patches, order="F")  # [16*16*49, 16*16, 49]
-    identity = identity.transpose(0, 2, 1)  # [16*16*49, 49, 16*16]
-    identity = identity.reshape(-1, n_patches, J, J)  # [16*16*49, 49, 16, 16] [nbaches, npatches, J, J]
-    identity = np.repeat(identity[..., np.newaxis], 3, axis=4)
-    id = []
-    for batch in range(identity.shape[0]):
-        id.append(list(identity[batch, :, :, :]))
-
-    del identity
-
-    merged_matrix = bp.merge_batch(id, batch_indices, mode='avg') # [16*16*49, 3, 64, 64]
-    merged_matrix = np.squeeze(merged_matrix[:, 0, :, :]) # [16*16*49, 64, 64]
-    merged_matrix = merged_matrix.reshape(n_patches * J * J, P * P, order="F") #[16*16*49, 64*64]
-    merged_matrix = merged_matrix.transpose()
-
-    del batch_indices, id
-
-    D = np.kron(np.eye(n_patches, dtype=int), Dp)  # [256*49, 1024*49]
-    D = np.matmul(merged_matrix, D)
-
-    D = D / np.sqrt(np.sum(D * D, axis=0))
-
-    return D
-
-def plot_dict(D):
-    plt.figure(figsize=(10, 10))
-    M = D.shape[0] # number of pixels
-    N = D.shape[1] # number of atoms
-    for i in range(N):
-        plt.subplot(int(np.sqrt(N)), int(np.sqrt(N))
-                    , i + 1)
-        plt.imshow(D[:, i].reshape(int(np.sqrt(M)), int(np.sqrt(M)), order="F"), cmap=plt.cm.gray_r, interpolation="nearest")
-        plt.xticks(())
-        plt.yticks(())
-    plt.suptitle(
-        "Wavelet Dictionary\n",
-        fontsize=16,)
-    plt.show()
 
 
 def plot_results(solver, path):
