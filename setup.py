@@ -1,5 +1,6 @@
 # coding: utf-8
 import os
+import glob
 
 # Utility function to read the README file.
 # Used for the long_description.  It's nice, because now 1) we have a top level
@@ -26,5 +27,6 @@ setup(
         "Topic :: Utilities",
         "License :: OSI Approved :: MIT License",
     ],
-    zip_safe=False
+    zip_safe=False,
+    data_files=glob.glob('mwtomography/configs/basic_parameters.json')
 )
