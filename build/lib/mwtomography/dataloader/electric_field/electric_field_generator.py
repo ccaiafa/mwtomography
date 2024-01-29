@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 from math import pi
+import torch
 
 import numpy as np
 from scipy.special import hankel1
@@ -13,7 +14,7 @@ from mwtomography.utils.coordinates_converter import CoordinatesConverter
 class ElectricFieldGenerator:
 
     def __init__(self, no_of_pixels=None, no_of_receivers=None, no_of_transmitters=None, max_diameter=None,
-                 wavelength=None, receiver_radius=None, transmitter_radius=None, wave_type=None):
+                 wavelength=None, receiver_radius=None, transmitter_radius=None, wave_type=None, device=torch.device('cpu')):
         self.green_function_S = None
         self.green_function_D = None
         basic_parameters = Constants.get_basic_parameters()
@@ -25,7 +26,7 @@ class ElectricFieldGenerator:
         if no_of_pixels is None:
             self.no_of_pixels = images_parameters["no_of_pixels"]
         else:
-            self.no_of_pixels == no_of_pixels
+            self.no_of_pixels = no_of_pixels
         if no_of_receivers is None:
             self.no_of_receivers = physics_parameters["no_of_receivers"]
         else:
@@ -100,6 +101,20 @@ class ElectricFieldGenerator:
         total_electric_field = np.matmul(np.matmul(integral_receivers, np.diag(complex_relative_permittivities)),
                                          total_electric_field_transmitters)
         return total_electric_field, total_electric_field_transmitters  # Es, Et
+
+    def compute_GS(self, x_domain, y_domain):
+        x_domain = np.atleast_2d(x_domain.flatten("F")).T
+        y_domain = np.atleast_2d(y_domain.flatten("F")).T
+
+        x_receivers, y_receivers, _ = self.get_antennas_coordinates(self.no_of_receivers, self.receiver_radius)
+
+        x_circles, x_receivers = np.meshgrid(x_domain, x_receivers)
+        y_circles, y_receivers = np.meshgrid(y_domain, y_receivers)
+        dist_receivers_circles = np.sqrt((x_circles - x_receivers) ** 2 + (y_circles - y_receivers) ** 2)
+
+        GS = self.electric_field_coefficient * (1j / 4) * hankel1(0, self.wave_number * dist_receivers_circles)
+
+        return GS
 
     def generate_incident_electric_field(self, x_domain, y_domain):
         x_transmitters, y_transmitters, transmitter_angles = \
