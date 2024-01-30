@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import numpy as np
+import torch
 
 from mwtomography.configs.constants import Constants
 
@@ -59,7 +60,7 @@ class ImageGenerator:
 
         return images
 
-    def generate_one_image(self):
+    def generate_one_image(self, nshapes='random'):
         shape_name = self.shape_generator.get_shape_name()
         images = []
 

@@ -115,6 +115,7 @@ if __name__ == "__main__":
         # dictionary_file = ROOT_PATH + "/data/trainer/dictionary/sklearn/trained_dict_epoch_1.pkl"
         dict_trainer = FileManager.load(dictionary_file)
         D = dict_trainer.components_.transpose()
+        D = torch.from_numpy(D)
     elif dictionary_type == "patch":
         dictionary_file = ROOT_PATH + "/data/trainer/dictionary/patch/trained_dict_epoch__patch_64x64_epoch_4_batch_size_125000_ncomps_1024_dict.pkl"
         Dpatch = FileManager.load(dictionary_file)
