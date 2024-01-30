@@ -84,7 +84,7 @@ class ElectricFieldGenerator:
         if not (full_pixel):
             complex_relative_permittivities = complex_relative_permittivities[pixels_with_circle]
         if torch.is_tensor(complex_relative_permittivities):
-            complex_relative_permittivities = complex_relative_permittivities.t().flatten()
+            complex_relative_permittivities = torch.flatten(torch.transpose(complex_relative_permittivities, -2, -1))
         else:
             complex_relative_permittivities = complex_relative_permittivities.flatten("F")
 
