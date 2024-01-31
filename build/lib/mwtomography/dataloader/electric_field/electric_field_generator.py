@@ -123,7 +123,7 @@ class ElectricFieldGenerator:
         y_circles, y_receivers = np.meshgrid(y_domain, y_receivers)
         dist_receivers_circles = np.sqrt((x_circles - x_receivers) ** 2 + (y_circles - y_receivers) ** 2)
 
-        GS = self.electric_field_coefficient * (1j / 4) * hankel1(0, self.wave_number * dist_receivers_circles)
+        GS = torch.tensor(self.electric_field_coefficient * (1j / 4) * hankel1(0, self.wave_number * dist_receivers_circles))
 
         return GS
 
