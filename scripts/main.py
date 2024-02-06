@@ -147,7 +147,7 @@ if __name__ == "__main__":
     #xt = vectorized_patches2image(x1)
 
     # Solve using sparse representation first
-    solverCS = MWTsolver(image, D)
+    solverCS = MWTsolver(image, D, ROOT_PATH)
     solverCS.inverse_problem_solver()
     #file_name = ROOT_PATH + "/data/reconstruction/CS_64x64.png"
     #plot_results(solverCS, file_name)

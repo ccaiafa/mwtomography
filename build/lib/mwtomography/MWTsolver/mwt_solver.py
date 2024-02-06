@@ -7,8 +7,8 @@ from datetime import datetime
 from matplotlib import pyplot as plt
 import torch
 
-ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../'))
-sys.path.insert(0, ROOT_PATH + "/MWTsolver")
+#ROOT_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../'))
+#sys.path.insert(0, ROOT_PATH + "/MWTsolver")
 
 from mwtomography.configs.constants import Constants
 from mwtomography.configs.logger import Logger
@@ -72,7 +72,8 @@ def plot_results(solver, path):
 
 class MWTsolver:
 
-    def __init__(self, image, D, init_guess=[]):
+    def __init__(self, image, D, ROOT_PATH, init_guess=[]):
+        self.ROOT_PATH = ROOT_PATH
         self.dictionary = D
         self.total_electric_field = None
         print("Starting MWT solver")
@@ -156,7 +157,7 @@ class MWTsolver:
 
             elapsed = time.time() - t0
             print('time elapse per iteration:' + str(elapsed) + 's')
-            file_name = ROOT_PATH + "/data/reconstruction/CS_64x64_iter_"+str(n)+".png"
+            file_name = self.ROOT_PATH + "/data/reconstruction/CS_64x64_iter_"+str(n)+".png"
             plot_results(self, file_name)
 
             n += 1
