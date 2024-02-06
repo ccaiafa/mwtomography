@@ -21,10 +21,10 @@ import pylops
 from mwtomography.MWTsolver.csoperator import CSoperator
 #from csoperator import CSoperator
 
-LOG = Logger.get_root_logger(
-    os.environ.get('ROOT_LOGGER', 'root'),
-    filename=os.path.join(ROOT_PATH + "/logs/mwt_solver/", '{:%Y-%m-%d}.log'.format(datetime.now()))
-)
+#LOG = Logger.get_root_logger(
+#    os.environ.get('ROOT_LOGGER', 'root'),
+#    filename=os.path.join(ROOT_PATH + "/logs/mwt_solver/", '{:%Y-%m-%d}.log'.format(datetime.now()))
+#)
 
 
 def plot_results(solver, path):
@@ -75,7 +75,7 @@ class MWTsolver:
     def __init__(self, image, D, init_guess=[]):
         self.dictionary = D
         self.total_electric_field = None
-        LOG.info("Starting MWT solver")
+        print("Starting MWT solver")
         self.basic_parameters = Constants.get_basic_parameters()
         self.images_parameters = self.basic_parameters["images"]
         self.physics_parameters = self.basic_parameters['physics']
@@ -137,13 +137,13 @@ class MWTsolver:
 
         while (n <= self.solver_parameters["main_loop"]["max_iter"]) and (loss_variation > self.solver_parameters["main_loop"]["threshold"]):
             t0 = time.time()
-            LOG.info(f'''iter={n}/{self.solver_parameters["main_loop"]["max_iter"]}''')
+            print("iter=%2d/%2d " % (n, self.solver_parameters["main_loop"]["max_iter"]))
 
             error_E, loss = self.update_total_electric_field()
-            LOG.info(f'''loss after updating Electric Field = {loss}, error_E={error_E}''')
+            print("loss after updating Electric Field = %5.2f, error_E= %5.5f" % (loss, error_E))
 
             error_rel_perm, loss = self.update_relative_permittivities()
-            LOG.info(f'''loss after updating Relative Permittivities = {loss}, error_rel_perm={error_rel_perm}''')
+            print("loss after updating Relative Permittivities = %5.2f, error_rel_perm= %5.5f" % (loss, error_rel_perm))
 
             self.error_E.append(error_E)
             self.error_rel_perm.append(error_rel_perm)
