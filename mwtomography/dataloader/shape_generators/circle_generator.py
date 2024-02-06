@@ -10,12 +10,18 @@ from mwtomography.dataloader.shape_generators.shape_generator import ShapeGenera
 
 class CircleGenerator(ShapeGenerator):
 
-    def __init__(self):
+    def __init__(self, min_radius = None, max_radius = None):
         super().__init__()
         basic_parameters = Constants.get_basic_parameters()
         images_parameters = basic_parameters["images"]
-        self.min_radius = images_parameters["min_radius"]
-        self.max_radius = images_parameters["max_radius"]
+        if min_radius is None:
+            self.min_radius = images_parameters["min_radius"]
+        else:
+            self.min_radius = min_radius
+        if max_radius is None:
+            self.max_radius = images_parameters["max_radius"]
+        else:
+            self.max_radius = max_radius
 
     #def generate_shapes(self, no_of_shapes, image_i, test):
     def generate_shapes(self, no_of_shapes):
