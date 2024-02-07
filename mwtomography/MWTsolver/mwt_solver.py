@@ -72,17 +72,24 @@ def plot_results(solver, path):
 
 class MWTsolver:
 
-    def __init__(self, image, D, ROOT_PATH, init_guess=[]):
+    def __init__(self, image, D, ROOT_PATH, init_guess=[], no_of_pixels=None, no_of_receivers=None, no_of_transmitters=None, max_diameter=None,
+                 wavelength=None, receiver_radius=None, transmitter_radius=None, wave_type=None):
         self.ROOT_PATH = ROOT_PATH
         self.dictionary = D
         self.total_electric_field = None
         print("Starting MWT solver")
-        self.basic_parameters = Constants.get_basic_parameters()
-        self.images_parameters = self.basic_parameters["images"]
-        self.physics_parameters = self.basic_parameters['physics']
-        self.solver_parameters = self.basic_parameters["CS_optimizer"]
+        #self.basic_parameters = Constants.get_basic_parameters()
+        #self.images_parameters = self.basic_parameters["images"]
+        #self.physics_parameters = self.basic_parameters['physics']
+        #self.solver_parameters = self.basic_parameters["CS_optimizer"]
 
-        self.electric_field_generator = ElectricFieldGenerator()
+        self.electric_field_generator = ElectricFieldGenerator(no_of_pixels=no_of_pixels,
+                                                               no_of_receivers=no_of_receivers,
+                                                               no_of_transmitters=no_of_transmitters,
+                                                               max_diameter=max_diameter, wavelength=wavelength,
+                                                               receiver_radius=receiver_radius,
+                                                               transmitter_radius=transmitter_radius,
+                                                               wave_type=wave_type)
 
         if torch.is_tensor(image.relative_permittivities):
             self.groundtruth_rel_perm = image.relative_permittivities.t().flatten()
