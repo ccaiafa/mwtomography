@@ -26,12 +26,13 @@ class CSoperator(LinearOperator):
     -----
     """
 
-    def __init__(self, GD, GS, ET, k1, k2, D, coeff, dtype=None):
+    #def __init__(self, GD, GS, ET, k1, k2, D, coeff, dtype=None):
+    def __init__(self, GD, GS, ET, D, coeff, dtype=None):
         self.GD = GD
         self.GS = GS
         self.ET = ET
-        self.k1 = k1
-        self.k2 = k2
+        #self.k1 = k1
+        #self.k2 = k2
         self.D = D
         self.coeff = coeff
         self.N = GS.shape[1]
