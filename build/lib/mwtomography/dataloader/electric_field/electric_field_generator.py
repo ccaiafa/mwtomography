@@ -15,8 +15,6 @@ class ElectricFieldGenerator:
 
     def __init__(self, no_of_pixels=None, no_of_receivers=None, no_of_transmitters=None, max_diameter=None,
                  wavelength=None, receiver_radius=None, transmitter_radius=None, wave_type=None):
-        self.green_function_S = None
-        self.green_function_D = None
         basic_parameters = Constants.get_basic_parameters()
         physics_parameters = basic_parameters["physics"]
         images_parameters = basic_parameters["images"]
@@ -64,6 +62,10 @@ class ElectricFieldGenerator:
             self.wave_type = wave_type
         self.electric_field_coefficient = 1j * self.wave_number * self.impedance_of_free_space
         self.equivalent_radius = np.sqrt(self.pixel_area / pi)
+        image_domain = np.linspace(-self.max_diameter, self.max_diameter, self.no_of_pixels)
+        self.x_domain, self.y_domain = np.meshgrid(image_domain, -image_domain)
+        self.green_function_S = self.compute_GS(self.x_domain, self.y_domain)
+        self.green_function_D = self.compute_GD(self.x_domain, self.y_domain)
 
     def generate_electric_field(self, image, x_domain, y_domain, full_pixel=False):
         relative_permittivities = torch.tensor(image.get_relative_permittivities())
@@ -95,21 +97,22 @@ class ElectricFieldGenerator:
                                                                                        complex_relative_permittivities,
                                                                                        incident_electric_field)
 
-        x_circles, x_receivers = np.meshgrid(x_domain, x_receivers)
-        y_circles, y_receivers = np.meshgrid(y_domain, y_receivers)
-        dist_receivers_circles = np.sqrt((x_circles - x_receivers) ** 2 + (y_circles - y_receivers) ** 2)
-        integral_receivers = torch.from_numpy( \
-            self.electric_field_coefficient * (1j / 4) * hankel1(0, self.wave_number * dist_receivers_circles)
-        )
-        self.green_function_S = integral_receivers
+        # x_circles, x_receivers = np.meshgrid(x_domain, x_receivers)
+        # y_circles, y_receivers = np.meshgrid(y_domain, y_receivers)
+        # dist_receivers_circles = np.sqrt((x_circles - x_receivers) ** 2 + (y_circles - y_receivers) ** 2)
+        # integral_receivers = torch.from_numpy( \
+        #    self.electric_field_coefficient * (1j / 4) * hankel1(0, self.wave_number * dist_receivers_circles)
+        # )
+        # self.green_function_S = integral_receivers
 
         if not torch.is_tensor(complex_relative_permittivities):
             complex_relative_permittivities = torch.from_numpy(complex_relative_permittivities)
 
-        total_electric_field = torch.matmul(torch.matmul(integral_receivers, torch.diag(complex_relative_permittivities)),
-                                            total_electric_field_transmitters)
+        total_electric_field = torch.matmul(
+            torch.matmul(self.green_function_S, torch.diag(complex_relative_permittivities)),
+            total_electric_field_transmitters)
 
-        #total_electric_field = np.matmul(np.matmul(integral_receivers, np.diag(complex_relative_permittivities)),
+        # total_electric_field = np.matmul(np.matmul(integral_receivers, np.diag(complex_relative_permittivities)),
         #                                 total_electric_field_transmitters)
         return total_electric_field, total_electric_field_transmitters  # Es, Et
 
@@ -123,9 +126,29 @@ class ElectricFieldGenerator:
         y_circles, y_receivers = np.meshgrid(y_domain, y_receivers)
         dist_receivers_circles = np.sqrt((x_circles - x_receivers) ** 2 + (y_circles - y_receivers) ** 2)
 
-        GS = torch.tensor(self.electric_field_coefficient * (1j / 4) * hankel1(0, self.wave_number * dist_receivers_circles))
+        GS = torch.tensor(
+            self.electric_field_coefficient * (1j / 4) * hankel1(0, self.wave_number * dist_receivers_circles))
 
         return GS
+
+    def compute_GD(self, x_domain, y_domain):
+        no_of_pixels_with_circle = max(np.shape(x_domain))
+        x_domain_with_circles, x_domain_with_circles_2 = np.meshgrid(x_domain, x_domain)
+        y_domain_with_circles, y_domain_with_circles_2 = np.meshgrid(y_domain, y_domain)
+        dist_between_pixels_with_circles = np.sqrt((x_domain_with_circles - x_domain_with_circles_2) ** 2 +
+                                                   (y_domain_with_circles - y_domain_with_circles_2) ** 2)
+        dist_between_pixels_with_circles = dist_between_pixels_with_circles + np.identity(no_of_pixels_with_circle)
+
+        integral_1 = 1j / 4 * hankel1(0, self.wave_number * dist_between_pixels_with_circles)
+        phi = self.electric_field_coefficient * integral_1
+        phi = phi * (np.ones(no_of_pixels_with_circle) - np.identity(no_of_pixels_with_circle))
+
+        integral_2 = 1j / 4 * (2 / (self.wave_number * self.equivalent_radius) *
+                               hankel1(1, self.wave_number * self.equivalent_radius) +
+                               4 * 1j / ((self.wave_number ** 2) * self.pixel_area))
+        phi = torch.tensor(phi + self.electric_field_coefficient * integral_2 * np.identity(no_of_pixels_with_circle))
+
+        return phi
 
     def generate_incident_electric_field(self, x_domain, y_domain):
         x_transmitters, y_transmitters, transmitter_angles = \
@@ -159,25 +182,25 @@ class ElectricFieldGenerator:
 
     def get_total_electric_field_transmitters(self, x_domain, y_domain, complex_relative_permittivities,
                                               incident_electric_field):
-        no_of_pixels_with_circle = max(np.shape(x_domain))
-        x_domain_with_circles, x_domain_with_circles_2 = np.meshgrid(x_domain, x_domain)
-        y_domain_with_circles, y_domain_with_circles_2 = np.meshgrid(y_domain, y_domain)
-        dist_between_pixels_with_circles = np.sqrt((x_domain_with_circles - x_domain_with_circles_2) ** 2 +
-                                                   (y_domain_with_circles - y_domain_with_circles_2) ** 2)
-        dist_between_pixels_with_circles = dist_between_pixels_with_circles + np.identity(no_of_pixels_with_circle)
+        no_of_pixels = max(np.shape(x_domain))
+        # x_domain_with_circles, x_domain_with_circles_2 = np.meshgrid(x_domain, x_domain)
+        # y_domain_with_circles, y_domain_with_circles_2 = np.meshgrid(y_domain, y_domain)
+        # dist_between_pixels_with_circles = np.sqrt((x_domain_with_circles - x_domain_with_circles_2) ** 2 +
+        #                                           (y_domain_with_circles - y_domain_with_circles_2) ** 2)
+        # dist_between_pixels_with_circles = dist_between_pixels_with_circles + np.identity(no_of_pixels_with_circle)
 
-        integral_1 = 1j / 4 * hankel1(0, self.wave_number * dist_between_pixels_with_circles)
-        phi = self.electric_field_coefficient * integral_1
-        phi = phi * (np.ones(no_of_pixels_with_circle) - np.identity(no_of_pixels_with_circle))
+        # integral_1 = 1j / 4 * hankel1(0, self.wave_number * dist_between_pixels_with_circles)
+        # phi = self.electric_field_coefficient * integral_1
+        # phi = phi * (np.ones(no_of_pixels_with_circle) - np.identity(no_of_pixels_with_circle))
 
-        integral_2 = 1j / 4 * (2 / (self.wave_number * self.equivalent_radius) *
-                               hankel1(1, self.wave_number * self.equivalent_radius) +
-                               4 * 1j / ((self.wave_number ** 2) * self.pixel_area))
-        phi = torch.tensor(phi + self.electric_field_coefficient * integral_2 * np.identity(no_of_pixels_with_circle))
+        # integral_2 = 1j / 4 * (2 / (self.wave_number * self.equivalent_radius) *
+        #                       hankel1(1, self.wave_number * self.equivalent_radius) +
+        #                       4 * 1j / ((self.wave_number ** 2) * self.pixel_area))
+        # phi = torch.tensor(phi + self.electric_field_coefficient * integral_2 * np.identity(no_of_pixels_with_circle))
 
-        self.green_function_D = phi
+        # self.green_function_D = phi
 
-        #total_electric_field_transmitters = \
+        # total_electric_field_transmitters = \
         #    torch.linalg.solve(np.identity(no_of_pixels_with_circle) - np.matmul(phi, np.diag(complex_relative_permittivities))),
         #        incident_electric_field)
 
@@ -185,7 +208,8 @@ class ElectricFieldGenerator:
             complex_relative_permittivities = torch.from_numpy(complex_relative_permittivities)
         total_electric_field_transmitters = \
             torch.linalg.solve(
-                (torch.eye(no_of_pixels_with_circle) - torch.matmul(phi, torch.diag(complex_relative_permittivities))),
+                (torch.eye(no_of_pixels) - torch.matmul(self.green_function_D,
+                                                        torch.diag(complex_relative_permittivities))),
                 incident_electric_field)
 
         return total_electric_field_transmitters
