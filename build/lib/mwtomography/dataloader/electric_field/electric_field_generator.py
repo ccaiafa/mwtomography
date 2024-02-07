@@ -132,6 +132,8 @@ class ElectricFieldGenerator:
         return GS
 
     def compute_GD(self, x_domain, y_domain):
+        x_domain = np.atleast_2d(x_domain.flatten("F")).T
+        y_domain = np.atleast_2d(y_domain.flatten("F")).T
         no_of_pixels_with_circle = max(np.shape(x_domain))
         x_domain_with_circles, x_domain_with_circles_2 = np.meshgrid(x_domain, x_domain)
         y_domain_with_circles, y_domain_with_circles_2 = np.meshgrid(y_domain, y_domain)
@@ -201,7 +203,7 @@ class ElectricFieldGenerator:
         # self.green_function_D = phi
 
         # total_electric_field_transmitters = \
-        #    torch.linalg.solve(np.identity(no_of_pixels_with_circle) - np.matmul(phi, np.diag(complex_relative_permittivities))),
+        #    (torch.linalg.solve(np.identity(no_of_pixels_with_circle) - np.matmul(phi, np.diag(complex_relative_permittivities))),
         #        incident_electric_field)
 
         if not torch.is_tensor(complex_relative_permittivities):
