@@ -72,7 +72,7 @@ def plot_results(solver, path):
 
 class MWTsolver:
 
-    def __init__(self, image, D, ROOT_PATH, init_guess=[], no_of_pixels=None, no_of_receivers=None, no_of_transmitters=None, max_diameter=None,
+    def __init__(self, image, D, ROOT_PATH, init_guess='zero', alpha=None, no_of_pixels=None, no_of_receivers=None, no_of_transmitters=None, max_diameter=None,
                  wavelength=None, receiver_radius=None, transmitter_radius=None, wave_type=None):
         self.ROOT_PATH = ROOT_PATH
         self.dictionary = D
@@ -96,8 +96,7 @@ class MWTsolver:
         else:
             self.groundtruth_rel_perm = image.relative_permittivities.flatten("F")
 
-        image_domain = np.linspace(-self.images_parameters["max_diameter"], self.images_parameters["max_diameter"],
-                                   self.images_parameters["no_of_pixels"])
+        image_domain = np.linspace(-max_diameter, max_diameter, no_of_pixels)
         x_domain, y_domain = np.meshgrid(image_domain, -image_domain)
 
         self.measured_electric_field, __ = self.electric_field_generator.generate_total_electric_field(self.groundtruth_rel_perm, x_domain, y_domain, full_pixel=True)
@@ -118,12 +117,12 @@ class MWTsolver:
         self.green_function_S = self.electric_field_generator.green_function_S  # A2 in Matlab code
 
         # Initialize complex relative permittivities
-        if self.solver_parameters["init"] == 'random':
+        if init_guess == 'random':
             self.complex_rel_perm = -1j * np.random.rand(*self.groundtruth_rel_perm.shape) * 1e-5
-        elif self.solver_parameters["init"] == 'ground_truth':
+        elif init_guess == 'ground_truth':
             self.complex_rel_perm = -1j * self.electric_field_generator.angular_frequency * (
                     self.groundtruth_rel_perm - 1) * self.electric_field_generator.vacuum_permittivity * self.electric_field_generator.pixel_area
-        elif self.solver_parameters["init"] == 'zero':
+        elif init_guess == 'zero':
             self.complex_rel_perm = -1j * torch.zeros(*self.groundtruth_rel_perm.shape)
             #self.complex_rel_perm = -1j * np.zeros(*self.groundtruth_rel_perm.shape)
 
@@ -135,8 +134,8 @@ class MWTsolver:
         self.error_rel_perm = []
         self.loss = []
 
-        self.k1 = np.sqrt(self.solver_parameters["alpha"] / self.incident_electric_field.numel())  # B1 in Matlab code
-        self.k2 = np.sqrt((1.0 - self.solver_parameters["alpha"] ) / self.measured_electric_field.numel())  # B2 in Matlab code
+        #self.k1 = np.sqrt(self.solver_parameters["alpha"] / self.incident_electric_field.numel())  # B1 in Matlab code
+        #self.k2 = np.sqrt((1.0 - self.solver_parameters["alpha"] ) / self.measured_electric_field.numel())  # B2 in Matlab code
 
     def inverse_problem_solver(self):
         n = 1
@@ -174,9 +173,9 @@ class MWTsolver:
         aux = torch.eye(self.images_parameters["no_of_pixels"] ** 2)
         mat1 = aux.type(torch.complex128) - torch.matmul(self.green_function_D, torch.diag(self.complex_rel_perm).type(torch.complex128))
         mat2 = torch.matmul(self.green_function_S, torch.diag(self.complex_rel_perm).type(torch.complex128))
-        phi = torch.cat((self.k1 * mat1, self.k2 * mat2), axis=0)
+        #phi = torch.cat((self.k1 * mat1, self.k2 * mat2), axis=0)
 
-        q = torch.cat((self.k1 * self.incident_electric_field, self.k2 * self.measured_electric_field), axis=0)
+        #q = torch.cat((self.k1 * self.incident_electric_field, self.k2 * self.measured_electric_field), axis=0)
 
         #self.total_electric_field = np.linalg.lstsq(phi, q, rcond=None)[0]
         self.total_electric_field = torch.linalg.lstsq(mat1, self.incident_electric_field, rcond=None)[0]
@@ -187,7 +186,7 @@ class MWTsolver:
         return error_E, loss
 
     def update_relative_permittivities(self):
-        mat_C = (self.total_electric_field - self.incident_electric_field).t()
+        #mat_C = (self.total_electric_field - self.incident_electric_field).t()
         mat_B2 = self.measured_electric_field.t()
         #b = np.concatenate((self.k1 * mat_C.flatten("F"), self.k2 * mat_B2.flatten("F")), axis=0)
 
