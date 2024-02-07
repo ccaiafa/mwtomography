@@ -138,7 +138,7 @@ class MWTsolver:
         #self.k1 = np.sqrt(self.solver_parameters["alpha"] / self.incident_electric_field.numel())  # B1 in Matlab code
         #self.k2 = np.sqrt((1.0 - self.solver_parameters["alpha"] ) / self.measured_electric_field.numel())  # B2 in Matlab code
 
-    def inverse_problem_solver(self, max_iter=10, threshold=1e-6, verbose=False, sp_solver_lambda=0.05, sp_solver_threshold=1e-6):
+    def inverse_problem_solver(self, max_iter=10, threshold=1e-6, verbose=False, sp_max_iter=2000, sp_solver_lambda=0.05, sp_solver_threshold=1e-6):
         self.max_iter = max_iter
         self.threshold = threshold
         self.verbose = verbose
@@ -226,7 +226,7 @@ class MWTsolver:
         b = b - bp
 
 
-        self.sparse_coeffs, niterf, costf = pylops.optimization.sparsity.fista(Aopn, b, x0=self.sparse_coeffs, niter=self.max_iter, eps=self.sp_solver_lambda,
+        self.sparse_coeffs, niterf, costf = pylops.optimization.sparsity.fista(Aopn, b, x0=self.sparse_coeffs, niter=self.sp_max_iter, eps=self.sp_solver_lambda,
                                                tol=self.sp_solver_threshold, show=self.verbose)
 
         self.sparse_coeffs = self.sparse_coeffs / Aopn.norm2col
