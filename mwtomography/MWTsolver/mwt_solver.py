@@ -214,8 +214,8 @@ class MWTsolver:
 
         ######
         coeff = -self.electric_field_generator.angular_frequency * self.electric_field_generator.vacuum_permittivity * self.electric_field_generator.pixel_area
-        Aopn = CSoperator(self.green_function_D.numpy(), self.green_function_S.numpy(), self.total_electric_field.numpy(), self.k1,
-                                 self.k2, self.dictionary.numpy(), coeff)
+        Aopn = CSoperator(self.green_function_D.numpy(), self.green_function_S.numpy(),
+                          self.total_electric_field.numpy(), self.dictionary.numpy(), coeff)
         Aopn.explicit = False  # temporary solution whilst PyLops gets updated
 
         # Precompute matrix G and norm of columns
