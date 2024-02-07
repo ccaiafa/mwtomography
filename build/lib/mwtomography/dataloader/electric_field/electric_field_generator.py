@@ -96,7 +96,7 @@ class ElectricFieldGenerator:
 
         total_electric_field_transmitters = self.get_total_electric_field_transmitters(x_domain, y_domain,
                                                                                        complex_relative_permittivities,
-                                                                                       self.incident_electric_field)
+                                                                                       self.incident_field)
 
         if not torch.is_tensor(complex_relative_permittivities):
             complex_relative_permittivities = torch.from_numpy(complex_relative_permittivities)
