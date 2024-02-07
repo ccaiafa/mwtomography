@@ -137,14 +137,14 @@ class MWTsolver:
         #self.k1 = np.sqrt(self.solver_parameters["alpha"] / self.incident_electric_field.numel())  # B1 in Matlab code
         #self.k2 = np.sqrt((1.0 - self.solver_parameters["alpha"] ) / self.measured_electric_field.numel())  # B2 in Matlab code
 
-    def inverse_problem_solver(self):
+    def inverse_problem_solver(self, max_iter=10, threshold=1e-6):
         n = 1
         loss_variation = np.infty
         loss_previous = np.infty
 
-        while (n <= self.solver_parameters["main_loop"]["max_iter"]) and (loss_variation > self.solver_parameters["main_loop"]["threshold"]):
+        while (n <= max_iter) and (loss_variation > threshold):
             t0 = time.time()
-            print("iter=%2d/%2d " % (n, self.solver_parameters["main_loop"]["max_iter"]))
+            print("iter=%2d/%2d " % (n, max_iter))
 
             error_E, loss = self.update_total_electric_field()
             print("loss after updating Electric Field = %5.2f, error_E= %5.5f" % (loss, error_E))
@@ -181,7 +181,8 @@ class MWTsolver:
         self.total_electric_field = torch.linalg.lstsq(mat1, self.incident_electric_field, rcond=None)[0]
 
         error_E = torch.linalg.norm(self.groundtruth_total_electric_field - self.total_electric_field, 'fro')/torch.linalg.norm(self.groundtruth_total_electric_field, 'fro')
-        loss = self.solver_parameters["alpha"]  * self.loss1() + (1.0 - self.solver_parameters["alpha"] ) * self.loss2()
+        #loss = self.solver_parameters["alpha"]  * self.loss1() + (1.0 - self.solver_parameters["alpha"] ) * self.loss2()
+        loss = self.loss1() + self.loss2()
 
         return error_E, loss
 
@@ -227,7 +228,8 @@ class MWTsolver:
         self.complex_rel_perm = -1j * self.electric_field_generator.angular_frequency * self.electric_field_generator.vacuum_permittivity * self.electric_field_generator.pixel_area * (np.matmul(self.dictionary, self.sparse_coeffs))
 
         error_rel_perm = torch.linalg.norm(torch.tensor(self.groundtruth_complex_rel_perm).flatten() - self.complex_rel_perm)/torch.linalg.norm(torch.tensor(self.groundtruth_complex_rel_perm).flatten())
-        loss = self.solver_parameters["alpha"] * self.loss1() + (1.0 - self.solver_parameters["alpha"] ) * self.loss2()
+        #loss = self.solver_parameters["alpha"] * self.loss1() + (1.0 - self.solver_parameters["alpha"] ) * self.loss2()
+        loss = self.loss1() + self.loss2()
         return error_rel_perm, loss
 
     def loss1(self):
