@@ -28,7 +28,7 @@ from mwtomography.MWTsolver.csoperator import CSoperator
 
 
 def plot_results(solver, path):
-    N = solver.images_parameters['no_of_pixels']
+    N = solver.no_of_pixels
     plt.figure(figsize=(5, 5), layout='constrained')
     plt.subplot(211)  # Error vs iter
     plt.plot(solver.error_E, label='error Total Electric Field')
@@ -77,6 +77,7 @@ class MWTsolver:
         self.ROOT_PATH = ROOT_PATH
         self.dictionary = D
         self.total_electric_field = None
+        self.no_of_pixels = no_of_pixels
         print("Starting MWT solver")
         #self.basic_parameters = Constants.get_basic_parameters()
         #self.images_parameters = self.basic_parameters["images"]
@@ -137,7 +138,12 @@ class MWTsolver:
         #self.k1 = np.sqrt(self.solver_parameters["alpha"] / self.incident_electric_field.numel())  # B1 in Matlab code
         #self.k2 = np.sqrt((1.0 - self.solver_parameters["alpha"] ) / self.measured_electric_field.numel())  # B2 in Matlab code
 
-    def inverse_problem_solver(self, max_iter=10, threshold=1e-6):
+    def inverse_problem_solver(self, max_iter=10, threshold=1e-6, verbose=False, sp_solver_lambda=0.05, sp_solver_threshold=1e-6):
+        self.max_iter = max_iter
+        self.threshold = threshold
+        self.verbose = verbose
+        self.sp_solver_lambda = sp_solver_lambda
+        self.sp_solver_threshold = sp_solver_threshold
         n = 1
         loss_variation = np.infty
         loss_previous = np.infty
@@ -170,7 +176,7 @@ class MWTsolver:
 
 
     def update_total_electric_field(self):
-        aux = torch.eye(self.images_parameters["no_of_pixels"] ** 2)
+        aux = torch.eye(self.no_of_pixels ** 2)
         mat1 = aux.type(torch.complex128) - torch.matmul(self.green_function_D, torch.diag(self.complex_rel_perm).type(torch.complex128))
         mat2 = torch.matmul(self.green_function_S, torch.diag(self.complex_rel_perm).type(torch.complex128))
         #phi = torch.cat((self.k1 * mat1, self.k2 * mat2), axis=0)
@@ -220,8 +226,8 @@ class MWTsolver:
         b = b - bp
 
 
-        self.sparse_coeffs, niterf, costf = pylops.optimization.sparsity.fista(Aopn, b, x0=self.sparse_coeffs, niter=self.solver_parameters['sparse_solver']['max_iter'], eps=self.solver_parameters['sparse_solver']['lambda'],
-                                               tol=self.solver_parameters['sparse_solver']['threshold'], show=self.solver_parameters['verbose'])
+        self.sparse_coeffs, niterf, costf = pylops.optimization.sparsity.fista(Aopn, b, x0=self.sparse_coeffs, niter=self.max_iter, eps=self.sp_solver_lambda,
+                                               tol=self.sp_solver_threshold, show=self.verbose)
 
         self.sparse_coeffs = self.sparse_coeffs / Aopn.norm2col
 
@@ -233,7 +239,7 @@ class MWTsolver:
         return error_rel_perm, loss
 
     def loss1(self):
-        aux = torch.eye(self.images_parameters["no_of_pixels"] ** 2)
+        aux = torch.eye(self.no_of_pixels ** 2)
         mat1 = aux.type(torch.complex128) - torch.matmul(self.green_function_D.type(torch.complex128), torch.diag(self.complex_rel_perm.t().flatten()).type(torch.complex128))
         mat2 = torch.matmul(mat1, self.total_electric_field) - self.incident_electric_field
 
