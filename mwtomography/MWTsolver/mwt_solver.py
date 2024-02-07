@@ -72,7 +72,7 @@ def plot_results(solver, path):
 
 class MWTsolver:
 
-    def __init__(self, image, D, ROOT_PATH, init_guess='zero', alpha=None, no_of_pixels=None, no_of_receivers=None, no_of_transmitters=None, max_diameter=None,
+    def __init__(self, image, D, ROOT_PATH, init_guess='zero', no_of_pixels=None, no_of_receivers=None, no_of_transmitters=None, max_diameter=None,
                  wavelength=None, receiver_radius=None, transmitter_radius=None, wave_type=None):
         self.ROOT_PATH = ROOT_PATH
         self.dictionary = D
@@ -142,8 +142,10 @@ class MWTsolver:
         self.max_iter = max_iter
         self.threshold = threshold
         self.verbose = verbose
+        self.sp_max_iter = sp_max_iter
         self.sp_solver_lambda = sp_solver_lambda
         self.sp_solver_threshold = sp_solver_threshold
+
         n = 1
         loss_variation = np.infty
         loss_previous = np.infty
