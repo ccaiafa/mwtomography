@@ -66,6 +66,7 @@ class ElectricFieldGenerator:
         self.x_domain, self.y_domain = np.meshgrid(image_domain, -image_domain)
         self.green_function_S = self.compute_GS(self.x_domain, self.y_domain)
         self.green_function_D = self.compute_GD(self.x_domain, self.y_domain)
+        self.incident_field = self.generate_incident_electric_field(self.x_domain, self.y_domain)
 
     def generate_electric_field(self, image, x_domain, y_domain, full_pixel=False):
         relative_permittivities = torch.tensor(image.get_relative_permittivities())
@@ -91,11 +92,11 @@ class ElectricFieldGenerator:
             complex_relative_permittivities = complex_relative_permittivities.flatten("F")
 
         x_receivers, y_receivers, _ = self.get_antennas_coordinates(self.no_of_receivers, self.receiver_radius)
-        incident_electric_field = self.generate_incident_electric_field(x_domain, y_domain)
+        #incident_electric_field = self.generate_incident_electric_field(x_domain, y_domain)
 
         total_electric_field_transmitters = self.get_total_electric_field_transmitters(x_domain, y_domain,
                                                                                        complex_relative_permittivities,
-                                                                                       incident_electric_field)
+                                                                                       self.incident_electric_field)
 
         if not torch.is_tensor(complex_relative_permittivities):
             complex_relative_permittivities = torch.from_numpy(complex_relative_permittivities)
@@ -143,6 +144,8 @@ class ElectricFieldGenerator:
         return phi
 
     def generate_incident_electric_field(self, x_domain, y_domain):
+        x_domain = np.atleast_2d(x_domain.flatten("F")).T
+        y_domain = np.atleast_2d(y_domain.flatten("F")).T
         x_transmitters, y_transmitters, transmitter_angles = \
             self.get_antennas_coordinates(self.no_of_transmitters, self.transmitter_radius)
         if self.wave_type == self.wave_incidence["plane_wave"]:
