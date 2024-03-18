@@ -102,7 +102,7 @@ class ElectricFieldGenerator:
             complex_relative_permittivities = torch.from_numpy(complex_relative_permittivities)
 
         total_electric_field = torch.matmul(
-            torch.matmul(self.green_function_S, torch.diag(complex_relative_permittivities)),
+            torch.matmul(self.green_function_S, torh.diag(complex_relative_permittivities)),
             total_electric_field_transmitters)
 
         return total_electric_field, total_electric_field_transmitters  # Es, Et
