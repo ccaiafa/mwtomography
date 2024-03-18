@@ -6,7 +6,7 @@ import torch
 
 from mwtomography.configs.constants import Constants
 
-from mwtomography.dataloader.electric_field.electric_field_generator import ElectricFieldGenerator
+#from mwtomography.dataloader.electric_field.electric_field_generator import ElectricFieldGenerator
 from mwtomography.dataloader.shape_generators.rectangle_generator import RectangleGenerator
 from mwtomography.dataloader.shape_generators.circle_generator import CircleGenerator
 from mwtomography.dataloader.image.image import Image
@@ -43,13 +43,13 @@ class ImageGenerator:
             self.shape_generator = RectangleGenerator()
         elif shape == 'circle':
             self.shape_generator = CircleGenerator(self.min_radius, self.max_radius)
-        self.electric_field_generator = ElectricFieldGenerator(no_of_pixels=no_of_pixels,
-                                                               no_of_receivers=no_of_receivers,
-                                                               no_of_transmitters=no_of_transmitters,
-                                                               max_diameter=max_diameter,
-                                                               wavelength=wavelength, receiver_radius=receiver_radius,
-                                                               transmitter_radius=transmitter_radius,
-                                                               wave_type=wave_type)
+        #self.electric_field_generator = ElectricFieldGenerator(no_of_pixels=no_of_pixels,
+        #                                                       no_of_receivers=no_of_receivers,
+        #                                                       no_of_transmitters=no_of_transmitters,
+        #                                                       max_diameter=max_diameter,
+        #                                                       wavelength=wavelength, receiver_radius=receiver_radius,
+        #                                                       transmitter_radius=transmitter_radius,
+        #                                                       wave_type=wave_type)
     def generate_images(self, test, nshapes='random'):
         shape_name = self.shape_generator.get_shape_name()
         images = []
@@ -70,12 +70,12 @@ class ImageGenerator:
 
             image = Image()
             image.generate_relative_permittivities(x_domain, y_domain, shapes)
-            measured_electric_field, total_electric_field = self.electric_field_generator.generate_electric_field(image,
-                                                                                                                  x_domain,
-                                                                                                                  y_domain,
-                                                                                                                  True)
-            image.set_measured_electric_field(measured_electric_field)
-            image.set_total_electric_field(total_electric_field)
+            #measured_electric_field, total_electric_field = self.electric_field_generator.generate_electric_field(image,
+            #                                                                                                      x_domain,
+            #                                                                                                      y_domain,
+            #                                                                                                      True)
+            #image.set_measured_electric_field(measured_electric_field)
+            #image.set_total_electric_field(total_electric_field)
             images.append(image)
 
         images = np.array(images)
@@ -102,12 +102,12 @@ class ImageGenerator:
 
             image = Image()
             image.generate_relative_permittivities(x_domain, y_domain, shapes)
-            measured_electric_field, total_electric_field = self.electric_field_generator.generate_electric_field(image,
-                                                                                                                  x_domain,
-                                                                                                                  y_domain,
-                                                                                                                  True)
-            image.set_measured_electric_field(measured_electric_field)
-            image.set_total_electric_field(total_electric_field)
+            #measured_electric_field, total_electric_field = self.electric_field_generator.generate_electric_field(image,
+            #                                                                                                      x_domain,
+            #                                                                                                      y_domain,
+            #                                                                                                      True)
+            #image.set_measured_electric_field(measured_electric_field)
+            #image.set_total_electric_field(total_electric_field)
             images.append(image)
 
         images = np.array(images)
